@@ -2,6 +2,7 @@
   <Item class="Model" referent="RBX0"><Properties>
     <string name="Name">KingOfTheDeep</string>
     <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CFrame></OptionalCoordinateFrame>
+    <token name="ModelStreamingMode">1</token>
   </Properties>
     <Item class="Model" referent="RBX1"><Properties>
       <string name="Name">Joint</string>
@@ -148,7 +149,7 @@
         <token name="shape">1</token>
       </Properties></Item>
       <Item class="Model" referent="RBX16"><Properties>
-        <string name="Name">Joint</string>
+        <string name="Name">Joint2</string>
         <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.6</X><Y>6.3198</Y><Z>0.8</Z><R00>-0.9397</R00><R01>0.342</R01><R02>0</R02><R10>0.342</R10><R11>0.9397</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
       </Properties>
         <Item class="Part" referent="RBX17"><Properties>
@@ -213,7 +214,7 @@
         <token name="shape">1</token>
       </Properties></Item>
       <Item class="Model" referent="RBX23"><Properties>
-        <string name="Name">Joint</string>
+        <string name="Name">Joint3</string>
         <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.6</X><Y>6.3198</Y><Z>0.8</Z><R00>-0.9397</R00><R01>-0.342</R01><R02>0</R02><R10>-0.342</R10><R11>0.9397</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
       </Properties>
         <Item class="Part" referent="RBX24"><Properties>
@@ -248,7 +249,7 @@
         </Properties></Item>
       </Item>
       <Item class="Model" referent="RBX27"><Properties>
-        <string name="Name">Joint</string>
+        <string name="Name">Joint4</string>
         <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>8.2198</Y><Z>1.2</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9903</R11><R12>0.1392</R12><R20>0</R20><R21>0.1392</R21><R22>-0.9903</R22></CFrame></OptionalCoordinateFrame>
       </Properties>
         <Item class="Part" referent="RBX28"><Properties>
@@ -479,7 +480,7 @@
         </Properties></Item>
       </Item>
       <Item class="Model" referent="RBX52"><Properties>
-        <string name="Name">Joint</string>
+        <string name="Name">Joint5</string>
         <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.5</X><Y>3.5198</Y><Z>0</Z><R00>0</R00><R01>-0.6558</R01><R02>-0.7549</R02><R10>0</R10><R11>0.7549</R11><R12>-0.6558</R12><R20>1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
       </Properties>
         <Item class="Part" referent="RBX53"><Properties>
@@ -513,7 +514,7 @@
           <token name="shape">1</token>
         </Properties></Item>
         <Item class="Model" referent="RBX56"><Properties>
-          <string name="Name">Joint</string>
+          <string name="Name">Joint6</string>
           <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.3304</X><Y>2.7984</Y><Z>0</Z><R00>0</R00><R01>-0.8384</R01><R02>-0.545</R02><R10>0</R10><R11>0.545</R11><R12>-0.8384</R12><R20>1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
         </Properties>
           <Item class="Part" referent="RBX57"><Properties>
@@ -547,7 +548,7 @@
             <token name="shape">1</token>
           </Properties></Item>
           <Item class="Model" referent="RBX60"><Properties>
-            <string name="Name">Joint</string>
+            <string name="Name">Joint7</string>
             <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.8754</X><Y>1.9599</Y><Z>0</Z><R00>0</R00><R01>-0.9658</R01><R02>-0.2594</R02><R10>0</R10><R11>0.2594</R11><R12>-0.9658</R12><R20>1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
           </Properties>
             <Item class="Part" referent="RBX61"><Properties>
@@ -581,7 +582,7 @@
               <token name="shape">1</token>
             </Properties></Item>
             <Item class="Model" referent="RBX64"><Properties>
-              <string name="Name">Joint</string>
+              <string name="Name">Joint8</string>
               <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-3.1218</X><Y>1.0424</Y><Z>0</Z><R00>0</R00><R01>-0.9202</R01><R02>-0.3914</R02><R10>0</R10><R11>0.3914</R11><R12>-0.9202</R12><R20>1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
             </Properties>
               <Item class="Part" referent="RBX65"><Properties>
@@ -615,7 +616,7 @@
                 <token name="shape">1</token>
               </Properties></Item>
               <Item class="Model" referent="RBX68"><Properties>
-                <string name="Name">Joint</string>
+                <string name="Name">Joint9</string>
                 <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-3.4545</X><Y>0.2603</Y><Z>0</Z><R00>0</R00><R01>-0.7065</R01><R02>-0.7077</R02><R10>0</R10><R11>0.7077</R11><R12>-0.7065</R12><R20>1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
               </Properties>
                 <Item class="Part" referent="RBX69"><Properties>
@@ -654,7 +655,7 @@
         </Item>
       </Item>
       <Item class="Model" referent="RBX72"><Properties>
-        <string name="Name">Joint</string>
+        <string name="Name">Joint10</string>
         <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.1491</X><Y>3.5198</Y><Z>0.9642</Z><R00>0.6428</R00><R01>-0.3596</R01><R02>-0.6764</R02><R10>0</R10><R11>0.883</R11><R12>-0.4694</R12><R20>0.766</R20><R21>0.3018</R21><R22>0.5676</R22></CFrame></OptionalCoordinateFrame>
       </Properties>
         <Item class="Part" referent="RBX73"><Properties>
@@ -688,7 +689,7 @@
           <token name="shape">1</token>
         </Properties></Item>
         <Item class="Model" referent="RBX76"><Properties>
-          <string name="Name">Joint</string>
+          <string name="Name">Joint11</string>
           <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.8931</X><Y>3.0034</Y><Z>1.5885</Z><R00>0.6428</R00><R01>-0.4739</R01><R02>-0.6018</R02><R10>0</R10><R11>0.7856</R11><R12>-0.6187</R12><R20>0.766</R20><R21>0.3977</R21><R22>0.505</R22></CFrame></OptionalCoordinateFrame>
         </Properties>
           <Item class="Part" referent="RBX77"><Properties>
@@ -722,7 +723,7 @@
             <token name="shape">1</token>
           </Properties></Item>
           <Item class="Model" referent="RBX80"><Properties>
-            <string name="Name">Joint</string>
+            <string name="Name">Joint12</string>
             <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.4949</X><Y>2.3847</Y><Z>2.0935</Z><R00>0.6428</R00><R01>-0.5906</R01><R02>-0.4879</R02><R10>0</R10><R11>0.6369</R11><R12>-0.771</R12><R20>0.766</R20><R21>0.4956</R21><R22>0.4094</R22></CFrame></OptionalCoordinateFrame>
           </Properties>
             <Item class="Part" referent="RBX81"><Properties>
@@ -756,7 +757,7 @@
               <token name="shape">1</token>
             </Properties></Item>
             <Item class="Model" referent="RBX84"><Properties>
-              <string name="Name">Joint</string>
+              <string name="Name">Joint13</string>
               <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.9584</X><Y>1.6523</Y><Z>2.4824</Z><R00>0.6428</R00><R01>-0.4574</R01><R02>-0.6145</R02><R10>0</R10><R11>0.8022</R11><R12>-0.5971</R12><R20>0.766</R20><R21>0.3838</R21><R22>0.5156</R22></CFrame></OptionalCoordinateFrame>
             </Properties>
               <Item class="Part" referent="RBX85"><Properties>
@@ -790,7 +791,7 @@
                 <token name="shape">1</token>
               </Properties></Item>
               <Item class="Model" referent="RBX88"><Properties>
-                <string name="Name">Joint</string>
+                <string name="Name">Joint14</string>
                 <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-3.4807</X><Y>1.1447</Y><Z>2.9207</Z><R00>0.6428</R00><R01>-0.1183</R01><R02>-0.7569</R02><R10>0</R10><R11>0.988</R11><R12>-0.1544</R12><R20>0.766</R20><R21>0.0993</R21><R22>0.6351</R22></CFrame></OptionalCoordinateFrame>
               </Properties>
                 <Item class="Part" referent="RBX89"><Properties>
@@ -829,7 +830,7 @@
         </Item>
       </Item>
       <Item class="Model" referent="RBX92"><Properties>
-        <string name="Name">Joint</string>
+        <string name="Name">Joint15</string>
         <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.3882</X><Y>3.5198</Y><Z>1.4489</Z><R00>0.9659</R00><R01>-0.1176</R01><R02>-0.2306</R02><R10>0</R10><R11>0.8909</R11><R12>-0.4543</R12><R20>0.2588</R20><R21>0.4388</R21><R22>0.8605</R22></CFrame></OptionalCoordinateFrame>
       </Properties>
         <Item class="Part" referent="RBX93"><Properties>
@@ -863,7 +864,7 @@
           <token name="shape">1</token>
         </Properties></Item>
         <Item class="Model" referent="RBX96"><Properties>
-          <string name="Name">Joint</string>
+          <string name="Name">Joint16</string>
           <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.6419</X><Y>3.02</Y><Z>2.3954</Z><R00>0.9659</R00><R01>-0.1551</R01><R02>-0.2072</R02><R10>0</R10><R11>0.8007</R11><R12>-0.5991</R12><R20>0.2588</R20><R21>0.5787</R21><R22>0.7734</R22></CFrame></OptionalCoordinateFrame>
         </Properties>
           <Item class="Part" referent="RBX97"><Properties>
@@ -897,7 +898,7 @@
             <token name="shape">1</token>
           </Properties></Item>
           <Item class="Model" referent="RBX100"><Properties>
-            <string name="Name">Joint</string>
+            <string name="Name">Joint17</string>
             <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.8491</X><Y>2.4209</Y><Z>3.1688</Z><R00>0.9659</R00><R01>-0.1941</R01><R02>-0.1712</R02><R10>0</R10><R11>0.6614</R11><R12>-0.75</R12><R20>0.2588</R20><R21>0.7245</R21><R22>0.6389</R22></CFrame></OptionalCoordinateFrame>
           </Properties>
             <Item class="Part" referent="RBX101"><Properties>
@@ -931,7 +932,7 @@
               <token name="shape">1</token>
             </Properties></Item>
             <Item class="Model" referent="RBX104"><Properties>
-              <string name="Name">Joint</string>
+              <string name="Name">Joint18</string>
               <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.0117</X><Y>1.7084</Y><Z>3.7758</Z><R00>0.9659</R00><R01>-0.1461</R01><R02>-0.2136</R02><R10>0</R10><R11>0.8253</R11><R12>-0.5647</R12><R20>0.2588</R20><R21>0.5454</R21><R22>0.7972</R22></CFrame></OptionalCoordinateFrame>
             </Properties>
               <Item class="Part" referent="RBX105"><Properties>
@@ -965,7 +966,7 @@
                 <token name="shape">1</token>
               </Properties></Item>
               <Item class="Model" referent="RBX108"><Properties>
-                <string name="Name">Joint</string>
+                <string name="Name">Joint19</string>
                 <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.1933</X><Y>1.2285</Y><Z>4.4534</Z><R00>0.9659</R00><R01>-0.0278</R01><R02>-0.2573</R02><R10>0</R10><R11>0.9942</R11><R12>-0.1074</R12><R20>0.2588</R20><R21>0.1037</R21><R22>0.9603</R22></CFrame></OptionalCoordinateFrame>
               </Properties>
                 <Item class="Part" referent="RBX109"><Properties>
@@ -1004,7 +1005,7 @@
         </Item>
       </Item>
       <Item class="Model" referent="RBX112"><Properties>
-        <string name="Name">Joint</string>
+        <string name="Name">Joint20</string>
         <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.3882</X><Y>3.5198</Y><Z>1.4489</Z><R00>0.9659</R00><R01>0.1697</R01><R02>0.1954</R02><R10>0</R10><R11>0.7549</R11><R12>-0.6558</R12><R20>-0.2588</R20><R21>0.6335</R21><R22>0.7292</R22></CFrame></OptionalCoordinateFrame>
       </Properties>
         <Item class="Part" referent="RBX113"><Properties>
@@ -1038,7 +1039,7 @@
           <token name="shape">1</token>
         </Properties></Item>
         <Item class="Model" referent="RBX116"><Properties>
-          <string name="Name">Joint</string>
+          <string name="Name">Joint21</string>
           <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.6032</X><Y>2.7984</Y><Z>2.251</Z><R00>0.9659</R00><R01>0.217</R01><R02>0.1411</R02><R10>0</R10><R11>0.545</R11><R12>-0.8384</R12><R20>-0.2588</R20><R21>0.8099</R21><R22>0.5264</R22></CFrame></OptionalCoordinateFrame>
         </Properties>
           <Item class="Part" referent="RBX117"><Properties>
@@ -1072,7 +1073,7 @@
             <token name="shape">1</token>
           </Properties></Item>
           <Item class="Model" referent="RBX120"><Properties>
-            <string name="Name">Joint</string>
+            <string name="Name">Joint22</string>
             <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.7442</X><Y>1.9599</Y><Z>2.7774</Z><R00>0.9659</R00><R01>0.25</R01><R02>0.0671</R02><R10>0</R10><R11>0.2594</R11><R12>-0.9658</R12><R20>-0.2588</R20><R21>0.9329</R21><R22>0.2505</R22></CFrame></OptionalCoordinateFrame>
           </Properties>
             <Item class="Part" referent="RBX121"><Properties>
@@ -1106,7 +1107,7 @@
               <token name="shape">1</token>
             </Properties></Item>
             <Item class="Model" referent="RBX124"><Properties>
-              <string name="Name">Joint</string>
+              <string name="Name">Joint23</string>
               <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.808</X><Y>1.0424</Y><Z>3.0155</Z><R00>0.9659</R00><R01>0.2382</R01><R02>0.1013</R02><R10>0</R10><R11>0.3914</R11><R12>-0.9202</R12><R20>-0.2588</R20><R21>0.8889</R21><R22>0.3781</R22></CFrame></OptionalCoordinateFrame>
             </Properties>
               <Item class="Part" referent="RBX125"><Properties>
@@ -1140,7 +1141,7 @@
                 <token name="shape">1</token>
               </Properties></Item>
               <Item class="Model" referent="RBX128"><Properties>
-                <string name="Name">Joint</string>
+                <string name="Name">Joint24</string>
                 <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.8941</X><Y>0.2603</Y><Z>3.3368</Z><R00>0.9659</R00><R01>0.1829</R01><R02>0.1832</R02><R10>0</R10><R11>0.7077</R11><R12>-0.7065</R12><R20>-0.2588</R20><R21>0.6824</R21><R22>0.6836</R22></CFrame></OptionalCoordinateFrame>
               </Properties>
                 <Item class="Part" referent="RBX129"><Properties>
@@ -1179,7 +1180,7 @@
         </Item>
       </Item>
       <Item class="Model" referent="RBX132"><Properties>
-        <string name="Name">Joint</string>
+        <string name="Name">Joint25</string>
         <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.1491</X><Y>3.5198</Y><Z>0.9642</Z><R00>0.6428</R00><R01>0.3596</R01><R02>0.6764</R02><R10>0</R10><R11>0.883</R11><R12>-0.4694</R12><R20>-0.766</R20><R21>0.3018</R21><R22>0.5676</R22></CFrame></OptionalCoordinateFrame>
       </Properties>
         <Item class="Part" referent="RBX133"><Properties>
@@ -1213,7 +1214,7 @@
           <token name="shape">1</token>
         </Properties></Item>
         <Item class="Model" referent="RBX136"><Properties>
-          <string name="Name">Joint</string>
+          <string name="Name">Joint26</string>
           <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.8931</X><Y>3.0034</Y><Z>1.5885</Z><R00>0.6428</R00><R01>0.4739</R01><R02>0.6018</R02><R10>0</R10><R11>0.7856</R11><R12>-0.6187</R12><R20>-0.766</R20><R21>0.3977</R21><R22>0.505</R22></CFrame></OptionalCoordinateFrame>
         </Properties>
           <Item class="Part" referent="RBX137"><Properties>
@@ -1247,7 +1248,7 @@
             <token name="shape">1</token>
           </Properties></Item>
           <Item class="Model" referent="RBX140"><Properties>
-            <string name="Name">Joint</string>
+            <string name="Name">Joint27</string>
             <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.4949</X><Y>2.3847</Y><Z>2.0935</Z><R00>0.6428</R00><R01>0.5906</R01><R02>0.4879</R02><R10>0</R10><R11>0.6369</R11><R12>-0.771</R12><R20>-0.766</R20><R21>0.4956</R21><R22>0.4094</R22></CFrame></OptionalCoordinateFrame>
           </Properties>
             <Item class="Part" referent="RBX141"><Properties>
@@ -1281,7 +1282,7 @@
               <token name="shape">1</token>
             </Properties></Item>
             <Item class="Model" referent="RBX144"><Properties>
-              <string name="Name">Joint</string>
+              <string name="Name">Joint28</string>
               <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.9584</X><Y>1.6523</Y><Z>2.4824</Z><R00>0.6428</R00><R01>0.4574</R01><R02>0.6145</R02><R10>0</R10><R11>0.8022</R11><R12>-0.5971</R12><R20>-0.766</R20><R21>0.3838</R21><R22>0.5156</R22></CFrame></OptionalCoordinateFrame>
             </Properties>
               <Item class="Part" referent="RBX145"><Properties>
@@ -1315,7 +1316,7 @@
                 <token name="shape">1</token>
               </Properties></Item>
               <Item class="Model" referent="RBX148"><Properties>
-                <string name="Name">Joint</string>
+                <string name="Name">Joint29</string>
                 <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>3.4807</X><Y>1.1447</Y><Z>2.9207</Z><R00>0.6428</R00><R01>0.1183</R01><R02>0.7569</R02><R10>0</R10><R11>0.988</R11><R12>-0.1544</R12><R20>-0.766</R20><R21>0.0993</R21><R22>0.6351</R22></CFrame></OptionalCoordinateFrame>
               </Properties>
                 <Item class="Part" referent="RBX149"><Properties>
@@ -1354,7 +1355,7 @@
         </Item>
       </Item>
       <Item class="Model" referent="RBX152"><Properties>
-        <string name="Name">Joint</string>
+        <string name="Name">Joint30</string>
         <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.5</X><Y>3.5198</Y><Z>0</Z><R00>0</R00><R01>0.4543</R01><R02>0.8909</R02><R10>0</R10><R11>0.8909</R11><R12>-0.4543</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
       </Properties>
         <Item class="Part" referent="RBX153"><Properties>
@@ -1388,7 +1389,7 @@
           <token name="shape">1</token>
         </Properties></Item>
         <Item class="Model" referent="RBX156"><Properties>
-          <string name="Name">Joint</string>
+          <string name="Name">Joint31</string>
           <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.4799</X><Y>3.02</Y><Z>0</Z><R00>0</R00><R01>0.5991</R01><R02>0.8007</R02><R10>0</R10><R11>0.8007</R11><R12>-0.5991</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
         </Properties>
           <Item class="Part" referent="RBX157"><Properties>
@@ -1422,7 +1423,7 @@
             <token name="shape">1</token>
           </Properties></Item>
           <Item class="Model" referent="RBX160"><Properties>
-            <string name="Name">Joint</string>
+            <string name="Name">Joint32</string>
             <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>3.2806</X><Y>2.4209</Y><Z>0</Z><R00>0</R00><R01>0.75</R01><R02>0.6614</R02><R10>0</R10><R11>0.6614</R11><R12>-0.75</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
           </Properties>
             <Item class="Part" referent="RBX161"><Properties>
@@ -1456,7 +1457,7 @@
               <token name="shape">1</token>
             </Properties></Item>
             <Item class="Model" referent="RBX164"><Properties>
-              <string name="Name">Joint</string>
+              <string name="Name">Joint33</string>
               <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>3.9089</X><Y>1.7084</Y><Z>0</Z><R00>0</R00><R01>0.5647</R01><R02>0.8253</R02><R10>0</R10><R11>0.8253</R11><R12>-0.5647</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
             </Properties>
               <Item class="Part" referent="RBX165"><Properties>
@@ -1490,7 +1491,7 @@
                 <token name="shape">1</token>
               </Properties></Item>
               <Item class="Model" referent="RBX168"><Properties>
-                <string name="Name">Joint</string>
+                <string name="Name">Joint34</string>
                 <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>4.6105</X><Y>1.2285</Y><Z>0</Z><R00>0</R00><R01>0.1074</R01><R02>0.9942</R02><R10>0</R10><R11>0.9942</R11><R12>-0.1074</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
               </Properties>
                 <Item class="Part" referent="RBX169"><Properties>
@@ -1529,11 +1530,11 @@
         </Item>
       </Item>
       <Item class="Model" referent="RBX172"><Properties>
-        <string name="Name">Joint</string>
+        <string name="Name">Joint35</string>
         <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.4</X><Y>4.0198</Y><Z>-1.4</Z><R00>-0.766</R00><R01>-0.3687</R01><R02>0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>-0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CFrame></OptionalCoordinateFrame>
       </Properties>
         <Item class="Model" referent="RBX173"><Properties>
-          <string name="Name">Joint</string>
+          <string name="Name">Joint36</string>
           <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.4</X><Y>4.0198</Y><Z>-1.4</Z><R00>-0.766</R00><R01>-0.3687</R01><R02>0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>-0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CFrame></OptionalCoordinateFrame>
         </Properties>
           <Item class="Part" referent="RBX174"><Properties>
@@ -1567,7 +1568,7 @@
             <token name="shape">1</token>
           </Properties></Item>
           <Item class="Model" referent="RBX177"><Properties>
-            <string name="Name">Joint</string>
+            <string name="Name">Joint37</string>
             <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.1372</X><Y>4.8228</Y><Z>-2.2785</Z><R00>-0.8278</R00><R01>-0.1247</R01><R02>0.547</R02><R10>-0.0203</R10><R11>0.981</R11><R12>0.1929</R12><R20>-0.5607</R20><R21>0.1486</R21><R22>-0.8146</R22></CFrame></OptionalCoordinateFrame>
           </Properties>
             <Item class="Part" referent="RBX178"><Properties>
@@ -1601,7 +1602,7 @@
               <token name="shape">1</token>
             </Properties></Item>
             <Item class="Model" referent="RBX181"><Properties>
-              <string name="Name">Joint</string>
+              <string name="Name">Joint38</string>
               <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.8483</X><Y>5.0736</Y><Z>-3.3374</Z><R00>-0.8811</R00><R01>0.0919</R01><R02>0.4639</R02><R10>0</R10><R11>0.9809</R11><R12>-0.1943</R12><R20>-0.473</R20><R21>-0.1712</R21><R22>-0.8643</R22></CFrame></OptionalCoordinateFrame>
             </Properties>
               <Item class="Part" referent="RBX182"><Properties>
@@ -1635,7 +1636,7 @@
                 <token name="shape">1</token>
               </Properties></Item>
               <Item class="Model" referent="RBX185"><Properties>
-                <string name="Name">Joint</string>
+                <string name="Name">Joint39</string>
                 <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>3.405</X><Y>4.8404</Y><Z>-4.3746</Z><R00>-0.9183</R00><R01>0.2484</R01><R02>0.3081</R02><R10>0.0549</R10><R11>0.851</R11><R12>-0.5224</R12><R20>-0.392</R20><R21>-0.4628</R21><R22>-0.7951</R22></CFrame></OptionalCoordinateFrame>
               </Properties>
                 <Item class="Part" referent="RBX186"><Properties>
@@ -1669,7 +1670,7 @@
                   <token name="shape">1</token>
                 </Properties></Item>
                 <Item class="Model" referent="RBX189"><Properties>
-                  <string name="Name">Joint</string>
+                  <string name="Name">Joint40</string>
                   <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>3.744</X><Y>4.2658</Y><Z>-5.2492</Z><R00>-0.9346</R00><R01>0.3392</R01><R02>0.107</R02><R10>0.1365</R10><R11>0.6198</R11><R12>-0.7728</R12><R20>-0.3284</R20><R21>-0.7077</R21><R22>-0.6256</R22></CFrame></OptionalCoordinateFrame>
                 </Properties>
                   <Item class="Part" referent="RBX190"><Properties>
@@ -1703,7 +1704,7 @@
                     <token name="shape">1</token>
                   </Properties></Item>
                   <Item class="Model" referent="RBX193"><Properties>
-                    <string name="Name">Joint</string>
+                    <string name="Name">Joint41</string>
                     <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>3.851</X><Y>3.493</Y><Z>-5.8748</Z><R00>-0.9269</R00><R01>0.3548</R01><R02>-0.122</R02><R10>0.2346</R10><R11>0.2943</R11><R12>-0.9265</R12><R20>-0.2928</R20><R21>-0.8874</R21><R22>-0.356</R22></CFrame></OptionalCoordinateFrame>
                   </Properties>
                     <Item class="Part" referent="RBX194"><Properties>
@@ -1737,7 +1738,7 @@
                       <token name="shape">1</token>
                     </Properties></Item>
                     <Item class="Model" referent="RBX197"><Properties>
-                      <string name="Name">Joint</string>
+                      <string name="Name">Joint42</string>
                       <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>3.7412</X><Y>2.6592</Y><Z>-6.1952</Z><R00>-0.8955</R00><R01>0.2775</R01><R02>-0.348</R02><R10>0.3344</R10><R11>-0.0966</R11><R12>-0.9375</R12><R20>-0.2938</R20><R21>-0.9559</R21><R22>-0.0063</R22></CFrame></OptionalCoordinateFrame>
                     </Properties>
                       <Item class="Part" referent="RBX198"><Properties>
@@ -1799,11 +1800,11 @@
         </Item>
       </Item>
       <Item class="Model" referent="RBX203"><Properties>
-        <string name="Name">Joint</string>
+        <string name="Name">Joint43</string>
         <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.4</X><Y>4.0198</Y><Z>-1.4</Z><R00>-0.766</R00><R01>0.3687</R01><R02>-0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CFrame></OptionalCoordinateFrame>
       </Properties>
         <Item class="Model" referent="RBX204"><Properties>
-          <string name="Name">Joint</string>
+          <string name="Name">Joint44</string>
           <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.4</X><Y>4.0198</Y><Z>-1.4</Z><R00>-0.766</R00><R01>0.3687</R01><R02>-0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CFrame></OptionalCoordinateFrame>
         </Properties>
           <Item class="Part" referent="RBX205"><Properties>
@@ -1837,7 +1838,7 @@
             <token name="shape">1</token>
           </Properties></Item>
           <Item class="Model" referent="RBX208"><Properties>
-            <string name="Name">Joint</string>
+            <string name="Name">Joint45</string>
             <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.1372</X><Y>4.8228</Y><Z>-2.2785</Z><R00>-0.8278</R00><R01>0.1247</R01><R02>-0.547</R02><R10>0.0203</R10><R11>0.981</R11><R12>0.1929</R12><R20>0.5607</R20><R21>0.1486</R21><R22>-0.8146</R22></CFrame></OptionalCoordinateFrame>
           </Properties>
             <Item class="Part" referent="RBX209"><Properties>
@@ -1871,7 +1872,7 @@
               <token name="shape">1</token>
             </Properties></Item>
             <Item class="Model" referent="RBX212"><Properties>
-              <string name="Name">Joint</string>
+              <string name="Name">Joint46</string>
               <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.8483</X><Y>5.0736</Y><Z>-3.3374</Z><R00>-0.8811</R00><R01>-0.0919</R01><R02>-0.4639</R02><R10>0</R10><R11>0.9809</R11><R12>-0.1943</R12><R20>0.473</R20><R21>-0.1712</R21><R22>-0.8643</R22></CFrame></OptionalCoordinateFrame>
             </Properties>
               <Item class="Part" referent="RBX213"><Properties>
@@ -1905,7 +1906,7 @@
                 <token name="shape">1</token>
               </Properties></Item>
               <Item class="Model" referent="RBX216"><Properties>
-                <string name="Name">Joint</string>
+                <string name="Name">Joint47</string>
                 <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-3.405</X><Y>4.8404</Y><Z>-4.3746</Z><R00>-0.9183</R00><R01>-0.2484</R01><R02>-0.3081</R02><R10>-0.0549</R10><R11>0.851</R11><R12>-0.5224</R12><R20>0.392</R20><R21>-0.4628</R21><R22>-0.7951</R22></CFrame></OptionalCoordinateFrame>
               </Properties>
                 <Item class="Part" referent="RBX217"><Properties>
@@ -1939,7 +1940,7 @@
                   <token name="shape">1</token>
                 </Properties></Item>
                 <Item class="Model" referent="RBX220"><Properties>
-                  <string name="Name">Joint</string>
+                  <string name="Name">Joint48</string>
                   <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-3.744</X><Y>4.2658</Y><Z>-5.2492</Z><R00>-0.9346</R00><R01>-0.3392</R01><R02>-0.107</R02><R10>-0.1365</R10><R11>0.6198</R11><R12>-0.7728</R12><R20>0.3284</R20><R21>-0.7077</R21><R22>-0.6256</R22></CFrame></OptionalCoordinateFrame>
                 </Properties>
                   <Item class="Part" referent="RBX221"><Properties>
@@ -1973,7 +1974,7 @@
                     <token name="shape">1</token>
                   </Properties></Item>
                   <Item class="Model" referent="RBX224"><Properties>
-                    <string name="Name">Joint</string>
+                    <string name="Name">Joint49</string>
                     <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-3.851</X><Y>3.493</Y><Z>-5.8748</Z><R00>-0.9269</R00><R01>-0.3548</R01><R02>0.122</R02><R10>-0.2346</R10><R11>0.2943</R11><R12>-0.9265</R12><R20>0.2928</R20><R21>-0.8874</R21><R22>-0.356</R22></CFrame></OptionalCoordinateFrame>
                   </Properties>
                     <Item class="Part" referent="RBX225"><Properties>
@@ -2007,7 +2008,7 @@
                       <token name="shape">1</token>
                     </Properties></Item>
                     <Item class="Model" referent="RBX228"><Properties>
-                      <string name="Name">Joint</string>
+                      <string name="Name">Joint50</string>
                       <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-3.7412</X><Y>2.6592</Y><Z>-6.1952</Z><R00>-0.8955</R00><R01>-0.2775</R01><R02>0.348</R02><R10>-0.3344</R10><R11>-0.0966</R11><R12>-0.9375</R12><R20>0.2938</R20><R21>-0.9559</R21><R22>-0.0063</R22></CFrame></OptionalCoordinateFrame>
                     </Properties>
                       <Item class="Part" referent="RBX229"><Properties>
@@ -2068,6 +2069,163 @@
           </Properties></Item>
         </Item>
       </Item>
+    </Item>
+    <Item class="Script" referent="RBX234"><Properties>
+      <string name="Name">SignatureMove</string>
+      <token name="RunContext">2</token>
+      <ProtectedString name="Source"><![CDATA[-- SignatureMove: plays this monster's signature move on a loop.
+-- The keyframes (child ModuleScript) are baked from the concept blockout by
+-- concept-art/tools/export-roblox.mjs, so the motion matches the concept gallery.
+-- RunContext is Client: every player animates their own copy, which keeps the motion smooth.
+-- The server copy stays in its resting pose.
+local RunService = game:GetService("RunService")
+
+local model = script.Parent
+local data = require(script:WaitForChild("Keyframes"))
+local STEPS = data.steps
+
+-- Joint models by name (names are unique within a monster).
+local byName = {}
+for _, d in model:GetDescendants() do
+	if d:IsA("Model") then
+		byName[d.Name] = d
+	end
+end
+
+-- Each joint's resting transform relative to its parent joint (0 is this model).
+local rest = {}
+local joints = {}
+for i, j in data.joints do
+	local r = j.rest
+	rest[i] = CFrame.new(r[1], r[2], r[3], r[4], r[5], r[6], r[7])
+	joints[i] = byName[j.name]
+	if not joints[i] then
+		warn(`{model.Name}: SignatureMove can't find the joint "{j.name}", so the animation is off.`)
+		return
+	end
+end
+
+-- Where every joint sits at rest, and where each part sits relative to the joint that carries it.
+local world = { [0] = model:GetPivot() }
+for i, j in data.joints do
+	world[i] = world[j.parent] * rest[i]
+end
+local parts, owner, offset = {}, {}, {}
+for i, joint in joints do
+	for _, child in joint:GetChildren() do
+		if child:IsA("BasePart") then
+			table.insert(parts, child)
+			table.insert(owner, i)
+			table.insert(offset, world[i]:ToObjectSpace(child.CFrame))
+		end
+	end
+end
+
+-- Keyframe m of joint j. Rotation-only tracks (stride 4) keep the joint's resting position.
+local function key(j, m)
+	local t, b = j.track, (m - 1) * j.stride
+	if j.stride == 4 then
+		return CFrame.new(j.rest[1], j.rest[2], j.rest[3], t[b + 1], t[b + 2], t[b + 3], t[b + 4])
+	end
+	return CFrame.new(t[b + 1], t[b + 2], t[b + 3], t[b + 4], t[b + 5], t[b + 6], t[b + 7])
+end
+
+-- Blend between the keys around step f. The cursor remembers the last key per joint,
+-- so finding the next one is usually a single step.
+local cursor = {}
+local function pose(i, j, f)
+	local times = j.times
+	local n = #times
+	local c = cursor[i] or 1
+	if times[c] > f then
+		c = 1
+	end
+	while c < n and times[c + 1] <= f do
+		c += 1
+	end
+	cursor[i] = c
+	local after = if c < n then times[c + 1] else STEPS
+	local a = (f - times[c]) / (after - times[c])
+	return key(j, c):Lerp(key(j, if c < n then c + 1 else 1), a)
+end
+
+local frames = table.create(#parts)
+local start = os.clock()
+RunService.Heartbeat:Connect(function()
+	local f = ((os.clock() - start) / data.period % 1) * STEPS
+	for i, j in data.joints do
+		world[i] = world[j.parent] * (if j.times then pose(i, j, f) else rest[i])
+	end
+	for k, part in parts do
+		frames[k] = world[owner[k]] * offset[k]
+	end
+	workspace:BulkMoveTo(parts, frames, Enum.BulkMoveMode.FireCFrameChanged)
+end)
+]]></ProtectedString>
+    </Properties>
+      <Item class="ModuleScript" referent="RBX235"><Properties>
+        <string name="Name">Keyframes</string>
+        <ProtectedString name="Source"><![CDATA[-- Keyframes for King of the Deep's signature move, baked from the concept blockout.
+-- times: key times in steps of 1/240 of a loop. track: position + rotation per key
+-- (stride 7) or rotation only (stride 4). Rotations are quaternions (x, y, z, w).
+return {
+	period = 3.6,
+	steps = 240,
+	joints = {
+		{ name = "Joint", parent = 0, rest = { 0, 4.9198, 0, 0, 1, 0, 0 }, times = { 0, 5, 11, 33, 42, 46, 51, 64, 70, 77, 81, 84, 87, 90, 93, 96, 98, 100, 103, 105, 106, 114, 121, 131, 144, 151, 157, 162, 168, 172, 180, 187, 194, 201, 205, 210, 230 }, stride = 7, track = { 0, 4.9198, 0, 0, 1, 0, 0, 0, 4.9135, 0, 0, 1, 0, 0, 0, 4.8835, 0, 0, 1, 0, 0, 0, 4.7018, 0, 0, 1, 0, 0, 0, 4.6805, 0, 0, 1, 0.0008, 0, 0, 4.6899, 0, 0, 1, 0.0034, 0, 0, 4.7165, 0, 0, 1, 0.0094, 0, 0, 4.8298, 0, 0, 0.9994, 0.0339, 0, 0, 4.8794, 0, 0, 0.9992, 0.0409, 0, 0, 4.9147, 0, 0, 0.999, 0.0436, 0, 0, 4.92, -0.0025, 0, 0.9991, 0.0432, 0, 0, 4.9162, -0.0125, 0, 0.9991, 0.0417, 0, 0, 4.9061, -0.0355, 0, 0.9993, 0.0382, 0, 0, 4.89, -0.077, 0, 0.9995, 0.0319, 0, 0, 4.869, -0.1424, 0, 0.9998, 0.0219, 0, 0, 4.8442, -0.237, 0, 1, 0.0074, 0, 0, 4.8262, -0.3191, 0, 1, -0.0051, 0, 0, 4.8075, -0.4182, 0, 0.9998, -0.0202, 0, 0, 4.7794, -0.6023, 0, 0.9988, -0.0483, 0, 0, 4.7611, -0.751, 0, 0.9975, -0.071, 0, 0, 4.7523, -0.8, 0, 0.9969, -0.0785, 0, 0, 4.6967, -0.8, 0, 0.9969, -0.0785, 0, 0, 4.68, -0.8, 0, 0.9969, -0.0785, 0, 0, 4.7165, -0.8, 0, 0.9969, -0.0785, 0, 0, 4.8298, -0.7929, 0, 0.997, -0.0778, 0, 0, 4.8862, -0.757, 0, 0.9972, -0.0743, 0, 0, 4.9147, -0.7022, 0, 0.9976, -0.0689, 0, 0, 4.9195, -0.6396, 0, 0.998, -0.0627, 0, 0, 4.9013, -0.544, 0, 0.9986, -0.0534, 0, 0, 4.8765, -0.468, 0, 0.9989, -0.0459, 0, 0, 4.8075, -0.3004, 0, 0.9996, -0.0295, 0, 0, 4.7438, -0.1808, 0, 0.9998, -0.0177, 0, 0, 4.6967, -0.0913, 0, 1, -0.009, 0, 0, 4.68, -0.0321, 0, 1, -0.0032, 0, 0, 4.6865, -0.0119, 0, 1, -0.0012, 0, 0, 4.71, -0.0004, 0, 1, 0, 0, 0, 4.8794, 0, 0, 1, 0, 0 } },
+		{ name = "Joint2", parent = 1, rest = { -2.6, 1.4, -0.8, 0, 0, 0.1736, 0.9848 } },
+		{ name = "Joint3", parent = 1, rest = { 2.6, 1.4, -0.8, 0, 0, -0.1736, 0.9848 } },
+		{ name = "Joint4", parent = 1, rest = { 0, 3.3, -1.2, -0.0698, 0, 0, 0.9976 } },
+		{ name = "Joint5", parent = 1, rest = { 1.5, -1.4, 0, 0.2475, 0.6624, -0.2475, 0.6624 }, times = { 0, 4, 9, 14, 26, 31, 36, 41, 46, 51, 56, 67, 73, 76, 79, 84, 88, 93, 106, 111, 116, 120, 124, 129, 134, 146, 151, 156, 161, 166, 171, 176, 187, 193, 196, 199, 204, 208, 213, 226, 231, 236 }, stride = 4, track = { 0.2475, 0.6624, -0.2475, 0.6624, 0.246, 0.6629, -0.246, 0.6629, 0.2372, 0.6661, -0.2372, 0.6661, 0.2219, 0.6714, -0.2219, 0.6714, 0.1736, 0.6855, -0.1736, 0.6855, 0.1563, 0.6896, -0.1563, 0.6896, 0.1448, 0.6921, -0.1448, 0.6921, 0.141, 0.6929, -0.141, 0.6929, 0.1454, 0.692, -0.1454, 0.692, 0.1575, 0.6893, -0.1575, 0.6893, 0.1752, 0.6851, -0.1752, 0.6851, 0.2197, 0.6721, -0.2197, 0.6721, 0.2381, 0.6658, -0.2381, 0.6658, 0.244, 0.6637, -0.244, 0.6637, 0.2471, 0.6625, -0.2471, 0.6625, 0.246, 0.6629, -0.246, 0.6629, 0.2395, 0.6653, -0.2395, 0.6653, 0.2254, 0.6702, -0.2254, 0.6702, 0.1736, 0.6855, -0.1736, 0.6855, 0.1563, 0.6896, -0.1563, 0.6896, 0.1448, 0.6921, -0.1448, 0.6921, 0.1411, 0.6929, -0.1411, 0.6929, 0.1427, 0.6926, -0.1427, 0.6926, 0.1519, 0.6906, -0.1519, 0.6906, 0.1676, 0.687, -0.1676, 0.687, 0.216, 0.6733, -0.216, 0.6733, 0.2329, 0.6676, -0.2329, 0.6676, 0.244, 0.6637, -0.244, 0.6637, 0.2476, 0.6623, -0.2476, 0.6623, 0.2434, 0.6639, -0.2434, 0.6639, 0.2317, 0.6681, -0.2317, 0.6681, 0.2145, 0.6738, -0.2145, 0.6738, 0.1698, 0.6864, -0.1698, 0.6864, 0.1509, 0.6908, -0.1509, 0.6908, 0.1448, 0.6921, -0.1448, 0.6921, 0.1415, 0.6928, -0.1415, 0.6928, 0.1427, 0.6926, -0.1427, 0.6926, 0.1494, 0.6911, -0.1494, 0.6911, 0.164, 0.6878, -0.164, 0.6878, 0.216, 0.6733, -0.216, 0.6733, 0.2329, 0.6676, -0.2329, 0.6676, 0.244, 0.6637, -0.244, 0.6637 } },
+		{ name = "Joint6", parent = 5, rest = { 0, 0, 1.1, 0.1391, 0, 0, 0.9903 }, times = { 0, 4, 9, 14, 31, 36, 41, 45, 50, 69, 74, 78, 83, 89, 94, 111, 116, 121, 126, 131, 152, 157, 162, 167, 172, 187, 192, 197, 201, 205, 210, 230, 235 }, stride = 4, track = { 0.1391, 0, 0, 0.9903, 0.1381, 0, 0, 0.9904, 0.1322, 0, 0, 0.9912, 0.1222, 0, 0, 0.9925, 0.0796, 0, 0, 0.9968, 0.0722, 0, 0, 0.9974, 0.0698, 0, 0, 0.9976, 0.0716, 0, 0, 0.9974, 0.0785, 0, 0, 0.9969, 0.1253, 0, 0, 0.9921, 0.1344, 0, 0, 0.9909, 0.1383, 0, 0, 0.9904, 0.1387, 0, 0, 0.9903, 0.1322, 0, 0, 0.9912, 0.1222, 0, 0, 0.9925, 0.0796, 0, 0, 0.9968, 0.0722, 0, 0, 0.9974, 0.0698, 0, 0, 0.9976, 0.0726, 0, 0, 0.9974, 0.0803, 0, 0, 0.9968, 0.1312, 0, 0, 0.9914, 0.1376, 0, 0, 0.9905, 0.139, 0, 0, 0.9903, 0.1352, 0, 0, 0.9908, 0.1266, 0, 0, 0.992, 0.0883, 0, 0, 0.9961, 0.0777, 0, 0, 0.997, 0.0713, 0, 0, 0.9975, 0.0698, 0, 0, 0.9976, 0.0716, 0, 0, 0.9974, 0.0785, 0, 0, 0.9969, 0.1275, 0, 0, 0.9918, 0.1356, 0, 0, 0.9908 } },
+		{ name = "Joint7", parent = 6, rest = { 0, 0, 1, 0.1564, 0, 0, 0.9877 }, times = { 0, 4, 9, 14, 31, 36, 41, 46, 51, 72, 77, 81, 85, 90, 109, 114, 118, 123, 129, 134, 151, 156, 161, 166, 171, 192, 197, 202, 207, 212, 231, 236 }, stride = 4, track = { 0.1564, 0, 0, 0.9877, 0.1554, 0, 0, 0.9879, 0.1495, 0, 0, 0.9888, 0.1395, 0, 0, 0.9902, 0.097, 0, 0, 0.9953, 0.0896, 0, 0, 0.996, 0.0872, 0, 0, 0.9962, 0.09, 0, 0, 0.9959, 0.0977, 0, 0, 0.9952, 0.1485, 0, 0, 0.9889, 0.1549, 0, 0, 0.9879, 0.1564, 0, 0, 0.9877, 0.1546, 0, 0, 0.988, 0.1478, 0, 0, 0.989, 0.101, 0, 0, 0.9949, 0.092, 0, 0, 0.9958, 0.088, 0, 0, 0.9961, 0.0877, 0, 0, 0.9961, 0.0941, 0, 0, 0.9956, 0.1042, 0, 0, 0.9946, 0.1467, 0, 0, 0.9892, 0.154, 0, 0, 0.9881, 0.1564, 0, 0, 0.9877, 0.1536, 0, 0, 0.9881, 0.1459, 0, 0, 0.9893, 0.0951, 0, 0, 0.9955, 0.0887, 0, 0, 0.9961, 0.0873, 0, 0, 0.9962, 0.0912, 0, 0, 0.9958, 0.0998, 0, 0, 0.995, 0.1467, 0, 0, 0.9892, 0.154, 0, 0, 0.9881 } },
+		{ name = "Joint8", parent = 7, rest = { 0, 0, 0.95, -0.0698, 0, 0, 0.9976 }, times = { 0, 4, 9, 14, 31, 36, 41, 46, 51, 72, 77, 81, 85, 90, 109, 114, 118, 123, 129, 134, 151, 156, 161, 166, 171, 192, 197, 202, 207, 212, 231, 236 }, stride = 4, track = { -0.0698, 0, 0, 0.9976, -0.0709, 0, 0, 0.9975, -0.0767, 0, 0, 0.9971, -0.0868, 0, 0, 0.9962, -0.1294, 0, 0, 0.9916, -0.1367, 0, 0, 0.9906, -0.1392, 0, 0, 0.9903, -0.1363, 0, 0, 0.9907, -0.1287, 0, 0, 0.9917, -0.0777, 0, 0, 0.997, -0.0713, 0, 0, 0.9975, -0.0698, 0, 0, 0.9976, -0.0716, 0, 0, 0.9974, -0.0785, 0, 0, 0.9969, -0.1253, 0, 0, 0.9921, -0.1344, 0, 0, 0.9909, -0.1383, 0, 0, 0.9904, -0.1387, 0, 0, 0.9903, -0.1322, 0, 0, 0.9912, -0.1222, 0, 0, 0.9925, -0.0796, 0, 0, 0.9968, -0.0722, 0, 0, 0.9974, -0.0698, 0, 0, 0.9976, -0.0726, 0, 0, 0.9974, -0.0803, 0, 0, 0.9968, -0.1312, 0, 0, 0.9914, -0.1376, 0, 0, 0.9905, -0.139, 0, 0, 0.9903, -0.1352, 0, 0, 0.9908, -0.1266, 0, 0, 0.992, -0.0796, 0, 0, 0.9968, -0.0722, 0, 0, 0.9974 } },
+		{ name = "Joint9", parent = 8, rest = { 0, 0, 0.85, -0.1909, 0, 0, 0.9816 }, times = { 0, 4, 9, 14, 31, 36, 41, 46, 51, 67, 73, 78, 83, 87, 92, 107, 112, 117, 121, 126, 131, 152, 157, 161, 166, 171, 187, 193, 199, 204, 208, 213, 231, 236 }, stride = 4, track = { -0.1909, 0, 0, 0.9816, -0.1919, 0, 0, 0.9814, -0.1977, 0, 0, 0.9803, -0.2076, 0, 0, 0.9782, -0.2493, 0, 0, 0.9684, -0.2565, 0, 0, 0.9666, -0.2588, 0, 0, 0.9659, -0.256, 0, 0, 0.9667, -0.2486, 0, 0, 0.9686, -0.209, 0, 0, 0.9779, -0.197, 0, 0, 0.9804, -0.1916, 0, 0, 0.9815, -0.1913, 0, 0, 0.9815, -0.1948, 0, 0, 0.9808, -0.2032, 0, 0, 0.9791, -0.2408, 0, 0, 0.9706, -0.2511, 0, 0, 0.968, -0.2573, 0, 0, 0.9663, -0.2588, 0, 0, 0.9659, -0.256, 0, 0, 0.9667, -0.2486, 0, 0, 0.9686, -0.1987, 0, 0, 0.9801, -0.1923, 0, 0, 0.9813, -0.1908, 0, 0, 0.9816, -0.1936, 0, 0, 0.9811, -0.2012, 0, 0, 0.9795, -0.2408, 0, 0, 0.9706, -0.2527, 0, 0, 0.9675, -0.2585, 0, 0, 0.966, -0.2578, 0, 0, 0.9662, -0.2536, 0, 0, 0.9673, -0.2445, 0, 0, 0.9697, -0.2005, 0, 0, 0.9797, -0.1932, 0, 0, 0.9812 } },
+		{ name = "Joint10", parent = 1, rest = { 1.1491, -1.4, -0.9642, 0.1022, 0.8794, -0.2192, 0.4101 }, times = { 0, 5, 9, 14, 18, 22, 26, 40, 45, 50, 55, 60, 65, 70, 80, 85, 90, 95, 100, 105, 110, 120, 125, 129, 134, 138, 142, 146, 160, 165, 170, 175, 180, 185, 190, 200, 205, 210, 215, 220, 225, 230 }, stride = 4, track = { 0.1022, 0.8794, -0.2192, 0.4101, 0.0923, 0.8845, -0.1978, 0.4124, 0.0869, 0.887, -0.1863, 0.4136, 0.0843, 0.8881, -0.1807, 0.4141, 0.0857, 0.8875, -0.1839, 0.4138, 0.0903, 0.8854, -0.1936, 0.4129, 0.0973, 0.8819, -0.2088, 0.4113, 0.1306, 0.8619, -0.2801, 0.4019, 0.1403, 0.8549, -0.3009, 0.3986, 0.1464, 0.8502, -0.3139, 0.3965, 0.1479, 0.849, -0.3172, 0.3959, 0.1448, 0.8515, -0.3104, 0.3971, 0.1373, 0.8571, -0.2944, 0.3997, 0.1266, 0.8647, -0.2716, 0.4032, 0.1022, 0.8794, -0.2192, 0.4101, 0.0923, 0.8845, -0.1978, 0.4124, 0.086, 0.8874, -0.1843, 0.4138, 0.0843, 0.8881, -0.1809, 0.4141, 0.0876, 0.8866, -0.188, 0.4134, 0.0954, 0.8829, -0.2045, 0.4117, 0.1063, 0.8772, -0.2279, 0.409, 0.1306, 0.8619, -0.2801, 0.4019, 0.1403, 0.8549, -0.3009, 0.3986, 0.1455, 0.8509, -0.312, 0.3968, 0.148, 0.8489, -0.3174, 0.3959, 0.1466, 0.85, -0.3143, 0.3964, 0.1422, 0.8534, -0.305, 0.398, 0.1354, 0.8586, -0.2903, 0.4003, 0.1022, 0.8794, -0.2192, 0.4101, 0.0923, 0.8845, -0.1978, 0.4124, 0.086, 0.8874, -0.1843, 0.4138, 0.0843, 0.8881, -0.1809, 0.4141, 0.0876, 0.8866, -0.188, 0.4134, 0.0954, 0.8829, -0.2045, 0.4117, 0.1063, 0.8772, -0.2279, 0.409, 0.1306, 0.8619, -0.2801, 0.4019, 0.1403, 0.8549, -0.3009, 0.3986, 0.1464, 0.8502, -0.3139, 0.3965, 0.1479, 0.849, -0.3172, 0.3959, 0.1448, 0.8515, -0.3104, 0.3971, 0.1373, 0.8571, -0.2944, 0.3997, 0.1266, 0.8647, -0.2716, 0.4032 } },
+		{ name = "Joint11", parent = 10, rest = { 0, 0, 1.1, 0.0891, 0, 0, 0.996 }, times = { 0, 9, 14, 18, 26, 45, 50, 55, 60, 65, 80, 86, 91, 96, 100, 105, 125, 130, 134, 138, 143, 148, 163, 168, 172, 177, 183, 188, 203, 208, 213, 218, 224 }, stride = 4, track = { 0.0891, 0, 0, 0.996, 0.0725, 0, 0, 0.9974, 0.0698, 0, 0, 0.9976, 0.0713, 0, 0, 0.9975, 0.0838, 0, 0, 0.9965, 0.1306, 0, 0, 0.9914, 0.1374, 0, 0, 0.9905, 0.1391, 0, 0, 0.9903, 0.1356, 0, 0, 0.9908, 0.1273, 0, 0, 0.9919, 0.0891, 0, 0, 0.996, 0.0766, 0, 0, 0.9971, 0.0708, 0, 0, 0.9975, 0.0701, 0, 0, 0.9975, 0.0734, 0, 0, 0.9973, 0.0817, 0, 0, 0.9967, 0.1306, 0, 0, 0.9914, 0.1374, 0, 0, 0.9905, 0.1392, 0, 0, 0.9903, 0.1376, 0, 0, 0.9905, 0.1311, 0, 0, 0.9914, 0.1206, 0, 0, 0.9927, 0.0822, 0, 0, 0.9966, 0.0737, 0, 0, 0.9973, 0.0702, 0, 0, 0.9975, 0.0706, 0, 0, 0.9975, 0.0779, 0, 0, 0.997, 0.0884, 0, 0, 0.9961, 0.1268, 0, 0, 0.9919, 0.1352, 0, 0, 0.9908, 0.139, 0, 0, 0.9903, 0.1376, 0, 0, 0.9905, 0.1293, 0, 0, 0.9916 } },
+		{ name = "Joint12", parent = 11, rest = { 0, 0, 1, 0.1065, 0, 0, 0.9943 }, times = { 0, 9, 14, 18, 26, 45, 50, 55, 60, 65, 80, 86, 91, 96, 100, 105, 125, 130, 134, 138, 143, 148, 163, 168, 172, 177, 183, 188, 203, 208, 213, 218, 224 }, stride = 4, track = { 0.1065, 0, 0, 0.9943, 0.0899, 0, 0, 0.9959, 0.0872, 0, 0, 0.9962, 0.0887, 0, 0, 0.9961, 0.1012, 0, 0, 0.9949, 0.1479, 0, 0, 0.989, 0.1546, 0, 0, 0.988, 0.1564, 0, 0, 0.9877, 0.1528, 0, 0, 0.9883, 0.1446, 0, 0, 0.9895, 0.1065, 0, 0, 0.9943, 0.094, 0, 0, 0.9956, 0.0882, 0, 0, 0.9961, 0.0875, 0, 0, 0.9962, 0.0908, 0, 0, 0.9959, 0.0991, 0, 0, 0.9951, 0.1479, 0, 0, 0.989, 0.1546, 0, 0, 0.988, 0.1564, 0, 0, 0.9877, 0.1549, 0, 0, 0.9879, 0.1484, 0, 0, 0.9889, 0.1379, 0, 0, 0.9904, 0.0996, 0, 0, 0.995, 0.0911, 0, 0, 0.9958, 0.0876, 0, 0, 0.9962, 0.088, 0, 0, 0.9961, 0.0952, 0, 0, 0.9955, 0.1058, 0, 0, 0.9944, 0.1441, 0, 0, 0.9896, 0.1525, 0, 0, 0.9883, 0.1563, 0, 0, 0.9877, 0.1549, 0, 0, 0.9879, 0.1466, 0, 0, 0.9892 } },
+		{ name = "Joint13", parent = 12, rest = { 0, 0, 0.95, -0.12, 0, 0, 0.9928 }, times = { 0, 9, 14, 18, 26, 45, 50, 55, 60, 65, 80, 86, 91, 96, 100, 105, 125, 130, 135, 140, 145, 165, 170, 175, 180, 185, 205, 210, 214, 219, 224 }, stride = 4, track = { -0.12, 0, 0, 0.9928, -0.1364, 0, 0, 0.9907, -0.1392, 0, 0, 0.9903, -0.1376, 0, 0, 0.9905, -0.1252, 0, 0, 0.9921, -0.0783, 0, 0, 0.9969, -0.0716, 0, 0, 0.9974, -0.0698, 0, 0, 0.9976, -0.0734, 0, 0, 0.9973, -0.0817, 0, 0, 0.9967, -0.12, 0, 0, 0.9928, -0.1324, 0, 0, 0.9912, -0.1381, 0, 0, 0.9904, -0.1388, 0, 0, 0.9903, -0.1356, 0, 0, 0.9908, -0.1273, 0, 0, 0.9919, -0.0783, 0, 0, 0.9969, -0.0716, 0, 0, 0.9974, -0.0698, 0, 0, 0.9976, -0.0734, 0, 0, 0.9973, -0.0817, 0, 0, 0.9967, -0.1306, 0, 0, 0.9914, -0.1374, 0, 0, 0.9905, -0.1391, 0, 0, 0.9903, -0.1356, 0, 0, 0.9908, -0.1273, 0, 0, 0.9919, -0.0783, 0, 0, 0.9969, -0.0716, 0, 0, 0.9974, -0.0698, 0, 0, 0.9976, -0.0723, 0, 0, 0.9974, -0.0797, 0, 0, 0.9968 } },
+		{ name = "Joint14", parent = 13, rest = { 0, 0, 0.85, -0.24, 0, 0, 0.9708 }, times = { 0, 9, 14, 18, 26, 45, 50, 55, 60, 65, 80, 86, 91, 96, 100, 105, 125, 130, 134, 138, 143, 148, 163, 168, 172, 177, 183, 188, 203, 208, 213, 218, 224 }, stride = 4, track = { -0.24, 0, 0, 0.9708, -0.2561, 0, 0, 0.9666, -0.2588, 0, 0, 0.9659, -0.2573, 0, 0, 0.9663, -0.2452, 0, 0, 0.9695, -0.1992, 0, 0, 0.9799, -0.1926, 0, 0, 0.9813, -0.1909, 0, 0, 0.9816, -0.1944, 0, 0, 0.9809, -0.2025, 0, 0, 0.9793, -0.24, 0, 0, 0.9708, -0.2522, 0, 0, 0.9677, -0.2578, 0, 0, 0.9662, -0.2585, 0, 0, 0.966, -0.2553, 0, 0, 0.9669, -0.2472, 0, 0, 0.969, -0.1992, 0, 0, 0.9799, -0.1926, 0, 0, 0.9813, -0.1908, 0, 0, 0.9816, -0.1924, 0, 0, 0.9813, -0.1988, 0, 0, 0.98, -0.2092, 0, 0, 0.9779, -0.2467, 0, 0, 0.9691, -0.255, 0, 0, 0.9669, -0.2583, 0, 0, 0.9661, -0.258, 0, 0, 0.9662, -0.251, 0, 0, 0.968, -0.2407, 0, 0, 0.9706, -0.2031, 0, 0, 0.9792, -0.1947, 0, 0, 0.9809, -0.1909, 0, 0, 0.9816, -0.1924, 0, 0, 0.9813, -0.2006, 0, 0, 0.9797 } },
+		{ name = "Joint15", parent = 1, rest = { 0.3882, -1.4, -1.4489, 0.0305, 0.964, -0.2316, 0.1269 }, times = { 0, 12, 17, 22, 26, 31, 36, 41, 52, 57, 62, 67, 72, 77, 82, 95, 99, 103, 107, 111, 115, 120, 132, 137, 142, 146, 151, 156, 161, 172, 177, 182, 187, 192, 197, 202, 215, 219, 223, 227, 231, 235 }, stride = 4, track = { 0.0305, 0.964, -0.2316, 0.1269, 0.0394, 0.9452, -0.2993, 0.1244, 0.0426, 0.9371, -0.3238, 0.1234, 0.0448, 0.9311, -0.3406, 0.1226, 0.0456, 0.9288, -0.3467, 0.1223, 0.0453, 0.9297, -0.3444, 0.1224, 0.0436, 0.9344, -0.3314, 0.123, 0.0407, 0.9419, -0.3095, 0.124, 0.0325, 0.9602, -0.2471, 0.1264, 0.0292, 0.9663, -0.222, 0.1272, 0.0269, 0.9701, -0.2046, 0.1277, 0.026, 0.9715, -0.1977, 0.1279, 0.0267, 0.9706, -0.2024, 0.1278, 0.0287, 0.9672, -0.218, 0.1273, 0.0319, 0.9615, -0.242, 0.1266, 0.0414, 0.9402, -0.3148, 0.1238, 0.0437, 0.9343, -0.3316, 0.123, 0.0451, 0.9303, -0.3428, 0.1225, 0.0457, 0.9287, -0.3472, 0.1223, 0.0453, 0.9297, -0.3444, 0.1224, 0.0441, 0.9332, -0.3348, 0.1229, 0.0414, 0.9403, -0.3144, 0.1238, 0.0325, 0.9602, -0.2471, 0.1264, 0.0292, 0.9663, -0.222, 0.1272, 0.0269, 0.9701, -0.2046, 0.1277, 0.0261, 0.9714, -0.1982, 0.1279, 0.0264, 0.9709, -0.2006, 0.1278, 0.0282, 0.968, -0.2141, 0.1274, 0.0312, 0.9628, -0.2367, 0.1268, 0.0394, 0.9452, -0.2993, 0.1244, 0.0426, 0.9371, -0.3238, 0.1234, 0.0448, 0.9311, -0.3406, 0.1226, 0.0457, 0.9287, -0.3472, 0.1223, 0.0451, 0.9304, -0.3426, 0.1225, 0.0431, 0.9357, -0.3276, 0.1232, 0.0401, 0.9436, -0.3043, 0.1242, 0.0304, 0.9641, -0.2313, 0.1269, 0.0282, 0.9681, -0.2139, 0.1275, 0.0266, 0.9706, -0.2023, 0.1278, 0.026, 0.9715, -0.1977, 0.1279, 0.0264, 0.9709, -0.2006, 0.1278, 0.0277, 0.9688, -0.2106, 0.1275 } },
+		{ name = "Joint16", parent = 15, rest = { 0, 0, 1.1, 0.0853, 0, 0, 0.9964 }, times = { 0, 17, 23, 28, 33, 38, 54, 59, 65, 70, 74, 79, 98, 103, 108, 113, 118, 134, 139, 144, 149, 153, 158, 178, 183, 187, 192, 197, 215, 223, 227, 231, 235 }, stride = 4, track = { 0.0853, 0, 0, 0.9964, 0.1281, 0, 0, 0.9918, 0.1371, 0, 0, 0.9906, 0.1391, 0, 0, 0.9903, 0.136, 0, 0, 0.9907, 0.128, 0, 0, 0.9918, 0.0875, 0, 0, 0.9962, 0.0772, 0, 0, 0.997, 0.0704, 0, 0, 0.9975, 0.0704, 0, 0, 0.9975, 0.0742, 0, 0, 0.9972, 0.0831, 0, 0, 0.9965, 0.13, 0, 0, 0.9915, 0.1371, 0, 0, 0.9906, 0.1391, 0, 0, 0.9903, 0.136, 0, 0, 0.9907, 0.128, 0, 0, 0.9918, 0.0875, 0, 0, 0.9962, 0.0772, 0, 0, 0.997, 0.071, 0, 0, 0.9975, 0.07, 0, 0, 0.9975, 0.073, 0, 0, 0.9973, 0.081, 0, 0, 0.9967, 0.13, 0, 0, 0.9915, 0.1371, 0, 0, 0.9906, 0.1391, 0, 0, 0.9903, 0.137, 0, 0, 0.9906, 0.1299, 0, 0, 0.9915, 0.0851, 0, 0, 0.9964, 0.0719, 0, 0, 0.9974, 0.0698, 0, 0, 0.9976, 0.0711, 0, 0, 0.9975, 0.0757, 0, 0, 0.9971 } },
+		{ name = "Joint17", parent = 16, rest = { 0, 0, 1, 0.1027, 0, 0, 0.9947 }, times = { 0, 17, 23, 28, 33, 38, 54, 59, 65, 70, 74, 79, 98, 103, 108, 113, 118, 134, 139, 144, 149, 153, 158, 178, 183, 187, 192, 197, 215, 223, 227, 231, 235 }, stride = 4, track = { 0.1027, 0, 0, 0.9947, 0.1454, 0, 0, 0.9894, 0.1543, 0, 0, 0.988, 0.1564, 0, 0, 0.9877, 0.1532, 0, 0, 0.9882, 0.1453, 0, 0, 0.9894, 0.1048, 0, 0, 0.9945, 0.0946, 0, 0, 0.9955, 0.0878, 0, 0, 0.9961, 0.0878, 0, 0, 0.9961, 0.0916, 0, 0, 0.9958, 0.1005, 0, 0, 0.9949, 0.1473, 0, 0, 0.9891, 0.1543, 0, 0, 0.988, 0.1564, 0, 0, 0.9877, 0.1532, 0, 0, 0.9882, 0.1453, 0, 0, 0.9894, 0.1048, 0, 0, 0.9945, 0.0946, 0, 0, 0.9955, 0.0884, 0, 0, 0.9961, 0.0874, 0, 0, 0.9962, 0.0904, 0, 0, 0.9959, 0.0984, 0, 0, 0.9951, 0.1473, 0, 0, 0.9891, 0.1543, 0, 0, 0.988, 0.1564, 0, 0, 0.9877, 0.1543, 0, 0, 0.988, 0.1472, 0, 0, 0.9891, 0.1025, 0, 0, 0.9947, 0.0893, 0, 0, 0.996, 0.0872, 0, 0, 0.9962, 0.0885, 0, 0, 0.9961, 0.0931, 0, 0, 0.9957 } },
+		{ name = "Joint18", parent = 17, rest = { 0, 0, 0.95, -0.1237, 0, 0, 0.9923 }, times = { 0, 17, 23, 28, 33, 38, 54, 59, 65, 70, 74, 79, 98, 103, 108, 113, 118, 134, 139, 144, 149, 153, 158, 178, 183, 187, 192, 197, 215, 223, 227, 231, 235 }, stride = 4, track = { -0.1237, 0, 0, 0.9923, -0.0809, 0, 0, 0.9967, -0.0719, 0, 0, 0.9974, -0.0698, 0, 0, 0.9976, -0.073, 0, 0, 0.9973, -0.081, 0, 0, 0.9967, -0.1216, 0, 0, 0.9926, -0.1318, 0, 0, 0.9913, -0.1385, 0, 0, 0.9904, -0.1385, 0, 0, 0.9904, -0.1347, 0, 0, 0.9909, -0.1259, 0, 0, 0.992, -0.0789, 0, 0, 0.9969, -0.0719, 0, 0, 0.9974, -0.0698, 0, 0, 0.9976, -0.073, 0, 0, 0.9973, -0.081, 0, 0, 0.9967, -0.1216, 0, 0, 0.9926, -0.1318, 0, 0, 0.9913, -0.1379, 0, 0, 0.9904, -0.1389, 0, 0, 0.9903, -0.136, 0, 0, 0.9907, -0.128, 0, 0, 0.9918, -0.0789, 0, 0, 0.9969, -0.0719, 0, 0, 0.9974, -0.0698, 0, 0, 0.9976, -0.0719, 0, 0, 0.9974, -0.0791, 0, 0, 0.9969, -0.1239, 0, 0, 0.9923, -0.1371, 0, 0, 0.9906, -0.1391, 0, 0, 0.9903, -0.1379, 0, 0, 0.9905, -0.1333, 0, 0, 0.9911 } },
+		{ name = "Joint19", parent = 18, rest = { 0, 0, 0.85, -0.2437, 0, 0, 0.9698 }, times = { 0, 17, 23, 28, 33, 38, 54, 59, 65, 70, 74, 79, 98, 103, 108, 113, 118, 134, 139, 144, 149, 153, 158, 178, 183, 187, 192, 197, 215, 223, 227, 231, 235 }, stride = 4, track = { -0.2437, 0, 0, 0.9698, -0.2017, 0, 0, 0.9794, -0.1929, 0, 0, 0.9812, -0.1908, 0, 0, 0.9816, -0.194, 0, 0, 0.981, -0.2019, 0, 0, 0.9794, -0.2416, 0, 0, 0.9704, -0.2516, 0, 0, 0.9678, -0.2582, 0, 0, 0.9661, -0.2582, 0, 0, 0.9661, -0.2545, 0, 0, 0.9671, -0.2459, 0, 0, 0.9693, -0.1998, 0, 0, 0.9798, -0.1929, 0, 0, 0.9812, -0.1908, 0, 0, 0.9816, -0.194, 0, 0, 0.981, -0.2019, 0, 0, 0.9794, -0.2416, 0, 0, 0.9704, -0.2516, 0, 0, 0.9678, -0.2576, 0, 0, 0.9663, -0.2586, 0, 0, 0.966, -0.2557, 0, 0, 0.9668, -0.2479, 0, 0, 0.9688, -0.1998, 0, 0, 0.9798, -0.1929, 0, 0, 0.9812, -0.1908, 0, 0, 0.9816, -0.193, 0, 0, 0.9812, -0.2, 0, 0, 0.9798, -0.2439, 0, 0, 0.9698, -0.2568, 0, 0, 0.9665, -0.2588, 0, 0, 0.9659, -0.2575, 0, 0, 0.9663, -0.2531, 0, 0, 0.9674 } },
+		{ name = "Joint20", parent = 1, rest = { -0.3882, -1.4, -1.4489, -0.0457, 0.9287, -0.3471, -0.1223 }, times = { 0, 4, 9, 14, 26, 31, 36, 41, 46, 51, 56, 67, 73, 76, 79, 84, 88, 93, 106, 111, 116, 120, 124, 129, 134, 146, 151, 156, 161, 166, 171, 176, 187, 193, 196, 199, 204, 208, 213, 226, 231, 236 }, stride = 4, track = { -0.0457, 0.9287, -0.3471, -0.1223, -0.0454, 0.9295, -0.3449, -0.1224, -0.0438, 0.934, -0.3326, -0.123, -0.041, 0.9414, -0.3112, -0.1239, -0.032, 0.9611, -0.2434, -0.1265, -0.0288, 0.9669, -0.2191, -0.1273, -0.0267, 0.9704, -0.203, -0.1278, -0.026, 0.9715, -0.1977, -0.1279, -0.0268, 0.9702, -0.2039, -0.1277, -0.0291, 0.9665, -0.2208, -0.1272, -0.0323, 0.9605, -0.2456, -0.1265, -0.0406, 0.9424, -0.3081, -0.1241, -0.044, 0.9335, -0.3339, -0.1229, -0.045, 0.9306, -0.3421, -0.1225, -0.0456, 0.9289, -0.3465, -0.1223, -0.0454, 0.9295, -0.3449, -0.1224, -0.0442, 0.9328, -0.3358, -0.1228, -0.0416, 0.9397, -0.316, -0.1237, -0.032, 0.9611, -0.2434, -0.1265, -0.0288, 0.9669, -0.2191, -0.1273, -0.0267, 0.9704, -0.203, -0.1278, -0.026, 0.9715, -0.1978, -0.1279, -0.0263, 0.9711, -0.2001, -0.1278, -0.028, 0.9683, -0.2129, -0.1275, -0.0309, 0.9632, -0.235, -0.1268, -0.0399, 0.9441, -0.3029, -0.1243, -0.043, 0.9361, -0.3266, -0.1232, -0.045, 0.9306, -0.3421, -0.1225, -0.0457, 0.9287, -0.3472, -0.1223, -0.0449, 0.9309, -0.3412, -0.1226, -0.0428, 0.9367, -0.3249, -0.1233, -0.0396, 0.9447, -0.3007, -0.1244, -0.0313, 0.9624, -0.2381, -0.1267, -0.0278, 0.9686, -0.2115, -0.1275, -0.0267, 0.9704, -0.203, -0.1278, -0.0261, 0.9714, -0.1984, -0.1279, -0.0263, 0.9711, -0.2001, -0.1278, -0.0276, 0.9691, -0.2095, -0.1276, -0.0303, 0.9644, -0.23, -0.127, -0.0399, 0.9441, -0.3029, -0.1243, -0.043, 0.9361, -0.3266, -0.1232, -0.045, 0.9306, -0.3421, -0.1225 } },
+		{ name = "Joint21", parent = 20, rest = { 0, 0, 1.1, 0.1391, 0, 0, 0.9903 }, times = { 0, 4, 9, 14, 31, 36, 41, 46, 51, 72, 77, 81, 85, 90, 109, 114, 118, 123, 129, 134, 151, 156, 161, 166, 171, 192, 197, 202, 207, 212, 231, 236 }, stride = 4, track = { 0.1391, 0, 0, 0.9903, 0.1381, 0, 0, 0.9904, 0.1322, 0, 0, 0.9912, 0.1222, 0, 0, 0.9925, 0.0796, 0, 0, 0.9968, 0.0722, 0, 0, 0.9974, 0.0698, 0, 0, 0.9976, 0.0726, 0, 0, 0.9974, 0.0803, 0, 0, 0.9968, 0.1312, 0, 0, 0.9914, 0.1376, 0, 0, 0.9905, 0.1392, 0, 0, 0.9903, 0.1373, 0, 0, 0.9905, 0.1305, 0, 0, 0.9914, 0.0837, 0, 0, 0.9965, 0.0746, 0, 0, 0.9972, 0.0706, 0, 0, 0.9975, 0.0703, 0, 0, 0.9975, 0.0767, 0, 0, 0.9971, 0.0868, 0, 0, 0.9962, 0.1294, 0, 0, 0.9916, 0.1367, 0, 0, 0.9906, 0.1392, 0, 0, 0.9903, 0.1363, 0, 0, 0.9907, 0.1287, 0, 0, 0.9917, 0.0777, 0, 0, 0.997, 0.0713, 0, 0, 0.9975, 0.0699, 0, 0, 0.9976, 0.0738, 0, 0, 0.9973, 0.0824, 0, 0, 0.9966, 0.1294, 0, 0, 0.9916, 0.1367, 0, 0, 0.9906 } },
+		{ name = "Joint22", parent = 21, rest = { 0, 0, 1, 0.1564, 0, 0, 0.9877 }, times = { 0, 4, 9, 14, 31, 36, 41, 46, 51, 72, 77, 81, 85, 90, 109, 114, 118, 123, 129, 134, 151, 156, 161, 166, 171, 192, 197, 202, 207, 212, 231, 236 }, stride = 4, track = { 0.1564, 0, 0, 0.9877, 0.1554, 0, 0, 0.9879, 0.1495, 0, 0, 0.9888, 0.1395, 0, 0, 0.9902, 0.097, 0, 0, 0.9953, 0.0896, 0, 0, 0.996, 0.0872, 0, 0, 0.9962, 0.09, 0, 0, 0.9959, 0.0977, 0, 0, 0.9952, 0.1485, 0, 0, 0.9889, 0.1549, 0, 0, 0.9879, 0.1564, 0, 0, 0.9877, 0.1546, 0, 0, 0.988, 0.1478, 0, 0, 0.989, 0.101, 0, 0, 0.9949, 0.092, 0, 0, 0.9958, 0.088, 0, 0, 0.9961, 0.0877, 0, 0, 0.9961, 0.0941, 0, 0, 0.9956, 0.1042, 0, 0, 0.9946, 0.1467, 0, 0, 0.9892, 0.154, 0, 0, 0.9881, 0.1564, 0, 0, 0.9877, 0.1536, 0, 0, 0.9881, 0.1459, 0, 0, 0.9893, 0.0951, 0, 0, 0.9955, 0.0887, 0, 0, 0.9961, 0.0873, 0, 0, 0.9962, 0.0912, 0, 0, 0.9958, 0.0998, 0, 0, 0.995, 0.1467, 0, 0, 0.9892, 0.154, 0, 0, 0.9881 } },
+		{ name = "Joint23", parent = 22, rest = { 0, 0, 0.95, -0.0698, 0, 0, 0.9976 }, times = { 0, 4, 9, 14, 31, 36, 41, 45, 50, 69, 74, 78, 83, 89, 94, 111, 116, 121, 126, 131, 152, 157, 162, 167, 172, 187, 192, 197, 201, 205, 210, 230, 235 }, stride = 4, track = { -0.0698, 0, 0, 0.9976, -0.0709, 0, 0, 0.9975, -0.0767, 0, 0, 0.9971, -0.0868, 0, 0, 0.9962, -0.1294, 0, 0, 0.9916, -0.1367, 0, 0, 0.9906, -0.1392, 0, 0, 0.9903, -0.1373, 0, 0, 0.9905, -0.1305, 0, 0, 0.9914, -0.0837, 0, 0, 0.9965, -0.0746, 0, 0, 0.9972, -0.0706, 0, 0, 0.9975, -0.0703, 0, 0, 0.9975, -0.0767, 0, 0, 0.9971, -0.0868, 0, 0, 0.9962, -0.1294, 0, 0, 0.9916, -0.1367, 0, 0, 0.9906, -0.1392, 0, 0, 0.9903, -0.1363, 0, 0, 0.9907, -0.1287, 0, 0, 0.9917, -0.0777, 0, 0, 0.997, -0.0713, 0, 0, 0.9975, -0.0699, 0, 0, 0.9976, -0.0738, 0, 0, 0.9973, -0.0824, 0, 0, 0.9966, -0.1208, 0, 0, 0.9927, -0.1312, 0, 0, 0.9914, -0.1376, 0, 0, 0.9905, -0.1392, 0, 0, 0.9903, -0.1373, 0, 0, 0.9905, -0.1305, 0, 0, 0.9914, -0.0815, 0, 0, 0.9967, -0.0733, 0, 0, 0.9973 } },
+		{ name = "Joint24", parent = 23, rest = { 0, 0, 0.85, -0.1909, 0, 0, 0.9816 }, times = { 0, 4, 9, 14, 31, 36, 41, 45, 50, 69, 74, 78, 83, 89, 94, 111, 116, 121, 126, 131, 152, 157, 162, 167, 172, 187, 192, 197, 201, 205, 210, 230, 235 }, stride = 4, track = { -0.1909, 0, 0, 0.9816, -0.1919, 0, 0, 0.9814, -0.1977, 0, 0, 0.9803, -0.2076, 0, 0, 0.9782, -0.2493, 0, 0, 0.9684, -0.2565, 0, 0, 0.9666, -0.2588, 0, 0, 0.9659, -0.257, 0, 0, 0.9664, -0.2504, 0, 0, 0.9681, -0.2045, 0, 0, 0.9789, -0.1956, 0, 0, 0.9807, -0.1916, 0, 0, 0.9815, -0.1913, 0, 0, 0.9815, -0.1977, 0, 0, 0.9803, -0.2076, 0, 0, 0.9782, -0.2493, 0, 0, 0.9684, -0.2565, 0, 0, 0.9666, -0.2588, 0, 0, 0.9659, -0.256, 0, 0, 0.9667, -0.2486, 0, 0, 0.9686, -0.1987, 0, 0, 0.9801, -0.1923, 0, 0, 0.9813, -0.191, 0, 0, 0.9816, -0.1948, 0, 0, 0.9808, -0.2032, 0, 0, 0.9791, -0.2408, 0, 0, 0.9706, -0.2511, 0, 0, 0.968, -0.2573, 0, 0, 0.9663, -0.2588, 0, 0, 0.9659, -0.257, 0, 0, 0.9664, -0.2504, 0, 0, 0.9681, -0.2024, 0, 0, 0.9793, -0.1943, 0, 0, 0.9809 } },
+		{ name = "Joint25", parent = 1, rest = { -1.1491, -1.4, -0.9642, -0.1022, 0.8794, -0.2192, -0.4101 }, times = { 0, 5, 9, 14, 18, 22, 26, 40, 45, 50, 55, 60, 65, 70, 80, 85, 90, 95, 100, 105, 110, 120, 125, 129, 134, 138, 142, 146, 160, 165, 170, 175, 180, 185, 190, 200, 205, 210, 215, 220, 225, 230 }, stride = 4, track = { -0.1022, 0.8794, -0.2192, -0.4101, -0.0923, 0.8845, -0.1978, -0.4124, -0.0869, 0.887, -0.1863, -0.4136, -0.0843, 0.8881, -0.1807, -0.4141, -0.0857, 0.8875, -0.1839, -0.4138, -0.0903, 0.8854, -0.1936, -0.4129, -0.0973, 0.8819, -0.2088, -0.4113, -0.1306, 0.8619, -0.2801, -0.4019, -0.1403, 0.8549, -0.3009, -0.3986, -0.1464, 0.8502, -0.3139, -0.3965, -0.1479, 0.849, -0.3172, -0.3959, -0.1448, 0.8515, -0.3104, -0.3971, -0.1373, 0.8571, -0.2944, -0.3997, -0.1266, 0.8647, -0.2716, -0.4032, -0.1022, 0.8794, -0.2192, -0.4101, -0.0923, 0.8845, -0.1978, -0.4124, -0.086, 0.8874, -0.1843, -0.4138, -0.0843, 0.8881, -0.1809, -0.4141, -0.0876, 0.8866, -0.188, -0.4134, -0.0954, 0.8829, -0.2045, -0.4117, -0.1063, 0.8772, -0.2279, -0.409, -0.1306, 0.8619, -0.2801, -0.4019, -0.1403, 0.8549, -0.3009, -0.3986, -0.1455, 0.8509, -0.312, -0.3968, -0.148, 0.8489, -0.3174, -0.3959, -0.1466, 0.85, -0.3143, -0.3964, -0.1422, 0.8534, -0.305, -0.398, -0.1354, 0.8586, -0.2903, -0.4003, -0.1022, 0.8794, -0.2192, -0.4101, -0.0923, 0.8845, -0.1978, -0.4124, -0.086, 0.8874, -0.1843, -0.4138, -0.0843, 0.8881, -0.1809, -0.4141, -0.0876, 0.8866, -0.188, -0.4134, -0.0954, 0.8829, -0.2045, -0.4117, -0.1063, 0.8772, -0.2279, -0.409, -0.1306, 0.8619, -0.2801, -0.4019, -0.1403, 0.8549, -0.3009, -0.3986, -0.1464, 0.8502, -0.3139, -0.3965, -0.1479, 0.849, -0.3172, -0.3959, -0.1448, 0.8515, -0.3104, -0.3971, -0.1373, 0.8571, -0.2944, -0.3997, -0.1266, 0.8647, -0.2716, -0.4032 } },
+		{ name = "Joint26", parent = 25, rest = { 0, 0, 1.1, 0.0891, 0, 0, 0.996 }, times = { 0, 9, 14, 18, 26, 45, 50, 55, 60, 65, 80, 86, 91, 96, 100, 105, 125, 130, 135, 140, 145, 165, 170, 175, 180, 185, 205, 210, 214, 219, 224 }, stride = 4, track = { 0.0891, 0, 0, 0.996, 0.0725, 0, 0, 0.9974, 0.0698, 0, 0, 0.9976, 0.0713, 0, 0, 0.9975, 0.0838, 0, 0, 0.9965, 0.1306, 0, 0, 0.9914, 0.1374, 0, 0, 0.9905, 0.1391, 0, 0, 0.9903, 0.1356, 0, 0, 0.9908, 0.1273, 0, 0, 0.9919, 0.0891, 0, 0, 0.996, 0.0766, 0, 0, 0.9971, 0.0708, 0, 0, 0.9975, 0.0701, 0, 0, 0.9975, 0.0734, 0, 0, 0.9973, 0.0817, 0, 0, 0.9967, 0.1306, 0, 0, 0.9914, 0.1374, 0, 0, 0.9905, 0.1391, 0, 0, 0.9903, 0.1356, 0, 0, 0.9908, 0.1273, 0, 0, 0.9919, 0.0783, 0, 0, 0.9969, 0.0716, 0, 0, 0.9974, 0.0698, 0, 0, 0.9976, 0.0734, 0, 0, 0.9973, 0.0817, 0, 0, 0.9967, 0.1306, 0, 0, 0.9914, 0.1374, 0, 0, 0.9905, 0.1392, 0, 0, 0.9903, 0.1367, 0, 0, 0.9906, 0.1293, 0, 0, 0.9916 } },
+		{ name = "Joint27", parent = 26, rest = { 0, 0, 1, 0.1065, 0, 0, 0.9943 }, times = { 0, 9, 14, 18, 26, 45, 50, 55, 60, 65, 80, 86, 91, 96, 100, 105, 125, 130, 134, 138, 143, 148, 163, 168, 172, 177, 183, 188, 203, 208, 213, 218, 224 }, stride = 4, track = { 0.1065, 0, 0, 0.9943, 0.0899, 0, 0, 0.9959, 0.0872, 0, 0, 0.9962, 0.0887, 0, 0, 0.9961, 0.1012, 0, 0, 0.9949, 0.1479, 0, 0, 0.989, 0.1546, 0, 0, 0.988, 0.1564, 0, 0, 0.9877, 0.1528, 0, 0, 0.9883, 0.1446, 0, 0, 0.9895, 0.1065, 0, 0, 0.9943, 0.094, 0, 0, 0.9956, 0.0882, 0, 0, 0.9961, 0.0875, 0, 0, 0.9962, 0.0908, 0, 0, 0.9959, 0.0991, 0, 0, 0.9951, 0.1479, 0, 0, 0.989, 0.1546, 0, 0, 0.988, 0.1564, 0, 0, 0.9877, 0.1549, 0, 0, 0.9879, 0.1484, 0, 0, 0.9889, 0.1379, 0, 0, 0.9904, 0.0996, 0, 0, 0.995, 0.0911, 0, 0, 0.9958, 0.0876, 0, 0, 0.9962, 0.088, 0, 0, 0.9961, 0.0952, 0, 0, 0.9955, 0.1058, 0, 0, 0.9944, 0.1441, 0, 0, 0.9896, 0.1525, 0, 0, 0.9883, 0.1563, 0, 0, 0.9877, 0.1549, 0, 0, 0.9879, 0.1466, 0, 0, 0.9892 } },
+		{ name = "Joint28", parent = 27, rest = { 0, 0, 0.95, -0.12, 0, 0, 0.9928 }, times = { 0, 9, 14, 18, 26, 45, 50, 55, 60, 65, 80, 86, 91, 96, 100, 105, 125, 130, 134, 138, 143, 148, 163, 168, 172, 177, 183, 188, 203, 208, 213, 218, 224 }, stride = 4, track = { -0.12, 0, 0, 0.9928, -0.1364, 0, 0, 0.9907, -0.1392, 0, 0, 0.9903, -0.1376, 0, 0, 0.9905, -0.1252, 0, 0, 0.9921, -0.0783, 0, 0, 0.9969, -0.0716, 0, 0, 0.9974, -0.0698, 0, 0, 0.9976, -0.0734, 0, 0, 0.9973, -0.0817, 0, 0, 0.9967, -0.12, 0, 0, 0.9928, -0.1324, 0, 0, 0.9912, -0.1381, 0, 0, 0.9904, -0.1388, 0, 0, 0.9903, -0.1356, 0, 0, 0.9908, -0.1273, 0, 0, 0.9919, -0.0783, 0, 0, 0.9969, -0.0716, 0, 0, 0.9974, -0.0698, 0, 0, 0.9976, -0.0713, 0, 0, 0.9975, -0.0779, 0, 0, 0.997, -0.0884, 0, 0, 0.9961, -0.1268, 0, 0, 0.9919, -0.1352, 0, 0, 0.9908, -0.1387, 0, 0, 0.9903, -0.1383, 0, 0, 0.9904, -0.1311, 0, 0, 0.9914, -0.1206, 0, 0, 0.9927, -0.0822, 0, 0, 0.9966, -0.0737, 0, 0, 0.9973, -0.0699, 0, 0, 0.9976, -0.0713, 0, 0, 0.9975, -0.0797, 0, 0, 0.9968 } },
+		{ name = "Joint29", parent = 28, rest = { 0, 0, 0.85, -0.24, 0, 0, 0.9708 }, times = { 0, 9, 14, 18, 26, 45, 50, 55, 60, 65, 80, 86, 91, 96, 100, 105, 125, 130, 134, 138, 143, 148, 163, 168, 172, 177, 183, 188, 203, 208, 213, 218, 224 }, stride = 4, track = { -0.24, 0, 0, 0.9708, -0.2561, 0, 0, 0.9666, -0.2588, 0, 0, 0.9659, -0.2573, 0, 0, 0.9663, -0.2452, 0, 0, 0.9695, -0.1992, 0, 0, 0.9799, -0.1926, 0, 0, 0.9813, -0.1909, 0, 0, 0.9816, -0.1944, 0, 0, 0.9809, -0.2025, 0, 0, 0.9793, -0.24, 0, 0, 0.9708, -0.2522, 0, 0, 0.9677, -0.2578, 0, 0, 0.9662, -0.2585, 0, 0, 0.966, -0.2553, 0, 0, 0.9669, -0.2472, 0, 0, 0.969, -0.1992, 0, 0, 0.9799, -0.1926, 0, 0, 0.9813, -0.1908, 0, 0, 0.9816, -0.1924, 0, 0, 0.9813, -0.1988, 0, 0, 0.98, -0.2092, 0, 0, 0.9779, -0.2467, 0, 0, 0.9691, -0.255, 0, 0, 0.9669, -0.2583, 0, 0, 0.9661, -0.258, 0, 0, 0.9662, -0.251, 0, 0, 0.968, -0.2407, 0, 0, 0.9706, -0.2031, 0, 0, 0.9792, -0.1947, 0, 0, 0.9809, -0.1909, 0, 0, 0.9816, -0.1924, 0, 0, 0.9813, -0.2006, 0, 0, 0.9797 } },
+		{ name = "Joint30", parent = 1, rest = { -1.5, -1.4, 0, 0.1652, -0.6875, 0.1652, 0.6875 }, times = { 0, 12, 17, 22, 26, 31, 36, 41, 52, 57, 62, 67, 72, 77, 82, 95, 99, 103, 107, 111, 115, 120, 132, 137, 142, 146, 151, 156, 161, 172, 177, 182, 187, 192, 197, 202, 215, 219, 223, 227, 231, 235 }, stride = 4, track = { 0.1652, -0.6875, 0.1652, 0.6875, 0.2134, -0.6741, 0.2134, 0.6741, 0.2309, -0.6683, 0.2309, 0.6683, 0.2429, -0.6641, 0.2429, 0.6641, 0.2473, -0.6625, 0.2473, 0.6625, 0.2456, -0.6631, 0.2456, 0.6631, 0.2363, -0.6664, 0.2363, 0.6664, 0.2207, -0.6718, 0.2207, 0.6718, 0.1762, -0.6848, 0.1762, 0.6848, 0.1583, -0.6892, 0.1583, 0.6892, 0.1459, -0.6919, 0.1459, 0.6919, 0.141, -0.6929, 0.141, 0.6929, 0.1444, -0.6922, 0.1444, 0.6922, 0.1555, -0.6898, 0.1555, 0.6898, 0.1726, -0.6857, 0.1726, 0.6857, 0.2245, -0.6705, 0.2245, 0.6705, 0.2365, -0.6664, 0.2365, 0.6664, 0.2445, -0.6635, 0.2445, 0.6635, 0.2476, -0.6623, 0.2476, 0.6623, 0.2456, -0.6631, 0.2456, 0.6631, 0.2388, -0.6656, 0.2388, 0.6656, 0.2243, -0.6706, 0.2243, 0.6706, 0.1762, -0.6848, 0.1762, 0.6848, 0.1583, -0.6892, 0.1583, 0.6892, 0.1459, -0.6919, 0.1459, 0.6919, 0.1413, -0.6928, 0.1413, 0.6928, 0.1431, -0.6925, 0.1431, 0.6925, 0.1527, -0.6904, 0.1527, 0.6904, 0.1688, -0.6867, 0.1688, 0.6867, 0.2134, -0.6741, 0.2134, 0.6741, 0.2309, -0.6683, 0.2309, 0.6683, 0.2429, -0.6641, 0.2429, 0.6641, 0.2476, -0.6623, 0.2476, 0.6623, 0.2444, -0.6635, 0.2444, 0.6635, 0.2337, -0.6674, 0.2337, 0.6674, 0.217, -0.673, 0.217, 0.673, 0.165, -0.6876, 0.165, 0.6876, 0.1525, -0.6905, 0.1525, 0.6905, 0.1443, -0.6922, 0.1443, 0.6922, 0.141, -0.6929, 0.141, 0.6929, 0.1431, -0.6925, 0.1431, 0.6925, 0.1502, -0.691, 0.1502, 0.691 } },
+		{ name = "Joint31", parent = 30, rest = { 0, 0, 1.1, 0.0853, 0, 0, 0.9964 }, times = { 0, 17, 22, 27, 31, 36, 41, 57, 62, 66, 71, 76, 81, 97, 102, 107, 111, 116, 121, 137, 142, 146, 151, 156, 161, 177, 182, 187, 192, 197, 215, 223, 227, 231, 235 }, stride = 4, track = { 0.0853, 0, 0, 0.9964, 0.1281, 0, 0, 0.9918, 0.136, 0, 0, 0.9907, 0.1391, 0, 0, 0.9903, 0.1379, 0, 0, 0.9905, 0.1317, 0, 0, 0.9913, 0.1214, 0, 0, 0.9926, 0.0809, 0, 0, 0.9967, 0.0729, 0, 0, 0.9973, 0.07, 0, 0, 0.9975, 0.0711, 0, 0, 0.9975, 0.0773, 0, 0, 0.997, 0.0876, 0, 0, 0.9962, 0.1281, 0, 0, 0.9918, 0.136, 0, 0, 0.9907, 0.1391, 0, 0, 0.9903, 0.1379, 0, 0, 0.9905, 0.1317, 0, 0, 0.9913, 0.1214, 0, 0, 0.9926, 0.0809, 0, 0, 0.9967, 0.0729, 0, 0, 0.9973, 0.07, 0, 0, 0.9975, 0.0711, 0, 0, 0.9975, 0.0773, 0, 0, 0.997, 0.0876, 0, 0, 0.9962, 0.1281, 0, 0, 0.9918, 0.136, 0, 0, 0.9907, 0.1391, 0, 0, 0.9903, 0.137, 0, 0, 0.9906, 0.1299, 0, 0, 0.9915, 0.0851, 0, 0, 0.9964, 0.0719, 0, 0, 0.9974, 0.0698, 0, 0, 0.9976, 0.0711, 0, 0, 0.9975, 0.0757, 0, 0, 0.9971 } },
+		{ name = "Joint32", parent = 31, rest = { 0, 0, 1, 0.1027, 0, 0, 0.9947 }, times = { 0, 17, 22, 27, 31, 36, 41, 57, 62, 66, 71, 76, 81, 97, 102, 107, 111, 116, 121, 137, 142, 146, 151, 156, 161, 177, 182, 187, 192, 197, 215, 223, 227, 231, 235 }, stride = 4, track = { 0.1027, 0, 0, 0.9947, 0.1454, 0, 0, 0.9894, 0.1533, 0, 0, 0.9882, 0.1564, 0, 0, 0.9877, 0.1551, 0, 0, 0.9879, 0.149, 0, 0, 0.9888, 0.1387, 0, 0, 0.9903, 0.0983, 0, 0, 0.9952, 0.0903, 0, 0, 0.9959, 0.0874, 0, 0, 0.9962, 0.0885, 0, 0, 0.9961, 0.0947, 0, 0, 0.9955, 0.105, 0, 0, 0.9945, 0.1454, 0, 0, 0.9894, 0.1533, 0, 0, 0.9882, 0.1564, 0, 0, 0.9877, 0.1551, 0, 0, 0.9879, 0.149, 0, 0, 0.9888, 0.1387, 0, 0, 0.9903, 0.0983, 0, 0, 0.9952, 0.0903, 0, 0, 0.9959, 0.0874, 0, 0, 0.9962, 0.0885, 0, 0, 0.9961, 0.0947, 0, 0, 0.9955, 0.105, 0, 0, 0.9945, 0.1454, 0, 0, 0.9894, 0.1533, 0, 0, 0.9882, 0.1564, 0, 0, 0.9877, 0.1543, 0, 0, 0.988, 0.1472, 0, 0, 0.9891, 0.1025, 0, 0, 0.9947, 0.0893, 0, 0, 0.996, 0.0872, 0, 0, 0.9962, 0.0885, 0, 0, 0.9961, 0.0931, 0, 0, 0.9957 } },
+		{ name = "Joint33", parent = 32, rest = { 0, 0, 0.95, -0.1237, 0, 0, 0.9923 }, times = { 0, 17, 22, 27, 31, 36, 41, 57, 62, 66, 71, 76, 81, 97, 102, 107, 111, 116, 121, 137, 142, 146, 151, 156, 161, 177, 182, 187, 192, 197, 215, 223, 227, 231, 235 }, stride = 4, track = { -0.1237, 0, 0, 0.9923, -0.0809, 0, 0, 0.9967, -0.0729, 0, 0, 0.9973, -0.0698, 0, 0, 0.9976, -0.0711, 0, 0, 0.9975, -0.0773, 0, 0, 0.997, -0.0876, 0, 0, 0.9962, -0.1281, 0, 0, 0.9918, -0.136, 0, 0, 0.9907, -0.1389, 0, 0, 0.9903, -0.1379, 0, 0, 0.9905, -0.1317, 0, 0, 0.9913, -0.1214, 0, 0, 0.9926, -0.0809, 0, 0, 0.9967, -0.0729, 0, 0, 0.9973, -0.0698, 0, 0, 0.9976, -0.0711, 0, 0, 0.9975, -0.0773, 0, 0, 0.997, -0.0876, 0, 0, 0.9962, -0.1281, 0, 0, 0.9918, -0.136, 0, 0, 0.9907, -0.1389, 0, 0, 0.9903, -0.1379, 0, 0, 0.9905, -0.1317, 0, 0, 0.9913, -0.1214, 0, 0, 0.9926, -0.0809, 0, 0, 0.9967, -0.0729, 0, 0, 0.9973, -0.0698, 0, 0, 0.9976, -0.0719, 0, 0, 0.9974, -0.0791, 0, 0, 0.9969, -0.1239, 0, 0, 0.9923, -0.1371, 0, 0, 0.9906, -0.1391, 0, 0, 0.9903, -0.1379, 0, 0, 0.9905, -0.1333, 0, 0, 0.9911 } },
+		{ name = "Joint34", parent = 33, rest = { 0, 0, 0.85, -0.2437, 0, 0, 0.9698 }, times = { 0, 17, 22, 27, 31, 36, 41, 57, 62, 66, 71, 76, 81, 97, 102, 107, 111, 116, 121, 137, 142, 146, 151, 156, 161, 177, 182, 187, 192, 197, 215, 223, 227, 231, 235 }, stride = 4, track = { -0.2437, 0, 0, 0.9698, -0.2017, 0, 0, 0.9794, -0.1939, 0, 0, 0.981, -0.1908, 0, 0, 0.9816, -0.1921, 0, 0, 0.9814, -0.1982, 0, 0, 0.9802, -0.2084, 0, 0, 0.978, -0.248, 0, 0, 0.9688, -0.2558, 0, 0, 0.9667, -0.2586, 0, 0, 0.966, -0.2575, 0, 0, 0.9663, -0.2515, 0, 0, 0.9679, -0.2415, 0, 0, 0.9704, -0.2017, 0, 0, 0.9794, -0.1939, 0, 0, 0.981, -0.1908, 0, 0, 0.9816, -0.1921, 0, 0, 0.9814, -0.1982, 0, 0, 0.9802, -0.2084, 0, 0, 0.978, -0.248, 0, 0, 0.9688, -0.2558, 0, 0, 0.9667, -0.2586, 0, 0, 0.966, -0.2575, 0, 0, 0.9663, -0.2515, 0, 0, 0.9679, -0.2415, 0, 0, 0.9704, -0.2017, 0, 0, 0.9794, -0.1939, 0, 0, 0.981, -0.1908, 0, 0, 0.9816, -0.193, 0, 0, 0.9812, -0.2, 0, 0, 0.9798, -0.2439, 0, 0, 0.9698, -0.2568, 0, 0, 0.9665, -0.2588, 0, 0, 0.9659, -0.2575, 0, 0, 0.9663, -0.2531, 0, 0, 0.9674 } },
+		{ name = "Joint35", parent = 1, rest = { -1.4, -0.9, 1.4, -0.2826, -0.3262, -0.1028, 0.8962 }, times = { 0, 38, 40, 42, 45, 47, 49, 51, 53, 55, 57, 60, 63, 65, 67, 69, 71, 73, 75, 77, 80, 82, 84, 86, 87, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 120, 139, 143, 146, 149, 152, 155, 159, 162, 165, 168, 171, 173, 178, 181, 184, 188, 192, 196, 200, 205, 210 }, stride = 4, track = { -0.2826, -0.3262, -0.1028, 0.8962, -0.2826, -0.3262, -0.1028, 0.8962, -0.2834, -0.3272, -0.1035, 0.8955, -0.2867, -0.3311, -0.1064, 0.8927, -0.2964, -0.3426, -0.1149, 0.8841, -0.3058, -0.3537, -0.1236, 0.8753, -0.3172, -0.3675, -0.135, 0.8638, -0.3306, -0.3836, -0.1493, 0.8493, -0.3455, -0.4017, -0.1669, 0.8316, -0.3614, -0.4213, -0.188, 0.8103, -0.378, -0.4421, -0.2129, 0.7851, -0.4005, -0.471, -0.2536, 0.7439, -0.4163, -0.4923, -0.2897, 0.7074, -0.4239, -0.5028, -0.3105, 0.6864, -0.4294, -0.5109, -0.3283, 0.6684, -0.4335, -0.5171, -0.343, 0.6535, -0.4363, -0.5215, -0.3544, 0.642, -0.4381, -0.5244, -0.3625, 0.6337, -0.4391, -0.5261, -0.3673, 0.6289, -0.4394, -0.5265, -0.3687, 0.6275, -0.4392, -0.5262, -0.3676, 0.6286, -0.4385, -0.525, -0.3642, 0.6321, -0.4369, -0.5223, -0.3568, 0.6396, -0.4338, -0.5173, -0.3439, 0.6526, -0.4315, -0.5136, -0.335, 0.6616, -0.4245, -0.503, -0.3115, 0.6854, -0.4193, -0.4956, -0.2967, 0.7004, -0.4127, -0.4863, -0.2797, 0.7176, -0.4043, -0.4749, -0.2605, 0.737, -0.3938, -0.4608, -0.2392, 0.7585, -0.3806, -0.4436, -0.2159, 0.7821, -0.3642, -0.4228, -0.1907, 0.8076, -0.3441, -0.3977, -0.164, 0.8346, -0.3197, -0.3678, -0.1363, 0.8625, -0.2903, -0.3323, -0.1083, 0.8908, -0.2553, -0.2906, -0.0808, 0.9186, -0.2143, -0.2423, -0.055, 0.9446, -0.1669, -0.1868, -0.0322, 0.9676, -0.1128, -0.1241, -0.0142, 0.9857, -0.0523, -0.0542, -0.0028, 0.9972, 0.014, 0.0223, -0.0003, 0.9997, 0.0849, 0.1042, -0.0089, 0.9909, 0.1289, 0.1551, -0.0204, 0.9792, 0.1289, 0.1551, -0.0204, 0.9792, 0.1289, 0.1551, -0.0204, 0.9792, 0.1266, 0.1524, -0.0197, 0.98, 0.1215, 0.1464, -0.0181, 0.9816, 0.1134, 0.137, -0.0158, 0.9839, 0.1023, 0.1241, -0.0129, 0.9869, 0.0882, 0.1077, -0.0096, 0.9902, 0.0646, 0.0803, -0.0052, 0.9947, 0.0433, 0.0555, -0.0024, 0.9975, 0.0188, 0.0271, -0.0005, 0.9995, -0.0087, -0.0049, 0, 0.9999, -0.0393, -0.0403, -0.0016, 0.9984, -0.0612, -0.0658, -0.004, 0.9959, -0.1185, -0.1325, -0.016, 0.9839, -0.1491, -0.1682, -0.0257, 0.9741, -0.1762, -0.1999, -0.0366, 0.9632, -0.2069, -0.236, -0.0515, 0.9481, -0.2318, -0.2655, -0.0659, 0.9335, -0.2513, -0.2887, -0.0788, 0.9205, -0.2659, -0.3061, -0.0895, 0.9097, -0.2775, -0.3201, -0.0987, 0.9004, -0.2824, -0.326, -0.1027, 0.8964 } },
+		{ name = "Joint36", parent = 35, rest = { 0, 0, 0, 0, 0, 0, 1 } },
+		{ name = "Joint37", parent = 36, rest = { 0, 0, 1.4, 0.206, 0.0512, 0.0108, 0.9771 }, times = { 0, 11, 43, 51, 62, 68, 74, 85, 92, 96, 99, 106, 121, 142, 148, 157, 166, 172, 182, 190, 198, 205, 211, 223, 232 }, stride = 4, track = { 0.206, 0.0512, 0.0108, 0.9771, 0.1996, 0.0513, 0.0105, 0.9785, 0.1732, 0.0515, 0.0091, 0.9835, 0.1586, 0.0517, 0.0083, 0.986, 0.1274, 0.0519, 0.0067, 0.9905, 0.1176, 0.052, 0.0062, 0.9917, 0.1156, 0.052, 0.0061, 0.9919, 0.1235, 0.0519, 0.0065, 0.991, 0.123, 0.0519, 0.0064, 0.991, 0.1181, 0.052, 0.0062, 0.9916, 0.1115, 0.052, 0.0058, 0.9924, 0.0863, 0.0521, 0.0045, 0.9949, 0.085, 0.0521, 0.0045, 0.995, 0.0698, 0.0522, 0.0037, 0.9962, 0.0677, 0.0522, 0.0035, 0.9963, 0.0721, 0.0522, 0.0038, 0.996, 0.0868, 0.0521, 0.0045, 0.9949, 0.1027, 0.0521, 0.0054, 0.9933, 0.1362, 0.0518, 0.0071, 0.9893, 0.1599, 0.0517, 0.0084, 0.9858, 0.1792, 0.0515, 0.0094, 0.9824, 0.1917, 0.0514, 0.01, 0.9801, 0.1985, 0.0513, 0.0104, 0.9787, 0.2059, 0.0512, 0.0108, 0.9772, 0.2076, 0.0512, 0.0109, 0.9768 } },
+		{ name = "Joint38", parent = 37, rest = { 0, 0, 1.3, 0.1929, 0.0514, 0.0101, 0.9798 }, times = { 0, 23, 46, 53, 63, 69, 74, 84, 90, 94, 98, 101, 106, 135, 144, 153, 162, 170, 181, 187, 194, 201, 208, 216, 227 }, stride = 4, track = { 0.1929, 0.0514, 0.0101, 0.9798, 0.1755, 0.0515, 0.0092, 0.9831, 0.1721, 0.0516, 0.009, 0.9837, 0.1624, 0.0516, 0.0085, 0.9853, 0.1399, 0.0518, 0.0073, 0.9888, 0.1331, 0.0519, 0.007, 0.9897, 0.1322, 0.0519, 0.0069, 0.9898, 0.1365, 0.0518, 0.0072, 0.9893, 0.1338, 0.0519, 0.007, 0.9896, 0.1279, 0.0519, 0.0067, 0.9904, 0.1176, 0.052, 0.0062, 0.9917, 0.1066, 0.052, 0.0056, 0.9929, 0.0829, 0.0522, 0.0043, 0.9952, 0.0591, 0.0522, 0.0031, 0.9969, 0.0551, 0.0523, 0.0029, 0.9971, 0.0612, 0.0522, 0.0032, 0.9968, 0.0787, 0.0522, 0.0041, 0.9955, 0.1035, 0.0521, 0.0054, 0.9933, 0.1468, 0.0518, 0.0077, 0.9878, 0.1673, 0.0516, 0.0088, 0.9845, 0.1865, 0.0514, 0.0098, 0.9811, 0.1998, 0.0513, 0.0105, 0.9784, 0.2067, 0.0512, 0.0108, 0.977, 0.2074, 0.0512, 0.0109, 0.9769, 0.203, 0.0512, 0.0106, 0.9778 } },
+		{ name = "Joint39", parent = 38, rest = { 0, 0, 1.2, 0.1775, 0.0515, 0.0093, 0.9827 }, times = { 0, 17, 27, 41, 48, 53, 62, 68, 73, 84, 91, 98, 106, 121, 134, 145, 155, 166, 179, 184, 191, 197, 203, 209 }, stride = 4, track = { 0.1775, 0.0515, 0.0093, 0.9827, 0.1737, 0.0515, 0.0091, 0.9834, 0.1775, 0.0515, 0.0093, 0.9827, 0.1877, 0.0514, 0.0098, 0.9808, 0.186, 0.0514, 0.0097, 0.9812, 0.1789, 0.0515, 0.0094, 0.9825, 0.1564, 0.0517, 0.0082, 0.9863, 0.1455, 0.0518, 0.0076, 0.988, 0.1403, 0.0518, 0.0074, 0.9887, 0.1356, 0.0519, 0.0071, 0.9894, 0.126, 0.0519, 0.0066, 0.9906, 0.1059, 0.052, 0.0056, 0.993, 0.0674, 0.0522, 0.0035, 0.9964, 0.0559, 0.0523, 0.0029, 0.9971, 0.0523, 0.0523, 0.0027, 0.9973, 0.0569, 0.0523, 0.003, 0.997, 0.0739, 0.0522, 0.0039, 0.9959, 0.1056, 0.052, 0.0055, 0.993, 0.1549, 0.0517, 0.0081, 0.9865, 0.1714, 0.0516, 0.009, 0.9838, 0.1887, 0.0514, 0.0099, 0.9806, 0.198, 0.0513, 0.0104, 0.9788, 0.2025, 0.0512, 0.0106, 0.9779, 0.2021, 0.0513, 0.0106, 0.978 } },
+		{ name = "Joint40", parent = 39, rest = { 0, 0, 1.1, 0.1741, 0.0515, 0.0091, 0.9833 }, times = { 0, 12, 39, 46, 53, 63, 69, 74, 86, 93, 99, 106, 114, 123, 132, 141, 148, 155, 162, 182, 187, 193, 204, 226 }, stride = 4, track = { 0.1741, 0.0515, 0.0091, 0.9833, 0.1802, 0.0515, 0.0094, 0.9822, 0.2023, 0.0513, 0.0106, 0.9779, 0.2007, 0.0513, 0.0105, 0.9783, 0.1878, 0.0514, 0.0098, 0.9808, 0.1551, 0.0517, 0.0081, 0.9865, 0.1399, 0.0518, 0.0073, 0.9888, 0.1314, 0.0519, 0.0069, 0.9899, 0.1186, 0.052, 0.0062, 0.9916, 0.1049, 0.052, 0.0055, 0.9931, 0.0859, 0.0521, 0.0045, 0.9949, 0.0539, 0.0523, 0.0028, 0.9972, 0.0523, 0.0523, 0.0027, 0.9973, 0.054, 0.0523, 0.0028, 0.9972, 0.0591, 0.0522, 0.0031, 0.9969, 0.0667, 0.0522, 0.0035, 0.9964, 0.0765, 0.0522, 0.004, 0.9957, 0.0905, 0.0521, 0.0047, 0.9945, 0.1079, 0.052, 0.0057, 0.9928, 0.1669, 0.0516, 0.0087, 0.9846, 0.177, 0.0515, 0.0093, 0.9828, 0.1849, 0.0514, 0.0097, 0.9814, 0.1885, 0.0514, 0.0099, 0.9807, 0.175, 0.0515, 0.0092, 0.9832 } },
+		{ name = "Joint41", parent = 40, rest = { 0, 0, 1, 0.1859, 0.0514, 0.0097, 0.9812 }, times = { 0, 26, 37, 43, 47, 51, 63, 69, 75, 87, 93, 99, 106, 142, 151, 165, 182, 192, 203, 224 }, stride = 4, track = { 0.1859, 0.0514, 0.0097, 0.9812, 0.2056, 0.0512, 0.0108, 0.9772, 0.2076, 0.0512, 0.0109, 0.9768, 0.2043, 0.0512, 0.0107, 0.9775, 0.1977, 0.0513, 0.0104, 0.9789, 0.1875, 0.0514, 0.0098, 0.9809, 0.1416, 0.0518, 0.0074, 0.9885, 0.1241, 0.0519, 0.0065, 0.9909, 0.1136, 0.052, 0.006, 0.9921, 0.1037, 0.0521, 0.0054, 0.9932, 0.0953, 0.0521, 0.005, 0.9941, 0.0809, 0.0522, 0.0042, 0.9954, 0.0549, 0.0523, 0.0029, 0.9971, 0.0834, 0.0522, 0.0044, 0.9951, 0.0931, 0.0521, 0.0049, 0.9943, 0.116, 0.052, 0.0061, 0.9919, 0.154, 0.0517, 0.0081, 0.9867, 0.1676, 0.0516, 0.0088, 0.9845, 0.1737, 0.0515, 0.0091, 0.9834, 0.1752, 0.0515, 0.0092, 0.9831 } },
+		{ name = "Joint42", parent = 41, rest = { 0, 0, 0.9, 0.2018, 0.0513, 0.0106, 0.978 }, times = { 0, 10, 19, 29, 40, 44, 49, 54, 62, 68, 75, 87, 94, 100, 106, 126, 148, 159, 168, 185, 198, 207 }, stride = 4, track = { 0.2018, 0.0513, 0.0106, 0.978, 0.2067, 0.0512, 0.0108, 0.977, 0.2074, 0.0512, 0.0109, 0.9768, 0.2039, 0.0512, 0.0107, 0.9776, 0.1958, 0.0513, 0.0103, 0.9793, 0.1896, 0.0514, 0.0099, 0.9805, 0.1776, 0.0515, 0.0093, 0.9827, 0.1611, 0.0517, 0.0084, 0.9856, 0.1295, 0.0519, 0.0068, 0.9902, 0.1132, 0.052, 0.0059, 0.9922, 0.1047, 0.052, 0.0055, 0.9931, 0.1048, 0.052, 0.0055, 0.9931, 0.1003, 0.0521, 0.0053, 0.9936, 0.089, 0.0521, 0.0047, 0.9947, 0.0695, 0.0522, 0.0036, 0.9962, 0.0846, 0.0521, 0.0044, 0.995, 0.0875, 0.0521, 0.0046, 0.9948, 0.0945, 0.0521, 0.005, 0.9942, 0.1069, 0.052, 0.0056, 0.9929, 0.1444, 0.0518, 0.0076, 0.9881, 0.1654, 0.0516, 0.0087, 0.9848, 0.1753, 0.0515, 0.0092, 0.9831 } },
+		{ name = "Joint43", parent = 1, rest = { 1.4, -0.9, 1.4, -0.2826, 0.3262, 0.1028, 0.8962 }, times = { 0, 38, 40, 42, 45, 47, 49, 51, 53, 55, 57, 60, 63, 65, 67, 69, 71, 73, 75, 77, 80, 82, 84, 86, 87, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 120, 139, 143, 146, 149, 152, 155, 159, 162, 165, 168, 171, 173, 178, 181, 184, 188, 192, 196, 200, 205, 210 }, stride = 4, track = { -0.2826, 0.3262, 0.1028, 0.8962, -0.2826, 0.3262, 0.1028, 0.8962, -0.2834, 0.3272, 0.1035, 0.8955, -0.2867, 0.3311, 0.1064, 0.8927, -0.2964, 0.3426, 0.1149, 0.8841, -0.3058, 0.3537, 0.1236, 0.8753, -0.3172, 0.3675, 0.135, 0.8638, -0.3306, 0.3836, 0.1493, 0.8493, -0.3455, 0.4017, 0.1669, 0.8316, -0.3614, 0.4213, 0.188, 0.8103, -0.378, 0.4421, 0.2129, 0.7851, -0.4005, 0.471, 0.2536, 0.7439, -0.4163, 0.4923, 0.2897, 0.7074, -0.4239, 0.5028, 0.3105, 0.6864, -0.4294, 0.5109, 0.3283, 0.6684, -0.4335, 0.5171, 0.343, 0.6535, -0.4363, 0.5215, 0.3544, 0.642, -0.4381, 0.5244, 0.3625, 0.6337, -0.4391, 0.5261, 0.3673, 0.6289, -0.4394, 0.5265, 0.3687, 0.6275, -0.4392, 0.5262, 0.3676, 0.6286, -0.4385, 0.525, 0.3642, 0.6321, -0.4369, 0.5223, 0.3568, 0.6396, -0.4338, 0.5173, 0.3439, 0.6526, -0.4315, 0.5136, 0.335, 0.6616, -0.4245, 0.503, 0.3115, 0.6854, -0.4193, 0.4956, 0.2967, 0.7004, -0.4127, 0.4863, 0.2797, 0.7176, -0.4043, 0.4749, 0.2605, 0.737, -0.3938, 0.4608, 0.2392, 0.7585, -0.3806, 0.4436, 0.2159, 0.7821, -0.3642, 0.4228, 0.1907, 0.8076, -0.3441, 0.3977, 0.164, 0.8346, -0.3197, 0.3678, 0.1363, 0.8625, -0.2903, 0.3323, 0.1083, 0.8908, -0.2553, 0.2906, 0.0808, 0.9186, -0.2143, 0.2423, 0.055, 0.9446, -0.1669, 0.1868, 0.0322, 0.9676, -0.1128, 0.1241, 0.0142, 0.9857, -0.0523, 0.0542, 0.0028, 0.9972, 0.014, -0.0223, 0.0003, 0.9997, 0.0849, -0.1042, 0.0089, 0.9909, 0.1289, -0.1551, 0.0204, 0.9792, 0.1289, -0.1551, 0.0204, 0.9792, 0.1289, -0.1551, 0.0204, 0.9792, 0.1266, -0.1524, 0.0197, 0.98, 0.1215, -0.1464, 0.0181, 0.9816, 0.1134, -0.137, 0.0158, 0.9839, 0.1023, -0.1241, 0.0129, 0.9869, 0.0882, -0.1077, 0.0096, 0.9902, 0.0646, -0.0803, 0.0052, 0.9947, 0.0433, -0.0555, 0.0024, 0.9975, 0.0188, -0.0271, 0.0005, 0.9995, -0.0087, 0.0049, 0, 0.9999, -0.0393, 0.0403, 0.0016, 0.9984, -0.0612, 0.0658, 0.004, 0.9959, -0.1185, 0.1325, 0.016, 0.9839, -0.1491, 0.1682, 0.0257, 0.9741, -0.1762, 0.1999, 0.0366, 0.9632, -0.2069, 0.236, 0.0515, 0.9481, -0.2318, 0.2655, 0.0659, 0.9335, -0.2513, 0.2887, 0.0788, 0.9205, -0.2659, 0.3061, 0.0895, 0.9097, -0.2775, 0.3201, 0.0987, 0.9004, -0.2824, 0.326, 0.1027, 0.8964 } },
+		{ name = "Joint44", parent = 43, rest = { 0, 0, 0, 0, 0, 0, 1 } },
+		{ name = "Joint45", parent = 44, rest = { 0, 0, 1.4, 0.206, -0.0512, -0.0108, 0.9771 }, times = { 0, 11, 43, 51, 62, 68, 74, 85, 92, 96, 99, 106, 121, 142, 148, 157, 166, 172, 182, 190, 198, 205, 211, 223, 232 }, stride = 4, track = { 0.206, -0.0512, -0.0108, 0.9771, 0.1996, -0.0513, -0.0105, 0.9785, 0.1732, -0.0515, -0.0091, 0.9835, 0.1586, -0.0517, -0.0083, 0.986, 0.1274, -0.0519, -0.0067, 0.9905, 0.1176, -0.052, -0.0062, 0.9917, 0.1156, -0.052, -0.0061, 0.9919, 0.1235, -0.0519, -0.0065, 0.991, 0.123, -0.0519, -0.0064, 0.991, 0.1181, -0.052, -0.0062, 0.9916, 0.1115, -0.052, -0.0058, 0.9924, 0.0863, -0.0521, -0.0045, 0.9949, 0.085, -0.0521, -0.0045, 0.995, 0.0698, -0.0522, -0.0037, 0.9962, 0.0677, -0.0522, -0.0035, 0.9963, 0.0721, -0.0522, -0.0038, 0.996, 0.0868, -0.0521, -0.0045, 0.9949, 0.1027, -0.0521, -0.0054, 0.9933, 0.1362, -0.0518, -0.0071, 0.9893, 0.1599, -0.0517, -0.0084, 0.9858, 0.1792, -0.0515, -0.0094, 0.9824, 0.1917, -0.0514, -0.01, 0.9801, 0.1985, -0.0513, -0.0104, 0.9787, 0.2059, -0.0512, -0.0108, 0.9772, 0.2076, -0.0512, -0.0109, 0.9768 } },
+		{ name = "Joint46", parent = 45, rest = { 0, 0, 1.3, 0.1929, -0.0514, -0.0101, 0.9798 }, times = { 0, 23, 46, 53, 63, 69, 74, 84, 90, 94, 98, 101, 106, 135, 144, 153, 162, 170, 181, 187, 194, 201, 208, 216, 227 }, stride = 4, track = { 0.1929, -0.0514, -0.0101, 0.9798, 0.1755, -0.0515, -0.0092, 0.9831, 0.1721, -0.0516, -0.009, 0.9837, 0.1624, -0.0516, -0.0085, 0.9853, 0.1399, -0.0518, -0.0073, 0.9888, 0.1331, -0.0519, -0.007, 0.9897, 0.1322, -0.0519, -0.0069, 0.9898, 0.1365, -0.0518, -0.0072, 0.9893, 0.1338, -0.0519, -0.007, 0.9896, 0.1279, -0.0519, -0.0067, 0.9904, 0.1176, -0.052, -0.0062, 0.9917, 0.1066, -0.052, -0.0056, 0.9929, 0.0829, -0.0522, -0.0043, 0.9952, 0.0591, -0.0522, -0.0031, 0.9969, 0.0551, -0.0523, -0.0029, 0.9971, 0.0612, -0.0522, -0.0032, 0.9968, 0.0787, -0.0522, -0.0041, 0.9955, 0.1035, -0.0521, -0.0054, 0.9933, 0.1468, -0.0518, -0.0077, 0.9878, 0.1673, -0.0516, -0.0088, 0.9845, 0.1865, -0.0514, -0.0098, 0.9811, 0.1998, -0.0513, -0.0105, 0.9784, 0.2067, -0.0512, -0.0108, 0.977, 0.2074, -0.0512, -0.0109, 0.9769, 0.203, -0.0512, -0.0106, 0.9778 } },
+		{ name = "Joint47", parent = 46, rest = { 0, 0, 1.2, 0.1775, -0.0515, -0.0093, 0.9827 }, times = { 0, 17, 27, 41, 48, 53, 62, 68, 73, 84, 91, 98, 106, 121, 134, 145, 155, 166, 179, 184, 191, 197, 203, 209 }, stride = 4, track = { 0.1775, -0.0515, -0.0093, 0.9827, 0.1737, -0.0515, -0.0091, 0.9834, 0.1775, -0.0515, -0.0093, 0.9827, 0.1877, -0.0514, -0.0098, 0.9808, 0.186, -0.0514, -0.0097, 0.9812, 0.1789, -0.0515, -0.0094, 0.9825, 0.1564, -0.0517, -0.0082, 0.9863, 0.1455, -0.0518, -0.0076, 0.988, 0.1403, -0.0518, -0.0074, 0.9887, 0.1356, -0.0519, -0.0071, 0.9894, 0.126, -0.0519, -0.0066, 0.9906, 0.1059, -0.052, -0.0056, 0.993, 0.0674, -0.0522, -0.0035, 0.9964, 0.0559, -0.0523, -0.0029, 0.9971, 0.0523, -0.0523, -0.0027, 0.9973, 0.0569, -0.0523, -0.003, 0.997, 0.0739, -0.0522, -0.0039, 0.9959, 0.1056, -0.052, -0.0055, 0.993, 0.1549, -0.0517, -0.0081, 0.9865, 0.1714, -0.0516, -0.009, 0.9838, 0.1887, -0.0514, -0.0099, 0.9806, 0.198, -0.0513, -0.0104, 0.9788, 0.2025, -0.0512, -0.0106, 0.9779, 0.2021, -0.0513, -0.0106, 0.978 } },
+		{ name = "Joint48", parent = 47, rest = { 0, 0, 1.1, 0.1741, -0.0515, -0.0091, 0.9833 }, times = { 0, 12, 39, 46, 53, 63, 69, 74, 86, 93, 99, 106, 114, 123, 132, 141, 148, 155, 162, 182, 187, 193, 204, 226 }, stride = 4, track = { 0.1741, -0.0515, -0.0091, 0.9833, 0.1802, -0.0515, -0.0094, 0.9822, 0.2023, -0.0513, -0.0106, 0.9779, 0.2007, -0.0513, -0.0105, 0.9783, 0.1878, -0.0514, -0.0098, 0.9808, 0.1551, -0.0517, -0.0081, 0.9865, 0.1399, -0.0518, -0.0073, 0.9888, 0.1314, -0.0519, -0.0069, 0.9899, 0.1186, -0.052, -0.0062, 0.9916, 0.1049, -0.052, -0.0055, 0.9931, 0.0859, -0.0521, -0.0045, 0.9949, 0.0539, -0.0523, -0.0028, 0.9972, 0.0523, -0.0523, -0.0027, 0.9973, 0.054, -0.0523, -0.0028, 0.9972, 0.0591, -0.0522, -0.0031, 0.9969, 0.0667, -0.0522, -0.0035, 0.9964, 0.0765, -0.0522, -0.004, 0.9957, 0.0905, -0.0521, -0.0047, 0.9945, 0.1079, -0.052, -0.0057, 0.9928, 0.1669, -0.0516, -0.0087, 0.9846, 0.177, -0.0515, -0.0093, 0.9828, 0.1849, -0.0514, -0.0097, 0.9814, 0.1885, -0.0514, -0.0099, 0.9807, 0.175, -0.0515, -0.0092, 0.9832 } },
+		{ name = "Joint49", parent = 48, rest = { 0, 0, 1, 0.1859, -0.0514, -0.0097, 0.9812 }, times = { 0, 26, 37, 43, 47, 51, 63, 69, 75, 87, 93, 99, 106, 142, 151, 165, 182, 192, 203, 224 }, stride = 4, track = { 0.1859, -0.0514, -0.0097, 0.9812, 0.2056, -0.0512, -0.0108, 0.9772, 0.2076, -0.0512, -0.0109, 0.9768, 0.2043, -0.0512, -0.0107, 0.9775, 0.1977, -0.0513, -0.0104, 0.9789, 0.1875, -0.0514, -0.0098, 0.9809, 0.1416, -0.0518, -0.0074, 0.9885, 0.1241, -0.0519, -0.0065, 0.9909, 0.1136, -0.052, -0.006, 0.9921, 0.1037, -0.0521, -0.0054, 0.9932, 0.0953, -0.0521, -0.005, 0.9941, 0.0809, -0.0522, -0.0042, 0.9954, 0.0549, -0.0523, -0.0029, 0.9971, 0.0834, -0.0522, -0.0044, 0.9951, 0.0931, -0.0521, -0.0049, 0.9943, 0.116, -0.052, -0.0061, 0.9919, 0.154, -0.0517, -0.0081, 0.9867, 0.1676, -0.0516, -0.0088, 0.9845, 0.1737, -0.0515, -0.0091, 0.9834, 0.1752, -0.0515, -0.0092, 0.9831 } },
+		{ name = "Joint50", parent = 49, rest = { 0, 0, 0.9, 0.2018, -0.0513, -0.0106, 0.978 }, times = { 0, 10, 19, 29, 40, 44, 49, 54, 62, 68, 75, 87, 94, 100, 106, 126, 148, 159, 168, 185, 198, 207 }, stride = 4, track = { 0.2018, -0.0513, -0.0106, 0.978, 0.2067, -0.0512, -0.0108, 0.977, 0.2074, -0.0512, -0.0109, 0.9768, 0.2039, -0.0512, -0.0107, 0.9776, 0.1958, -0.0513, -0.0103, 0.9793, 0.1896, -0.0514, -0.0099, 0.9805, 0.1776, -0.0515, -0.0093, 0.9827, 0.1611, -0.0517, -0.0084, 0.9856, 0.1295, -0.0519, -0.0068, 0.9902, 0.1132, -0.052, -0.0059, 0.9922, 0.1047, -0.052, -0.0055, 0.9931, 0.1048, -0.052, -0.0055, 0.9931, 0.1003, -0.0521, -0.0053, 0.9936, 0.089, -0.0521, -0.0047, 0.9947, 0.0695, -0.0522, -0.0036, 0.9962, 0.0846, -0.0521, -0.0044, 0.995, 0.0875, -0.0521, -0.0046, 0.9948, 0.0945, -0.0521, -0.005, 0.9942, 0.1069, -0.052, -0.0056, 0.9929, 0.1444, -0.0518, -0.0076, 0.9881, 0.1654, -0.0516, -0.0087, 0.9848, 0.1753, -0.0515, -0.0092, 0.9831 } },
+	},
+}
+]]></ProtectedString>
+      </Properties></Item>
     </Item>
   </Item>
 </roblox>

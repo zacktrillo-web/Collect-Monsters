@@ -121,6 +121,8 @@ function meshParts(mesh) {
 }
 
 // Returns { kind: 'model', name, pivot, children } where children are parts and nested joint models.
+// Joint names are unique within a monster so the animation script can find them by name.
+// Each joint node keeps `obj` (its blockout group) and the tree keeps `inst`, for baking animation.
 export function toRoblox(def, t = def.keys[0][0]) {
   const inst = def.build();
   inst.update(t);
@@ -128,6 +130,13 @@ export function toRoblox(def, t = def.keys[0][0]) {
 
   const names = new Map(def.palette.map(([n, c]) => [c.toLowerCase(), n]));
   const p = new THREE.Vector3(), q = new THREE.Quaternion(), s = new THREE.Vector3();
+  const used = new Set([robloxName(def.name)]);
+  const unique = (base) => {
+    let name = base;
+    for (let i = 2; used.has(name); i++) name = base + i;
+    used.add(name);
+    return name;
+  };
 
   function walk(obj, node) {
     for (const child of obj.children) {
@@ -140,14 +149,14 @@ export function toRoblox(def, t = def.keys[0][0]) {
         walk(child, node);
       } else {
         CONV.clone().multiply(child.matrixWorld).decompose(p, q, s);
-        const sub = { kind: 'model', name: child.name || 'Joint', pivot: cframe(p, q), children: [] };
+        const sub = { kind: 'model', name: unique(child.name || 'Joint'), pivot: cframe(p, q), children: [], obj: child };
         walk(child, sub);
         if (sub.children.length) node.children.push(sub);
       }
     }
   }
 
-  const tree = { kind: 'model', name: robloxName(def.name), pivot: [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1], children: [] };
+  const tree = { kind: 'model', name: robloxName(def.name), pivot: [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1], children: [], inst };
   walk(inst.root, tree);
   return tree;
 }
