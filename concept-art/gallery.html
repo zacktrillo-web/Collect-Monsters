@@ -1,0 +1,288 @@
+<title>Secret Tier Concepts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"
+} }
+</script>
+<style>
+  /* Layout: roster strip on top, then a 3D stage beside the spec column, then the full concept sheet. */
+  :root {
+    color-scheme: dark;
+    --ink: #0f0d14;
+    --panel: #17141f;
+    --raised: #1f1b29;
+    --line: #2c2738;
+    --fg: #ece8f4;
+    --muted: #a49db4;
+    --accent: #ff8a3c;
+    --on-accent: #120f16;
+    --display: 'Bebas Neue', 'Oswald', 'Arial Narrow', sans-serif;
+    --body: 'Barlow', 'Segoe UI', system-ui, sans-serif;
+    --mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body { margin: 0; background: var(--ink); color: var(--fg); font: 400 16px/1.5 var(--body); }
+  .wrap { max-width: 1320px; margin: 0 auto; padding-inline: clamp(16px, 3vw, 36px); padding-block: 28px 56px; display: grid; gap: 28px; }
+
+  header { display: grid; gap: 6px; }
+  .eyebrow { font: 600 12.5px/1 var(--body); letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+  h1 { margin: 0; font: 400 clamp(44px, 7vw, 76px)/.9 var(--display); letter-spacing: .01em; text-wrap: balance; }
+  header p { margin: 4px 0 0; max-width: 64ch; color: var(--muted); }
+
+  .roster { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 10px; }
+  .tile { all: unset; cursor: pointer; display: grid; gap: 6px; padding: 6px 6px 8px; border-radius: 8px; background: var(--panel); border: 1px solid var(--line); }
+  .tile img { display: block; width: 100%; aspect-ratio: 264 / 252; border-radius: 5px; object-fit: cover; }
+  .tile span { font: 600 12.5px/1.2 var(--body); color: var(--muted); padding-inline: 2px; }
+  .tile b { font: 500 11px/1 var(--mono); color: var(--muted); opacity: .7; margin-right: 4px; }
+  .tile:hover span { color: var(--fg); }
+  .tile:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .tile[aria-pressed="true"] { border-color: var(--accent); background: var(--raised); }
+  .tile[aria-pressed="true"] span { color: var(--fg); }
+
+  .main { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+  @media (max-width: 900px) { .main { grid-template-columns: minmax(0, 1fr); } }
+
+  .stage { position: relative; border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: var(--panel); }
+  .view { position: relative; aspect-ratio: 4 / 3.3; max-width: 100%; touch-action: none; cursor: grab; }
+  .view:active { cursor: grabbing; }
+  .view canvas, .view img.fallback { position: absolute; inset: 0; width: 100%; height: 100%; display: block; object-fit: cover; }
+  .tag { position: absolute; left: 18px; right: 120px; top: 16px; display: grid; gap: 2px; pointer-events: none; }
+  .tag small { font: 600 11.5px/1 var(--body); letter-spacing: .2em; text-transform: uppercase; color: var(--accent); }
+  .tag strong { font: 400 clamp(34px, 5vw, 54px)/.95 var(--display); color: #fff; text-shadow: 0 3px 20px rgba(0,0,0,.5); }
+  .hint { position: absolute; right: 14px; bottom: 12px; font: 500 12px/1 var(--body); color: rgba(255,255,255,.55); pointer-events: none; }
+
+  .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; padding: 12px 14px; border-top: 1px solid var(--line); background: var(--raised); }
+  .btn { all: unset; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; padding: 7px 12px; border-radius: 6px; font: 600 13px/1 var(--body); color: var(--fg); background: var(--panel); border: 1px solid var(--line); }
+  .btn:hover { border-color: var(--muted); }
+  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .btn.primary { background: var(--accent); color: var(--on-accent); border-color: transparent; min-width: 64px; justify-content: center; }
+  .reset { position: absolute; right: 12px; top: 12px; font-size: 12px; padding: 6px 10px; background: rgba(15, 13, 20, .6); }
+  .scrub { flex: 1 1 160px; min-width: 0; accent-color: var(--accent); }
+  .poses { display: flex; flex-wrap: wrap; gap: 6px; }
+  .poses .btn { font-size: 12.5px; padding: 6px 10px; }
+  .poses .btn b { font: 500 11px/1 var(--mono); color: var(--accent); }
+
+  .spec { display: grid; gap: 22px; min-width: 0; }
+  h2 { margin: 0 0 8px; font: 700 12px/1 var(--body); letter-spacing: .22em; text-transform: uppercase; color: var(--accent); }
+  .spec p { margin: 0; font-size: 17px; color: var(--fg); }
+  .swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(92px, 1fr)); gap: 10px; }
+  .sw i { display: block; height: 38px; border-radius: 6px; box-shadow: inset 0 0 0 1px rgba(255,255,255,.12); }
+  .sw b { display: block; margin-top: 5px; font: 600 12.5px/1.25 var(--body); color: var(--fg); }
+  .sw code { font: 500 11.5px/1.3 var(--mono); color: var(--muted); }
+  ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; }
+  li { color: var(--muted); }
+
+  .handoff { border: 1px solid var(--line); border-radius: 10px; background: var(--panel); overflow: hidden; }
+  .tabs { display: flex; border-bottom: 1px solid var(--line); }
+  .tabs button { all: unset; cursor: pointer; flex: 1; text-align: center; padding: 11px 8px; font: 600 13px/1 var(--body); color: var(--muted); border-bottom: 2px solid transparent; }
+  .tabs button[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent); }
+  .tabs button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+  .handoff pre { margin: 0; padding: 14px 16px; max-height: 260px; overflow: auto; white-space: pre-wrap; font: 500 12.5px/1.55 var(--mono); color: var(--fg); }
+  .handoff footer { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 14px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+
+  .sheet { display: grid; gap: 10px; }
+  .sheet img { display: block; width: 100%; border-radius: 10px; border: 1px solid var(--line); }
+  .sheet p { margin: 0; color: var(--muted); font-size: 14.5px; }
+
+  @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Collect Monsters &middot; Secret tier &middot; 15 monsters</span>
+    <h1>Secret Tier Concepts</h1>
+    <p>Blockout concepts for every secret monster, built from Roblox-style parts. Drag the model to orbit, press play to watch the signature move, and copy the brief to hand it to ChatGPT with the concept sheet.</p>
+  </header>
+
+  <nav class="roster" id="roster" aria-label="Secret monsters"></nav>
+
+  <section class="main">
+    <div class="stage">
+      <div class="view" id="view">
+        <img class="fallback" id="fallback" alt="">
+        <div class="tag"><small id="num"></small><strong id="name"></strong></div>
+        <span class="hint" id="hint">Drag to orbit &middot; scroll to zoom</span>
+        <button class="btn reset" id="reset" type="button">Reset view</button>
+      </div>
+      <div class="controls">
+        <button class="btn primary" id="play" type="button">Pause</button>
+        <input class="scrub" id="scrub" type="range" min="0" max="1000" value="0" aria-label="Animation position">
+        <div class="poses" id="poses"></div>
+      </div>
+    </div>
+
+    <div class="spec">
+      <section><h2>Appearance</h2><p id="appearance"></p></section>
+      <section><h2>Signature move</h2><p id="movement"></p></section>
+      <section><h2>Palette</h2><div class="swatches" id="palette"></div></section>
+      <section><h2>Build notes</h2><ul id="notes"></ul></section>
+      <section class="handoff">
+        <div class="tabs" role="tablist">
+          <button type="button" role="tab" id="tab-brief" aria-selected="true">ChatGPT modeling brief</button>
+          <button type="button" role="tab" id="tab-prompt" aria-selected="false">Higgsfield prompt</button>
+        </div>
+        <pre id="handoffText"></pre>
+        <footer><span id="handoffNote">Paste into ChatGPT with the concept sheet below.</span><button class="btn" id="copy" type="button">Copy</button></footer>
+      </section>
+    </div>
+  </section>
+
+  <section class="sheet">
+    <h2>Concept sheet</h2>
+    <img id="sheet" alt="">
+    <p>Hero view, signature-move key poses, front/side/back turnaround, palette and build notes on one 1920&times;1080 image.</p>
+  </section>
+</div>
+
+<script type="module">
+  import { monsters } from './src/monsters/index.js';
+  import { modelingBrief, higgsfieldPrompt } from './src/briefs.js';
+
+  const $ = (id) => document.getElementById(id);
+  const pad = (n) => String(n).padStart(2, '0');
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  let current = 0;
+  let t = 0;
+  let playing = !reduced;
+  let tab = 'brief';
+  let viewer = null;
+
+  // Roster
+  $('roster').innerHTML = monsters
+    .map((m, i) => `<button class="tile" type="button" data-i="${i}" aria-pressed="false"><img src="output/web/thumbs/${m.id}.webp" alt="" loading="lazy"><span><b>${pad(i + 1)}</b>${m.name}</span></button>`)
+    .join('');
+  $('roster').addEventListener('click', (e) => {
+    const b = e.target.closest('.tile');
+    if (b) select(Number(b.dataset.i));
+  });
+
+  function renderHandoff() {
+    const m = monsters[current];
+    $('handoffText').textContent = tab === 'brief' ? modelingBrief(m) : higgsfieldPrompt(m);
+    $('handoffNote').textContent = tab === 'brief'
+      ? 'Paste into ChatGPT with the concept sheet below.'
+      : 'Use in Higgsfield with the hero render as the image reference.';
+    $('tab-brief').setAttribute('aria-selected', tab === 'brief');
+    $('tab-prompt').setAttribute('aria-selected', tab === 'prompt');
+  }
+  $('tab-brief').onclick = () => { tab = 'brief'; renderHandoff(); };
+  $('tab-prompt').onclick = () => { tab = 'prompt'; renderHandoff(); };
+  $('copy').onclick = () => {
+    const text = $('handoffText').textContent;
+    const done = () => { $('copy').textContent = 'Copied'; setTimeout(() => ($('copy').textContent = 'Copy'), 1500); };
+    const selectText = () => {
+      const r = document.createRange();
+      r.selectNodeContents($('handoffText'));
+      const s = getSelection();
+      s.removeAllRanges();
+      s.addRange(r);
+      $('copy').textContent = 'Selected - press Ctrl+C';
+    };
+    try {
+      navigator.clipboard.writeText(text).then(done, selectText);
+    } catch {
+      selectText();
+    }
+  };
+
+  function setPlaying(p) {
+    playing = p;
+    $('play').textContent = p ? 'Pause' : 'Play';
+  }
+  $('play').onclick = () => setPlaying(!playing);
+  $('scrub').oninput = (e) => { setPlaying(false); t = e.target.value / 1000; };
+  $('reset').onclick = () => viewer && viewer.frame();
+
+  function select(i) {
+    current = i;
+    const m = monsters[i];
+    document.documentElement.style.setProperty('--accent', m.rim);
+    for (const b of document.querySelectorAll('.tile')) b.setAttribute('aria-pressed', Number(b.dataset.i) === i);
+    $('num').textContent = `Secret ${pad(i + 1)} / ${monsters.length}`;
+    $('name').textContent = m.name;
+    $('appearance').textContent = m.appearance;
+    $('movement').textContent = m.movement;
+    $('palette').innerHTML = m.palette.map(([n, c]) => `<div class="sw"><i style="background:${c}"></i><b>${n}</b><code>${c}</code></div>`).join('');
+    $('notes').innerHTML = m.notes.map((n) => `<li>${n}</li>`).join('');
+    $('poses').innerHTML = m.keys.map(([kt, label], k) => `<button class="btn" type="button" data-t="${kt}"><b>${k + 1}</b>${label}</button>`).join('');
+    $('sheet').src = `output/web/sheets/${m.id}.jpg`;
+    $('sheet').alt = `${m.name} concept sheet`;
+    $('fallback').src = `output/web/thumbs/${m.id}.webp`;
+    renderHandoff();
+    t = m.keys[0][0];
+    $('scrub').value = Math.round(t * 1000);
+    if (viewer) viewer.load(m);
+    if (location.hash.slice(1) !== m.id) history.replaceState(null, '', `#${m.id}`);
+  }
+  $('poses').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-t]');
+    if (!b) return;
+    setPlaying(false);
+    t = Number(b.dataset.t);
+    $('scrub').value = Math.round(t * 1000);
+  });
+
+  const start = monsters.findIndex((m) => m.id === location.hash.slice(1));
+  select(start >= 0 ? start : 0);
+  setPlaying(playing);
+
+  // 3D viewer (falls back to the still render if WebGL is unavailable)
+  try {
+    const [{ createStage }, { OrbitControls }] = await Promise.all([
+      import('./src/stage.js'),
+      import('three/addons/controls/OrbitControls.js'),
+    ]);
+    const view = $('view');
+    const canvas = document.createElement('canvas');
+    view.prepend(canvas);
+    const box = view.getBoundingClientRect();
+    const stage = createStage(canvas, { width: box.width, height: box.height, pixelRatio: Math.min(devicePixelRatio, 2) });
+    const controls = new OrbitControls(stage.camera, canvas);
+    controls.enableDamping = true;
+    controls.enablePan = false;
+
+    viewer = {
+      load(m) {
+        stage.setMonster(m);
+        this.frame();
+      },
+      frame() {
+        const m = monsters[current];
+        const center = stage.frame({ az: -32, el: 12, margin: 0.82, ...m.hero });
+        controls.target.copy(center);
+        controls.update();
+      },
+    };
+    viewer.load(monsters[current]);
+    $('fallback').hidden = true;
+
+    new ResizeObserver(([entry]) => {
+      const { width, height } = entry.contentRect;
+      if (width && height) stage.resize(width, height);
+    }).observe(view);
+
+    let last = performance.now();
+    const loop = (now) => {
+      const dt = (now - last) / 1000;
+      last = now;
+      if (playing) {
+        t = (t + dt / (monsters[current].period || 3.6)) % 1;
+        $('scrub').value = Math.round(t * 1000);
+      }
+      controls.update();
+      stage.render(t);
+      requestAnimationFrame(loop);
+    };
+    requestAnimationFrame(loop);
+  } catch (err) {
+    $('hint').textContent = '3D preview unavailable, showing the still render';
+    setPlaying(false);
+    console.error(err);
+  }
+</script>

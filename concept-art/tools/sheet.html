@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Concept Sheet</title>
+<script type="importmap">
+{ "imports": {
+  "three": "/node_modules/three/build/three.module.js",
+  "three/addons/": "/node_modules/three/examples/jsm/"
+} }
+</script>
+<style>
+  @font-face { font-family: 'Bebas Neue'; src: url(/node_modules/@fontsource/bebas-neue/files/bebas-neue-latin-400-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 400; src: url(/node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 600; src: url(/node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2) format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 700; src: url(/node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2) format('woff2'); }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: #0b0a0f; font-family: Inter, sans-serif; }
+  #sheet { width: 1920px; height: 1080px; display: grid; grid-template-columns: 1160px 760px; background: #121118; color: #ebe8f2; overflow: hidden; }
+  .hero { position: relative; }
+  .hero img { display: block; width: 1160px; height: 1080px; }
+  .hero .top { position: absolute; top: 34px; left: 40px; right: 40px; display: flex; justify-content: space-between; font-size: 15px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: rgba(255,255,255,.72); }
+  .hero .badge { color: #120f16; background: var(--accent); padding: 6px 12px 5px; border-radius: 4px; letter-spacing: .2em; }
+  .hero .title { position: absolute; left: 40px; bottom: 30px; font-family: 'Bebas Neue', sans-serif; font-size: 132px; line-height: .86; color: #fff; text-shadow: 0 4px 30px rgba(0,0,0,.55); }
+  .hero .title small { display: block; font-family: Inter, sans-serif; font-size: 15px; font-weight: 600; letter-spacing: .22em; color: var(--accent); text-shadow: none; margin-bottom: 14px; }
+  .panel { padding: 40px 46px 34px; display: flex; flex-direction: column; gap: 26px; border-left: 4px solid var(--accent); }
+  h2 { font-size: 13px; font-weight: 700; letter-spacing: .24em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+  p { font-size: 17.5px; line-height: 1.5; color: #ddd9e6; }
+  .frames { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 14px; }
+  .frame { position: relative; }
+  .frame img { display: block; width: 100%; height: 176px; object-fit: cover; border-radius: 6px; }
+  .frame span { position: absolute; left: 8px; top: 8px; font-size: 11.5px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; background: rgba(10,8,14,.72); color: #fff; padding: 4px 8px; border-radius: 3px; }
+  .frames.move .frame:not(:last-child)::after { content: '›'; position: absolute; right: -13px; top: 50%; transform: translate(50%, -50%); font-size: 30px; font-weight: 700; color: var(--accent); z-index: 1; }
+  .swatches { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+  .sw i { display: block; height: 44px; border-radius: 5px; box-shadow: inset 0 0 0 1px rgba(255,255,255,.14); }
+  .sw b { display: block; font-size: 11.5px; font-weight: 600; color: #cfcad9; margin-top: 6px; line-height: 1.25; }
+  .sw code { font-size: 11px; color: #8f899c; font-family: 'DejaVu Sans Mono', monospace; }
+  ul { padding-left: 18px; }
+  li { font-size: 15.5px; line-height: 1.45; color: #cfcad9; margin-bottom: 5px; }
+</style>
+</head>
+<body>
+<div id="sheet">
+  <div class="hero">
+    <img id="hero">
+    <div class="top"><span>Collect Monsters · Concept</span><span class="badge" id="badge">Secret</span></div>
+    <div class="title"><small id="num"></small><span id="name"></span></div>
+  </div>
+  <div class="panel">
+    <section><h2>Appearance</h2><p id="appearance"></p></section>
+    <section><h2>Signature Move</h2><p id="movement"></p><div class="frames move" id="keys"></div></section>
+    <section><h2>Turnaround</h2><div class="frames" id="turn"></div></section>
+    <section><h2>Palette</h2><div class="swatches" id="palette"></div></section>
+    <section><h2>Build Notes</h2><ul id="notes"></ul></section>
+  </div>
+</div>
+<script type="module" src="./sheet.js"></script>
+</body>
+</html>
