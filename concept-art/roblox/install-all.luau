@@ -28,7 +28,8 @@ end)
 
 for _, id in MONSTERS do
 	local ok, err = pcall(function()
-		local source = HttpService:GetAsync(BASE .. id .. ".luau", true)
+		-- The query string skips GitHub's few-minute cache, so a fresh push is picked up right away.
+		local source = HttpService:GetAsync(BASE .. id .. ".luau?v=" .. os.time(), true)
 		local build = loadstring and loadstring(source)
 		if build then
 			build()
