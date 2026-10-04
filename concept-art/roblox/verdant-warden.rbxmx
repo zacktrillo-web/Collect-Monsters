@@ -1,0 +1,1607 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+  <Item class="Model" referent="RBX0"><Properties>
+    <string name="Name">VerdantWarden</string>
+    <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CFrame></OptionalCoordinateFrame>
+  </Properties>
+    <Item class="Model" referent="RBX1"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>3.317</Y><Z>0</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX2"><Properties>
+        <string name="Name">Old bark</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>3.317</Y><Z>0.4</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>3.2</X><Y>2.6</Y><Z>6.6</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX3"><Properties>
+        <string name="Name">Heartwood</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>1.867</Y><Z>0.4</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>2.6</X><Y>0.5</Y><Z>6</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX4"><Properties>
+        <string name="Name">Heartwood</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>3.717</Y><Z>2.6</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>3.4</X><Y>0.35</Y><Z>0.5</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX5"><Properties>
+        <string name="Name">Heartwood</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>3.717</Y><Z>0.9</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>3.4</X><Y>0.35</Y><Z>0.5</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX6"><Properties>
+        <string name="Name">Heartwood</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>3.717</Y><Z>-0.8</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>3.4</X><Y>0.35</Y><Z>0.5</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Model" referent="RBX7"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>3.417</Y><Z>-2.9</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX8"><Properties>
+          <string name="Name">Old bark</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0</X><Y>4.667</Y><Z>-2.9</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>3.6</X><Y>0.8</Y><Z>1.4</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX9"><Properties>
+          <string name="Name">Old bark</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0</X><Y>2.267</Y><Z>-2.9</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>3.4</X><Y>0.7</Y><Z>1.4</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX10"><Properties>
+          <string name="Name">Old bark</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.38</X><Y>3.467</Y><Z>-2.9</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.85</X><Y>2.4</Y><Z>1.4</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX11"><Properties>
+          <string name="Name">Old bark</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.38</X><Y>3.467</Y><Z>-2.9</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.85</X><Y>2.4</Y><Z>1.4</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX12"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0</X><Y>3.467</Y><Z>-2.35</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4279504136</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>2</X><Y>1.75</Y><Z>0.3</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX13"><Properties>
+          <string name="Name">Spirit moss</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.5</X><Y>2.917</Y><Z>-2.65</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4288668522</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.22</X><Y>0.22</Y><Z>0.22</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX14"><Properties>
+          <string name="Name">Spirit moss</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.35</X><Y>2.817</Y><Z>-2.65</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4288668522</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.22</X><Y>0.22</Y><Z>0.22</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX15"><Properties>
+          <string name="Name">Spirit moss</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.1</X><Y>3.217</Y><Z>-2.65</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4288668522</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.22</X><Y>0.22</Y><Z>0.22</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX16"><Properties>
+          <string name="Name">Spirit moss</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.2</X><Y>3.767</Y><Z>-2.65</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4288668522</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.22</X><Y>0.22</Y><Z>0.22</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX17"><Properties>
+          <string name="Name">Spirit moss</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.55</X><Y>3.717</Y><Z>-2.65</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4288668522</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.22</X><Y>0.22</Y><Z>0.22</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX18"><Properties>
+          <string name="Name">Heartwood</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0</X><Y>5.117</Y><Z>-2.9</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>3.8</X><Y>0.25</Y><Z>1.5</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+      </Item>
+      <Item class="Part" referent="RBX19"><Properties>
+        <string name="Name">Part</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.95</X><Y>4.867</Y><Z>-2.2</Z><R00>-0.9272</R00><R01>0.3746</R01><R02>0</R02><R10>0.3635</R10><R11>0.8996</R11><R12>0.2419</R12><R20>0.0906</R20><R21>0.2243</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4281295920</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>0.22</Y><Z>1.5</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX20"><Properties>
+        <string name="Name">New growth</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.75</X><Y>5.067</Y><Z>-1.95</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.2998</R10><R11>0.9228</R11><R12>0.2419</R12><R20>0.0748</R20><R21>0.2301</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.3</X><Y>0.2</Y><Z>1.1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX21"><Properties>
+        <string name="Name">Part</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.95</X><Y>4.867</Y><Z>-2.2</Z><R00>-0.9272</R00><R01>-0.3746</R01><R02>0</R02><R10>-0.3635</R10><R11>0.8996</R11><R12>0.2419</R12><R20>-0.0906</R20><R21>0.2243</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4281295920</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>0.22</Y><Z>1.5</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX22"><Properties>
+        <string name="Name">New growth</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.75</X><Y>5.067</Y><Z>-1.95</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.2998</R10><R11>0.9228</R11><R12>0.2419</R12><R20>-0.0748</R20><R21>0.2301</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.3</X><Y>0.2</Y><Z>1.1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX23"><Properties>
+        <string name="Name">Leaf plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.95</X><Y>4.827</Y><Z>-1.2</Z><R00>-0.9272</R00><R01>0.3746</R01><R02>0</R02><R10>0.3635</R10><R11>0.8996</R11><R12>0.2419</R12><R20>0.0906</R20><R21>0.2243</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283406911</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>0.22</Y><Z>1.5</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX24"><Properties>
+        <string name="Name">New growth</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.75</X><Y>5.027</Y><Z>-0.95</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.2998</R10><R11>0.9228</R11><R12>0.2419</R12><R20>0.0748</R20><R21>0.2301</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.3</X><Y>0.2</Y><Z>1.1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX25"><Properties>
+        <string name="Name">Leaf plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.95</X><Y>4.827</Y><Z>-1.2</Z><R00>-0.9272</R00><R01>-0.3746</R01><R02>0</R02><R10>-0.3635</R10><R11>0.8996</R11><R12>0.2419</R12><R20>-0.0906</R20><R21>0.2243</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283406911</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>0.22</Y><Z>1.5</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX26"><Properties>
+        <string name="Name">New growth</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.75</X><Y>5.027</Y><Z>-0.95</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.2998</R10><R11>0.9228</R11><R12>0.2419</R12><R20>-0.0748</R20><R21>0.2301</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.3</X><Y>0.2</Y><Z>1.1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX27"><Properties>
+        <string name="Name">Part</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.95</X><Y>4.787</Y><Z>-0.2</Z><R00>-0.9272</R00><R01>0.3746</R01><R02>0</R02><R10>0.3635</R10><R11>0.8996</R11><R12>0.2419</R12><R20>0.0906</R20><R21>0.2243</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4281295920</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>0.22</Y><Z>1.5</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX28"><Properties>
+        <string name="Name">New growth</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.75</X><Y>4.987</Y><Z>0.05</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.2998</R10><R11>0.9228</R11><R12>0.2419</R12><R20>0.0748</R20><R21>0.2301</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.3</X><Y>0.2</Y><Z>1.1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX29"><Properties>
+        <string name="Name">Part</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.95</X><Y>4.787</Y><Z>-0.2</Z><R00>-0.9272</R00><R01>-0.3746</R01><R02>0</R02><R10>-0.3635</R10><R11>0.8996</R11><R12>0.2419</R12><R20>-0.0906</R20><R21>0.2243</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4281295920</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>0.22</Y><Z>1.5</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX30"><Properties>
+        <string name="Name">New growth</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.75</X><Y>4.987</Y><Z>0.05</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.2998</R10><R11>0.9228</R11><R12>0.2419</R12><R20>-0.0748</R20><R21>0.2301</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.3</X><Y>0.2</Y><Z>1.1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX31"><Properties>
+        <string name="Name">Leaf plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.95</X><Y>4.747</Y><Z>0.8</Z><R00>-0.9272</R00><R01>0.3746</R01><R02>0</R02><R10>0.3635</R10><R11>0.8996</R11><R12>0.2419</R12><R20>0.0906</R20><R21>0.2243</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283406911</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>0.22</Y><Z>1.5</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX32"><Properties>
+        <string name="Name">New growth</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.75</X><Y>4.947</Y><Z>1.05</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.2998</R10><R11>0.9228</R11><R12>0.2419</R12><R20>0.0748</R20><R21>0.2301</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.3</X><Y>0.2</Y><Z>1.1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX33"><Properties>
+        <string name="Name">Leaf plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.95</X><Y>4.747</Y><Z>0.8</Z><R00>-0.9272</R00><R01>-0.3746</R01><R02>0</R02><R10>-0.3635</R10><R11>0.8996</R11><R12>0.2419</R12><R20>-0.0906</R20><R21>0.2243</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283406911</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>0.22</Y><Z>1.5</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX34"><Properties>
+        <string name="Name">New growth</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.75</X><Y>4.947</Y><Z>1.05</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.2998</R10><R11>0.9228</R11><R12>0.2419</R12><R20>-0.0748</R20><R21>0.2301</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.3</X><Y>0.2</Y><Z>1.1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX35"><Properties>
+        <string name="Name">Part</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.95</X><Y>4.707</Y><Z>1.8</Z><R00>-0.9272</R00><R01>0.3746</R01><R02>0</R02><R10>0.3635</R10><R11>0.8996</R11><R12>0.2419</R12><R20>0.0906</R20><R21>0.2243</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4281295920</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>0.22</Y><Z>1.5</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX36"><Properties>
+        <string name="Name">New growth</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.75</X><Y>4.907</Y><Z>2.05</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.2998</R10><R11>0.9228</R11><R12>0.2419</R12><R20>0.0748</R20><R21>0.2301</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.3</X><Y>0.2</Y><Z>1.1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX37"><Properties>
+        <string name="Name">Part</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.95</X><Y>4.707</Y><Z>1.8</Z><R00>-0.9272</R00><R01>-0.3746</R01><R02>0</R02><R10>-0.3635</R10><R11>0.8996</R11><R12>0.2419</R12><R20>-0.0906</R20><R21>0.2243</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4281295920</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>0.22</Y><Z>1.5</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX38"><Properties>
+        <string name="Name">New growth</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.75</X><Y>4.907</Y><Z>2.05</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.2998</R10><R11>0.9228</R11><R12>0.2419</R12><R20>-0.0748</R20><R21>0.2301</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.3</X><Y>0.2</Y><Z>1.1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX39"><Properties>
+        <string name="Name">Leaf plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.95</X><Y>4.667</Y><Z>2.8</Z><R00>-0.9272</R00><R01>0.3746</R01><R02>0</R02><R10>0.3635</R10><R11>0.8996</R11><R12>0.2419</R12><R20>0.0906</R20><R21>0.2243</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283406911</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>0.22</Y><Z>1.5</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX40"><Properties>
+        <string name="Name">New growth</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.75</X><Y>4.867</Y><Z>3.05</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.2998</R10><R11>0.9228</R11><R12>0.2419</R12><R20>0.0748</R20><R21>0.2301</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.3</X><Y>0.2</Y><Z>1.1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX41"><Properties>
+        <string name="Name">Leaf plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.95</X><Y>4.667</Y><Z>2.8</Z><R00>-0.9272</R00><R01>-0.3746</R01><R02>0</R02><R10>-0.3635</R10><R11>0.8996</R11><R12>0.2419</R12><R20>-0.0906</R20><R21>0.2243</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283406911</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>0.22</Y><Z>1.5</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX42"><Properties>
+        <string name="Name">New growth</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.75</X><Y>4.867</Y><Z>3.05</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.2998</R10><R11>0.9228</R11><R12>0.2419</R12><R20>-0.0748</R20><R21>0.2301</R21><R22>-0.9703</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.3</X><Y>0.2</Y><Z>1.1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX43"><Properties>
+        <string name="Name">Part</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>3.917</Y><Z>4</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9397</R11><R12>-0.342</R12><R20>0</R20><R21>-0.342</R21><R22>-0.9397</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4281295920</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.4</X><Y>0.9</Y><Z>1.4</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX44"><Properties>
+        <string name="Name">Leaf plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>4.217</Y><Z>4.6</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.8192</R11><R12>-0.5736</R12><R20>0</R20><R21>-0.5736</R21><R22>-0.8192</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283406911</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.9</X><Y>0.7</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Model" referent="RBX45"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>5.017</Y><Z>-3.3</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX46"><Properties>
+          <string name="Name">Old bark</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0</X><Y>5.317</Y><Z>-3.7</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9063</R11><R12>0.4226</R12><R20>0</R20><R21>0.4226</R21><R22>-0.9063</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1.5</X><Y>1.8</Y><Z>1.6</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Model" referent="RBX47"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>6.117</Y><Z>-4.8</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX48"><Properties>
+            <string name="Name">Old bark</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>0</X><Y>6.117</Y><Z>-4.8</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>1.9</X><Y>1.5</Y><Z>1.9</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX49"><Properties>
+            <string name="Name">Heartwood</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>0</X><Y>5.817</Y><Z>-6.2</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>1.3</X><Y>0.95</Y><Z>1.4</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX50"><Properties>
+            <string name="Name">Part</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>0</X><Y>5.967</Y><Z>-6.85</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4279504136</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.9</X><Y>0.35</Y><Z>0.4</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX51"><Properties>
+            <string name="Name">Glow</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>0.55</X><Y>6.367</Y><Z>-5.77</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4293459834</Color3uint8>
+            <token name="Material">288</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.36</X><Y>0.3</Y><Z>0.1</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX52"><Properties>
+            <string name="Name">Part</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>1.1</X><Y>6.467</Y><Z>-4.8</Z><R00>-0.866</R00><R01>-0.5</R01><R02>0</R02><R10>-0.5</R10><R11>0.866</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4281295920</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.55</X><Y>0.22</Y><Z>0.6</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX53"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.55</X><Y>6.867</Y><Z>-4.6</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX54"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>0.7842</X><Y>7.2554</Y><Z>-4.5174</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.42</X><Y>0.9</Y><Z>0.42</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX55"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>1.526</X><Y>7.4311</Y><Z>-4.4801</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.5</X><Y>0.42</Y><Z>0.42</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX56"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>2.2511</X><Y>7.7148</Y><Z>-4.4198</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.4</X><Y>0.9</Y><Z>0.4</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX57"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>2.9929</X><Y>7.8905</Y><Z>-4.3825</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.4</X><Y>0.38</Y><Z>0.38</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX58"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>3.6396</X><Y>8.0963</Y><Z>-4.3387</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.36</X><Y>0.8</Y><Z>0.36</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX59"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>1.4903</X><Y>8.0086</Y><Z>-4.6129</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.34</X><Y>0.75</Y><Z>0.34</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX60"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>2.8466</X><Y>8.3894</Y><Z>-4.2253</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.34</X><Y>0.55</Y><Z>0.34</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX61"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>2.3807</X><Y>7.4072</Y><Z>-4.9452</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.75</X><Y>0.3</Y><Z>0.3</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX62"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>3.8013</X><Y>7.6335</Y><Z>-4.4371</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.6</X><Y>0.3</Y><Z>0.3</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX63"><Properties>
+              <string name="Name">New growth</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>3.7786</X><Y>8.515</Y><Z>-4.2497</Z><R00>-0.6725</R00><R01>0.309</R01><R02>-0.6725</R02><R10>0.0667</R10><R11>0.9303</R11><R12>0.3607</R12><R20>0.7371</R20><R21>0.1977</R21><R22>-0.6462</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.36</X><Y>0.26</Y><Z>0.36</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX64"><Properties>
+              <string name="Name">New growth</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>2.9548</X><Y>8.715</Y><Z>-4.1561</Z><R00>-0.6725</R00><R01>0.309</R01><R02>-0.6725</R02><R10>0.0667</R10><R11>0.9303</R11><R12>0.3607</R12><R20>0.7371</R20><R21>0.1977</R21><R22>-0.6462</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.36</X><Y>0.26</Y><Z>0.36</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX65"><Properties>
+              <string name="Name">New growth</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>1.6139</X><Y>8.3807</Y><Z>-4.5338</Z><R00>-0.6725</R00><R01>0.309</R01><R02>-0.6725</R02><R10>0.0667</R10><R11>0.9303</R11><R12>0.3607</R12><R20>0.7371</R20><R21>0.1977</R21><R22>-0.6462</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.36</X><Y>0.26</Y><Z>0.36</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX66"><Properties>
+              <string name="Name">New growth</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>4.0866</X><Y>7.5429</Y><Z>-4.4563</Z><R00>-0.6725</R00><R01>0.309</R01><R02>-0.6725</R02><R10>0.0667</R10><R11>0.9303</R11><R12>0.3607</R12><R20>0.7371</R20><R21>0.1977</R21><R22>-0.6462</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.36</X><Y>0.26</Y><Z>0.36</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+          </Item>
+          <Item class="Part" referent="RBX67"><Properties>
+            <string name="Name">Glow</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-0.55</X><Y>6.367</Y><Z>-5.77</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4293459834</Color3uint8>
+            <token name="Material">288</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.36</X><Y>0.3</Y><Z>0.1</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX68"><Properties>
+            <string name="Name">Part</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-1.1</X><Y>6.467</Y><Z>-4.8</Z><R00>-0.866</R00><R01>0.5</R01><R02>0</R02><R10>0.5</R10><R11>0.866</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4281295920</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.55</X><Y>0.22</Y><Z>0.6</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX69"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.55</X><Y>6.867</Y><Z>-4.6</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>-0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX70"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-0.7842</X><Y>7.2554</Y><Z>-4.5174</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>-0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.42</X><Y>0.9</Y><Z>0.42</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX71"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-1.526</X><Y>7.4311</Y><Z>-4.4801</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>-0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.5</X><Y>0.42</Y><Z>0.42</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX72"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-2.2511</X><Y>7.7148</Y><Z>-4.4198</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>-0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.4</X><Y>0.9</Y><Z>0.4</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX73"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-2.9929</X><Y>7.8905</Y><Z>-4.3825</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>-0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.4</X><Y>0.38</Y><Z>0.38</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX74"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-3.6396</X><Y>8.0963</Y><Z>-4.3387</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>-0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.36</X><Y>0.8</Y><Z>0.36</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX75"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-1.4903</X><Y>8.0086</Y><Z>-4.6129</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>-0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.34</X><Y>0.75</Y><Z>0.34</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX76"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-2.8466</X><Y>8.3894</Y><Z>-4.2253</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>-0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.34</X><Y>0.55</Y><Z>0.34</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX77"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-2.3807</X><Y>7.4072</Y><Z>-4.9452</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>-0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.75</X><Y>0.3</Y><Z>0.3</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX78"><Properties>
+              <string name="Name">Antler bone</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-3.8013</X><Y>7.6335</Y><Z>-4.4371</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.3023</R10><R11>0.9303</R11><R12>0.2079</R12><R20>-0.0642</R20><R21>0.1977</R21><R22>-0.9781</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4291409290</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.6</X><Y>0.3</Y><Z>0.3</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX79"><Properties>
+              <string name="Name">New growth</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-3.7786</X><Y>8.515</Y><Z>-4.2497</Z><R00>-0.6725</R00><R01>-0.309</R01><R02>-0.6725</R02><R10>-0.3607</R10><R11>0.9303</R11><R12>-0.0667</R12><R20>0.6462</R20><R21>0.1977</R21><R22>-0.7371</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.36</X><Y>0.26</Y><Z>0.36</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX80"><Properties>
+              <string name="Name">New growth</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-2.9548</X><Y>8.715</Y><Z>-4.1561</Z><R00>-0.6725</R00><R01>-0.309</R01><R02>-0.6725</R02><R10>-0.3607</R10><R11>0.9303</R11><R12>-0.0667</R12><R20>0.6462</R20><R21>0.1977</R21><R22>-0.7371</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.36</X><Y>0.26</Y><Z>0.36</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX81"><Properties>
+              <string name="Name">New growth</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-1.6139</X><Y>8.3807</Y><Z>-4.5338</Z><R00>-0.6725</R00><R01>-0.309</R01><R02>-0.6725</R02><R10>-0.3607</R10><R11>0.9303</R11><R12>-0.0667</R12><R20>0.6462</R20><R21>0.1977</R21><R22>-0.7371</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.36</X><Y>0.26</Y><Z>0.36</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX82"><Properties>
+              <string name="Name">New growth</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-4.0866</X><Y>7.5429</Y><Z>-4.4563</Z><R00>-0.6725</R00><R01>-0.309</R01><R02>-0.6725</R02><R10>-0.3607</R10><R11>0.9303</R11><R12>-0.0667</R12><R20>0.6462</R20><R21>0.1977</R21><R22>-0.7371</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4286366801</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.36</X><Y>0.26</Y><Z>0.36</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item class="Model" referent="RBX83"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.75</X><Y>2.717</Y><Z>-2.2</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>-0.1836</R12><R20>0</R20><R21>-0.1836</R21><R22>-0.983</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX84"><Properties>
+          <string name="Name">Old bark</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.75</X><Y>2.2255</Y><Z>-2.1082</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>-0.1836</R12><R20>0</R20><R21>-0.1836</R21><R22>-0.983</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1.2</X><Y>1.6</Y><Z>1.2</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Model" referent="RBX85"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.75</X><Y>1.4391</Y><Z>-1.9613</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.8558</R11><R12>-0.5173</R12><R20>0</R20><R21>-0.5173</R21><R22>-0.8558</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX86"><Properties>
+            <string name="Name">Heartwood</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>1.75</X><Y>0.9684</Y><Z>-1.6768</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.8558</R11><R12>-0.5173</R12><R20>0</R20><R21>-0.5173</R21><R22>-0.8558</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>1.08</X><Y>1.3</Y><Z>1.08</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX87"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.75</X><Y>0.4122</Y><Z>-1.3405</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX88"><Properties>
+              <string name="Name">Old bark</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>1.75</X><Y>0.4122</Y><Z>-1.3405</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.32</X><Y>0.35</Y><Z>1.32</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Model" referent="RBX89"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.23</X><Y>0.3622</Y><Z>-1.9405</Z><R00>-0.9613</R00><R01>0</R01><R02>0.2756</R02><R10>-0.1228</R10><R11>0.8953</R11><R12>-0.4282</R12><R20>-0.2468</R20><R21>-0.4454</R21><R22>-0.8606</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX90"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>2.3127</X><Y>0.2158</Y><Z>-2.1898</Z><R00>-0.9613</R00><R01>0</R01><R02>0.2756</R02><R10>-0.1228</R10><R11>0.8953</R11><R12>-0.4282</R12><R20>-0.2468</R20><R21>-0.4454</R21><R22>-0.8606</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX91"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.4009</X><Y>0.0967</Y><Z>-2.4741</Z><R00>-0.9613</R00><R01>0.1814</R01><R02>0.2076</R02><R10>-0.1228</R10><R11>0.3925</R11><R12>-0.9115</R12><R20>-0.2468</R20><R21>-0.9017</R21><R22>-0.355</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX92"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>2.4274</X><Y>-0.0909</Y><Z>-2.4839</Z><R00>-0.9613</R00><R01>0.2206</R01><R02>0.1653</R02><R10>-0.1228</R10><R11>0.1944</R11><R12>-0.9732</R12><R20>-0.2468</R20><R21>-0.9558</R21><R22>-0.1598</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+            <Item class="Model" referent="RBX93"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.75</X><Y>0.3622</Y><Z>-1.9405</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.8953</R11><R12>-0.4454</R12><R20>0</R20><R21>-0.4454</R21><R22>-0.8953</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX94"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>1.75</X><Y>0.2106</Y><Z>-2.2002</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.8953</R11><R12>-0.4454</R12><R20>0</R20><R21>-0.4454</R21><R22>-0.8953</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX95"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.75</X><Y>0.086</Y><Z>-2.4956</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.3811</R11><R12>-0.9245</R12><R20>0</R20><R21>-0.9245</R21><R22>-0.3811</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX96"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>1.75</X><Y>-0.1033</Y><Z>-2.5088</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.1806</R11><R12>-0.9836</R12><R20>0</R20><R21>-0.9836</R21><R22>-0.1806</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+            <Item class="Model" referent="RBX97"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.27</X><Y>0.3622</Y><Z>-1.9405</Z><R00>-0.9613</R00><R01>0</R01><R02>-0.2756</R02><R10>0.1228</R10><R11>0.8953</R11><R12>-0.4282</R12><R20>0.2468</R20><R21>-0.4454</R21><R22>-0.8606</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX98"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>1.1873</X><Y>0.2158</Y><Z>-2.1898</Z><R00>-0.9613</R00><R01>0</R01><R02>-0.2756</R02><R10>0.1228</R10><R11>0.8953</R11><R12>-0.4282</R12><R20>0.2468</R20><R21>-0.4454</R21><R22>-0.8606</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX99"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.0991</X><Y>0.0967</Y><Z>-2.4741</Z><R00>-0.9613</R00><R01>-0.1814</R01><R02>-0.2076</R02><R10>0.1228</R10><R11>0.3925</R11><R12>-0.9115</R12><R20>0.2468</R20><R21>-0.9017</R21><R22>-0.355</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX100"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>1.0726</X><Y>-0.0909</Y><Z>-2.4839</Z><R00>-0.9613</R00><R01>-0.2206</R01><R02>-0.1653</R02><R10>0.1228</R10><R11>0.1944</R11><R12>-0.9732</R12><R20>0.2468</R20><R21>-0.9558</R21><R22>-0.1598</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item class="Model" referent="RBX101"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.75</X><Y>2.717</Y><Z>-2.2</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>0.1836</R12><R20>0</R20><R21>0.1836</R21><R22>-0.983</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX102"><Properties>
+          <string name="Name">Old bark</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.75</X><Y>2.2255</Y><Z>-2.2918</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>0.1836</R12><R20>0</R20><R21>0.1836</R21><R22>-0.983</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1.2</X><Y>1.6</Y><Z>1.2</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Model" referent="RBX103"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.75</X><Y>1.4391</Y><Z>-2.4387</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>0.1836</R12><R20>0</R20><R21>0.1836</R21><R22>-0.983</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX104"><Properties>
+            <string name="Name">Heartwood</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-1.75</X><Y>0.8985</Y><Z>-2.5397</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>0.1836</R12><R20>0</R20><R21>0.1836</R21><R22>-0.983</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>1.08</X><Y>1.3</Y><Z>1.08</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX105"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.75</X><Y>0.2595</Y><Z>-2.659</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX106"><Properties>
+              <string name="Name">Old bark</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-1.75</X><Y>0.2595</Y><Z>-2.659</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.32</X><Y>0.35</Y><Z>1.32</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Model" referent="RBX107"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.27</X><Y>0.2095</Y><Z>-3.259</Z><R00>-0.9613</R00><R01>0</R01><R02>0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-0.2756</R20><R21>0</R21><R22>-0.9613</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX108"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-1.1873</X><Y>0.1895</Y><Z>-3.5474</Z><R00>-0.9613</R00><R01>0</R01><R02>0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-0.2756</R20><R21>0</R21><R22>-0.9613</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX109"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.0991</X><Y>0.2095</Y><Z>-3.855</Z><R00>-0.9613</R00><R01>0</R01><R02>0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-0.2756</R20><R21>0</R21><R22>-0.9613</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX110"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-1.0495</X><Y>0.1495</Y><Z>-4.028</Z><R00>-0.9613</R00><R01>0.0573</R01><R02>0.2696</R02><R10>0</R10><R11>0.9781</R11><R12>-0.2079</R12><R20>-0.2756</R20><R21>-0.1999</R21><R22>-0.9403</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+            <Item class="Model" referent="RBX111"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.75</X><Y>0.2095</Y><Z>-3.259</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX112"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-1.75</X><Y>0.1895</Y><Z>-3.559</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX113"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.75</X><Y>0.2095</Y><Z>-3.879</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX114"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-1.75</X><Y>0.1495</Y><Z>-4.059</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9781</R11><R12>-0.2079</R12><R20>0</R20><R21>-0.2079</R21><R22>-0.9781</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+            <Item class="Model" referent="RBX115"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.23</X><Y>0.2095</Y><Z>-3.259</Z><R00>-0.9613</R00><R01>0</R01><R02>-0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.2756</R20><R21>0</R21><R22>-0.9613</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX116"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-2.3127</X><Y>0.1895</Y><Z>-3.5474</Z><R00>-0.9613</R00><R01>0</R01><R02>-0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.2756</R20><R21>0</R21><R22>-0.9613</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX117"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.4009</X><Y>0.2095</Y><Z>-3.855</Z><R00>-0.9613</R00><R01>0</R01><R02>-0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.2756</R20><R21>0</R21><R22>-0.9613</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX118"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-2.4505</X><Y>0.1495</Y><Z>-4.028</Z><R00>-0.9613</R00><R01>-0.0573</R01><R02>-0.2696</R02><R10>0</R10><R11>0.9781</R11><R12>-0.2079</R12><R20>0.2756</R20><R21>-0.1999</R21><R22>-0.9403</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item class="Model" referent="RBX119"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.75</X><Y>2.717</Y><Z>0.3</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>0.1836</R12><R20>0</R20><R21>0.1836</R21><R22>-0.983</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX120"><Properties>
+          <string name="Name">Old bark</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.75</X><Y>2.2255</Y><Z>0.2082</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>0.1836</R12><R20>0</R20><R21>0.1836</R21><R22>-0.983</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1</X><Y>1.6</Y><Z>1</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Model" referent="RBX121"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.75</X><Y>1.4391</Y><Z>0.0613</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>0.1836</R12><R20>0</R20><R21>0.1836</R21><R22>-0.983</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX122"><Properties>
+            <string name="Name">Heartwood</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>1.75</X><Y>0.8985</Y><Z>-0.0397</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>0.1836</R12><R20>0</R20><R21>0.1836</R21><R22>-0.983</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.9</X><Y>1.3</Y><Z>0.9</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX123"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.75</X><Y>0.2595</Y><Z>-0.159</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX124"><Properties>
+              <string name="Name">Old bark</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>1.75</X><Y>0.2595</Y><Z>-0.159</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.1</X><Y>0.35</Y><Z>1.1</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Model" referent="RBX125"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.15</X><Y>0.2095</Y><Z>-0.659</Z><R00>-0.9613</R00><R01>0</R01><R02>0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-0.2756</R20><R21>0</R21><R22>-0.9613</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX126"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>2.2327</X><Y>0.1895</Y><Z>-0.9474</Z><R00>-0.9613</R00><R01>0</R01><R02>0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-0.2756</R20><R21>0</R21><R22>-0.9613</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX127"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.3209</X><Y>0.2095</Y><Z>-1.255</Z><R00>-0.9613</R00><R01>0</R01><R02>0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-0.2756</R20><R21>0</R21><R22>-0.9613</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX128"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>2.3705</X><Y>0.1495</Y><Z>-1.428</Z><R00>-0.9613</R00><R01>0.0573</R01><R02>0.2696</R02><R10>0</R10><R11>0.9781</R11><R12>-0.2079</R12><R20>-0.2756</R20><R21>-0.1999</R21><R22>-0.9403</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+            <Item class="Model" referent="RBX129"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.75</X><Y>0.2095</Y><Z>-0.659</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX130"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>1.75</X><Y>0.1895</Y><Z>-0.959</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX131"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.75</X><Y>0.2095</Y><Z>-1.279</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX132"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>1.75</X><Y>0.1495</Y><Z>-1.459</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9781</R11><R12>-0.2079</R12><R20>0</R20><R21>-0.2079</R21><R22>-0.9781</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+            <Item class="Model" referent="RBX133"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.35</X><Y>0.2095</Y><Z>-0.659</Z><R00>-0.9613</R00><R01>0</R01><R02>-0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.2756</R20><R21>0</R21><R22>-0.9613</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX134"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>1.2673</X><Y>0.1895</Y><Z>-0.9474</Z><R00>-0.9613</R00><R01>0</R01><R02>-0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.2756</R20><R21>0</R21><R22>-0.9613</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX135"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.1791</X><Y>0.2095</Y><Z>-1.255</Z><R00>-0.9613</R00><R01>0</R01><R02>-0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.2756</R20><R21>0</R21><R22>-0.9613</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX136"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>1.1295</X><Y>0.1495</Y><Z>-1.428</Z><R00>-0.9613</R00><R01>-0.0573</R01><R02>-0.2696</R02><R10>0</R10><R11>0.9781</R11><R12>-0.2079</R12><R20>0.2756</R20><R21>-0.1999</R21><R22>-0.9403</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item class="Model" referent="RBX137"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.75</X><Y>2.717</Y><Z>0.3</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>-0.1836</R12><R20>0</R20><R21>-0.1836</R21><R22>-0.983</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX138"><Properties>
+          <string name="Name">Old bark</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.75</X><Y>2.2255</Y><Z>0.3918</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>-0.1836</R12><R20>0</R20><R21>-0.1836</R21><R22>-0.983</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1</X><Y>1.6</Y><Z>1</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Model" referent="RBX139"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.75</X><Y>1.4391</Y><Z>0.5387</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.8558</R11><R12>-0.5173</R12><R20>0</R20><R21>-0.5173</R21><R22>-0.8558</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX140"><Properties>
+            <string name="Name">Heartwood</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-1.75</X><Y>0.9684</Y><Z>0.8232</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.8558</R11><R12>-0.5173</R12><R20>0</R20><R21>-0.5173</R21><R22>-0.8558</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.9</X><Y>1.3</Y><Z>0.9</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX141"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.75</X><Y>0.4122</Y><Z>1.1595</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX142"><Properties>
+              <string name="Name">Old bark</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-1.75</X><Y>0.4122</Y><Z>1.1595</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.1</X><Y>0.35</Y><Z>1.1</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Model" referent="RBX143"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.35</X><Y>0.3622</Y><Z>0.6595</Z><R00>-0.9613</R00><R01>0</R01><R02>0.2756</R02><R10>-0.1228</R10><R11>0.8953</R11><R12>-0.4282</R12><R20>-0.2468</R20><R21>-0.4454</R21><R22>-0.8606</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX144"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-1.2673</X><Y>0.2158</Y><Z>0.4102</Z><R00>-0.9613</R00><R01>0</R01><R02>0.2756</R02><R10>-0.1228</R10><R11>0.8953</R11><R12>-0.4282</R12><R20>-0.2468</R20><R21>-0.4454</R21><R22>-0.8606</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX145"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.1791</X><Y>0.0967</Y><Z>0.1259</Z><R00>-0.9613</R00><R01>0.1814</R01><R02>0.2076</R02><R10>-0.1228</R10><R11>0.3925</R11><R12>-0.9115</R12><R20>-0.2468</R20><R21>-0.9017</R21><R22>-0.355</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX146"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-1.1526</X><Y>-0.0909</Y><Z>0.1161</Z><R00>-0.9613</R00><R01>0.2206</R01><R02>0.1653</R02><R10>-0.1228</R10><R11>0.1944</R11><R12>-0.9732</R12><R20>-0.2468</R20><R21>-0.9558</R21><R22>-0.1598</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+            <Item class="Model" referent="RBX147"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.75</X><Y>0.3622</Y><Z>0.6595</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.8953</R11><R12>-0.4454</R12><R20>0</R20><R21>-0.4454</R21><R22>-0.8953</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX148"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-1.75</X><Y>0.2106</Y><Z>0.3998</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.8953</R11><R12>-0.4454</R12><R20>0</R20><R21>-0.4454</R21><R22>-0.8953</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX149"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.75</X><Y>0.086</Y><Z>0.1044</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.3811</R11><R12>-0.9245</R12><R20>0</R20><R21>-0.9245</R21><R22>-0.3811</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX150"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-1.75</X><Y>-0.1033</Y><Z>0.0912</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.1806</R11><R12>-0.9836</R12><R20>0</R20><R21>-0.9836</R21><R22>-0.1806</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+            <Item class="Model" referent="RBX151"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.15</X><Y>0.3622</Y><Z>0.6595</Z><R00>-0.9613</R00><R01>0</R01><R02>-0.2756</R02><R10>0.1228</R10><R11>0.8953</R11><R12>-0.4282</R12><R20>0.2468</R20><R21>-0.4454</R21><R22>-0.8606</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX152"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-2.2327</X><Y>0.2158</Y><Z>0.4102</Z><R00>-0.9613</R00><R01>0</R01><R02>-0.2756</R02><R10>0.1228</R10><R11>0.8953</R11><R12>-0.4282</R12><R20>0.2468</R20><R21>-0.4454</R21><R22>-0.8606</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX153"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.3209</X><Y>0.0967</Y><Z>0.1259</Z><R00>-0.9613</R00><R01>-0.1814</R01><R02>-0.2076</R02><R10>0.1228</R10><R11>0.3925</R11><R12>-0.9115</R12><R20>0.2468</R20><R21>-0.9017</R21><R22>-0.355</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX154"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-2.3474</X><Y>-0.0909</Y><Z>0.1161</Z><R00>-0.9613</R00><R01>-0.2206</R01><R02>-0.1653</R02><R10>0.1228</R10><R11>0.1944</R11><R12>-0.9732</R12><R20>0.2468</R20><R21>-0.9558</R21><R22>-0.1598</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item class="Model" referent="RBX155"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.75</X><Y>2.717</Y><Z>2.8</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>-0.1836</R12><R20>0</R20><R21>-0.1836</R21><R22>-0.983</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX156"><Properties>
+          <string name="Name">Old bark</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.75</X><Y>2.2255</Y><Z>2.8918</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>-0.1836</R12><R20>0</R20><R21>-0.1836</R21><R22>-0.983</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1</X><Y>1.6</Y><Z>1</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Model" referent="RBX157"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.75</X><Y>1.4391</Y><Z>3.0387</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.8558</R11><R12>-0.5173</R12><R20>0</R20><R21>-0.5173</R21><R22>-0.8558</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX158"><Properties>
+            <string name="Name">Heartwood</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>1.75</X><Y>0.9684</Y><Z>3.3232</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.8558</R11><R12>-0.5173</R12><R20>0</R20><R21>-0.5173</R21><R22>-0.8558</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.9</X><Y>1.3</Y><Z>0.9</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX159"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.75</X><Y>0.4122</Y><Z>3.6595</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX160"><Properties>
+              <string name="Name">Old bark</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>1.75</X><Y>0.4122</Y><Z>3.6595</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.1</X><Y>0.35</Y><Z>1.1</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Model" referent="RBX161"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.15</X><Y>0.3622</Y><Z>3.1595</Z><R00>-0.9613</R00><R01>0</R01><R02>0.2756</R02><R10>-0.1228</R10><R11>0.8953</R11><R12>-0.4282</R12><R20>-0.2468</R20><R21>-0.4454</R21><R22>-0.8606</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX162"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>2.2327</X><Y>0.2158</Y><Z>2.9102</Z><R00>-0.9613</R00><R01>0</R01><R02>0.2756</R02><R10>-0.1228</R10><R11>0.8953</R11><R12>-0.4282</R12><R20>-0.2468</R20><R21>-0.4454</R21><R22>-0.8606</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX163"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.3209</X><Y>0.0967</Y><Z>2.6259</Z><R00>-0.9613</R00><R01>0.1814</R01><R02>0.2076</R02><R10>-0.1228</R10><R11>0.3925</R11><R12>-0.9115</R12><R20>-0.2468</R20><R21>-0.9017</R21><R22>-0.355</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX164"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>2.3474</X><Y>-0.0909</Y><Z>2.6161</Z><R00>-0.9613</R00><R01>0.2206</R01><R02>0.1653</R02><R10>-0.1228</R10><R11>0.1944</R11><R12>-0.9732</R12><R20>-0.2468</R20><R21>-0.9558</R21><R22>-0.1598</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+            <Item class="Model" referent="RBX165"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.75</X><Y>0.3622</Y><Z>3.1595</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.8953</R11><R12>-0.4454</R12><R20>0</R20><R21>-0.4454</R21><R22>-0.8953</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX166"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>1.75</X><Y>0.2106</Y><Z>2.8998</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.8953</R11><R12>-0.4454</R12><R20>0</R20><R21>-0.4454</R21><R22>-0.8953</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX167"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.75</X><Y>0.086</Y><Z>2.6044</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.3811</R11><R12>-0.9245</R12><R20>0</R20><R21>-0.9245</R21><R22>-0.3811</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX168"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>1.75</X><Y>-0.1033</Y><Z>2.5912</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.1806</R11><R12>-0.9836</R12><R20>0</R20><R21>-0.9836</R21><R22>-0.1806</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+            <Item class="Model" referent="RBX169"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.35</X><Y>0.3622</Y><Z>3.1595</Z><R00>-0.9613</R00><R01>0</R01><R02>-0.2756</R02><R10>0.1228</R10><R11>0.8953</R11><R12>-0.4282</R12><R20>0.2468</R20><R21>-0.4454</R21><R22>-0.8606</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX170"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>1.2673</X><Y>0.2158</Y><Z>2.9102</Z><R00>-0.9613</R00><R01>0</R01><R02>-0.2756</R02><R10>0.1228</R10><R11>0.8953</R11><R12>-0.4282</R12><R20>0.2468</R20><R21>-0.4454</R21><R22>-0.8606</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX171"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.1791</X><Y>0.0967</Y><Z>2.6259</Z><R00>-0.9613</R00><R01>-0.1814</R01><R02>-0.2076</R02><R10>0.1228</R10><R11>0.3925</R11><R12>-0.9115</R12><R20>0.2468</R20><R21>-0.9017</R21><R22>-0.355</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX172"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>1.1526</X><Y>-0.0909</Y><Z>2.6161</Z><R00>-0.9613</R00><R01>-0.2206</R01><R02>-0.1653</R02><R10>0.1228</R10><R11>0.1944</R11><R12>-0.9732</R12><R20>0.2468</R20><R21>-0.9558</R21><R22>-0.1598</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item class="Model" referent="RBX173"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.75</X><Y>2.717</Y><Z>2.8</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>0.1836</R12><R20>0</R20><R21>0.1836</R21><R22>-0.983</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX174"><Properties>
+          <string name="Name">Old bark</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.75</X><Y>2.2255</Y><Z>2.7082</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>0.1836</R12><R20>0</R20><R21>0.1836</R21><R22>-0.983</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1</X><Y>1.6</Y><Z>1</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Model" referent="RBX175"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.75</X><Y>1.4391</Y><Z>2.5613</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>0.1836</R12><R20>0</R20><R21>0.1836</R21><R22>-0.983</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX176"><Properties>
+            <string name="Name">Heartwood</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-1.75</X><Y>0.8985</Y><Z>2.4603</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.983</R11><R12>0.1836</R12><R20>0</R20><R21>0.1836</R21><R22>-0.983</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.9</X><Y>1.3</Y><Z>0.9</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX177"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.75</X><Y>0.2595</Y><Z>2.341</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX178"><Properties>
+              <string name="Name">Old bark</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-1.75</X><Y>0.2595</Y><Z>2.341</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.1</X><Y>0.35</Y><Z>1.1</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Model" referent="RBX179"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.35</X><Y>0.2095</Y><Z>1.841</Z><R00>-0.9613</R00><R01>0</R01><R02>0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-0.2756</R20><R21>0</R21><R22>-0.9613</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX180"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-1.2673</X><Y>0.1895</Y><Z>1.5526</Z><R00>-0.9613</R00><R01>0</R01><R02>0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-0.2756</R20><R21>0</R21><R22>-0.9613</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX181"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.1791</X><Y>0.2095</Y><Z>1.245</Z><R00>-0.9613</R00><R01>0</R01><R02>0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>-0.2756</R20><R21>0</R21><R22>-0.9613</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX182"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-1.1295</X><Y>0.1495</Y><Z>1.072</Z><R00>-0.9613</R00><R01>0.0573</R01><R02>0.2696</R02><R10>0</R10><R11>0.9781</R11><R12>-0.2079</R12><R20>-0.2756</R20><R21>-0.1999</R21><R22>-0.9403</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+            <Item class="Model" referent="RBX183"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.75</X><Y>0.2095</Y><Z>1.841</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX184"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-1.75</X><Y>0.1895</Y><Z>1.541</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX185"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.75</X><Y>0.2095</Y><Z>1.221</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX186"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-1.75</X><Y>0.1495</Y><Z>1.041</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9781</R11><R12>-0.2079</R12><R20>0</R20><R21>-0.2079</R21><R22>-0.9781</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+            <Item class="Model" referent="RBX187"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.15</X><Y>0.2095</Y><Z>1.841</Z><R00>-0.9613</R00><R01>0</R01><R02>-0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.2756</R20><R21>0</R21><R22>-0.9613</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX188"><Properties>
+                <string name="Name">Heartwood</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-2.2327</X><Y>0.1895</Y><Z>1.5526</Z><R00>-0.9613</R00><R01>0</R01><R02>-0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.2756</R20><R21>0</R21><R22>-0.9613</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282066456</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.26</X><Y>0.24</Y><Z>0.7</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX189"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.3209</X><Y>0.2095</Y><Z>1.245</Z><R00>-0.9613</R00><R01>0</R01><R02>-0.2756</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.2756</R20><R21>0</R21><R22>-0.9613</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX190"><Properties>
+                  <string name="Name">Old bark</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-2.3705</X><Y>0.1495</Y><Z>1.072</Z><R00>-0.9613</R00><R01>-0.0573</R01><R02>-0.2696</R02><R10>0</R10><R11>0.9781</R11><R12>-0.2079</R12><R20>0.2756</R20><R21>-0.1999</R21><R22>-0.9403</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4284235047</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.22</X><Y>0.2</Y><Z>0.45</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>

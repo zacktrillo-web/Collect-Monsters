@@ -1,0 +1,2073 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+  <Item class="Model" referent="RBX0"><Properties>
+    <string name="Name">KingOfTheDeep</string>
+    <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CFrame></OptionalCoordinateFrame>
+  </Properties>
+    <Item class="Model" referent="RBX1"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>4.9198</Y><Z>0</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX2"><Properties>
+        <string name="Name">Royal skin</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>6.3198</Y><Z>0.3</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>5.3333</X><Y>5.3333</Y><Z>5.3333</Z></Vector3>
+        <token name="shape">0</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX3"><Properties>
+        <string name="Name">Royal skin</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>4.5198</Y><Z>-0.1</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>3.6</X><Y>1.6</Y><Z>3.2</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX4"><Properties>
+        <string name="Name">Ink shadow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>3.5698</Y><Z>0</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>3</X><Y>0.6</Y><Z>2.6</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX5"><Properties>
+        <string name="Name">Part</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.95</X><Y>5.4198</Y><Z>-2.1</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294963624</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.15</X><Y>0.95</Y><Z>0.4</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX6"><Properties>
+        <string name="Name">Glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.95</X><Y>5.3698</Y><Z>-2.33</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294954035</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.8</X><Y>0.26</Y><Z>0.12</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX7"><Properties>
+        <string name="Name">Coral armor</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>1</X><Y>6.0698</Y><Z>-2</Z><R00>-0.9703</R00><R01>0.2419</R01><R02>0</R02><R10>0.2419</R10><R11>0.9703</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294933090</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.6</X><Y>0.45</Y><Z>0.7</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX8"><Properties>
+        <string name="Name">Part</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.95</X><Y>5.4198</Y><Z>-2.1</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294963624</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.15</X><Y>0.95</Y><Z>0.4</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX9"><Properties>
+        <string name="Name">Glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.95</X><Y>5.3698</Y><Z>-2.33</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294954035</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.8</X><Y>0.26</Y><Z>0.12</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX10"><Properties>
+        <string name="Name">Coral armor</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1</X><Y>6.0698</Y><Z>-2</Z><R00>-0.9703</R00><R01>-0.2419</R01><R02>0</R02><R10>-0.2419</R10><R11>0.9703</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294933090</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.6</X><Y>0.45</Y><Z>0.7</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX11"><Properties>
+        <string name="Name">Part</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>5.9698</Y><Z>-2.2</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294947980</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.9</X><Y>0.5</Y><Z>0.4</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX12"><Properties>
+        <string name="Name">Ink shadow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>4.5698</Y><Z>-1.75</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.2</X><Y>0.3</Y><Z>0.3</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX13"><Properties>
+        <string name="Name">Coral armor</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>2.2</X><Y>5.2198</Y><Z>0</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.309</R10><R11>0.9511</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294933090</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.5</X><Y>1.2</Y><Z>2.4</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX14"><Properties>
+        <string name="Name">Part</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>2.55</X><Y>5.8698</Y><Z>0</Z><R00>-0.866</R00><R01>-0.5</R01><R02>0</R02><R10>-0.5</R10><R11>0.866</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294947980</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.1</X><Y>0.8</Y><Z>1.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX15"><Properties>
+        <string name="Name">Throne gold</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>1.95</X><Y>4.5698</Y><Z>0</Z><R00>-0.9511</R00><R01>-0.309</R01><R02>0</R02><R10>-0.309</R10><R11>0.9511</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>0.25</Y><Z>2.6</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Model" referent="RBX16"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.6</X><Y>6.3198</Y><Z>0.8</Z><R00>-0.9397</R00><R01>0.342</R01><R02>0</R02><R10>0.342</R10><R11>0.9397</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX17"><Properties>
+          <string name="Name">Coral armor</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>2.8052</X><Y>6.8836</Y><Z>0.8</Z><R00>0.342</R00><R01>0.9397</R01><R02>0</R02><R10>0.9397</R10><R11>-0.342</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294933090</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1.2</X><Y>0.38</Y><Z>0.38</Z></Vector3>
+          <token name="shape">2</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX18"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.2581</X><Y>7.2508</Y><Z>0.8</Z><R00>0.866</R00><R01>0.5</R01><R02>0</R02><R10>0.5</R10><R11>-0.866</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294947980</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.8</X><Y>0.28</Y><Z>0.28</Z></Vector3>
+          <token name="shape">2</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX19"><Properties>
+          <string name="Name">Coral armor</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>2.7755</X><Y>7.5329</Y><Z>0.7</Z><R00>-0.2588</R00><R01>0.9659</R01><R02>0</R02><R10>0.9659</R10><R11>0.2588</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294933090</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.7</X><Y>0.28</Y><Z>0.28</Z></Vector3>
+          <token name="shape">2</token>
+        </Properties></Item>
+      </Item>
+      <Item class="Part" referent="RBX20"><Properties>
+        <string name="Name">Coral armor</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-2.2</X><Y>5.2198</Y><Z>0</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.309</R10><R11>0.9511</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294933090</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.5</X><Y>1.2</Y><Z>2.4</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX21"><Properties>
+        <string name="Name">Part</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-2.55</X><Y>5.8698</Y><Z>0</Z><R00>-0.866</R00><R01>0.5</R01><R02>0</R02><R10>0.5</R10><R11>0.866</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294947980</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.1</X><Y>0.8</Y><Z>1.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX22"><Properties>
+        <string name="Name">Throne gold</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.95</X><Y>4.5698</Y><Z>0</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.309</R10><R11>0.9511</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>0.25</Y><Z>2.6</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Model" referent="RBX23"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.6</X><Y>6.3198</Y><Z>0.8</Z><R00>-0.9397</R00><R01>-0.342</R01><R02>0</R02><R10>-0.342</R10><R11>0.9397</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX24"><Properties>
+          <string name="Name">Coral armor</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-2.8052</X><Y>6.8836</Y><Z>0.8</Z><R00>-0.342</R00><R01>0.9397</R01><R02>0</R02><R10>0.9397</R10><R11>0.342</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294933090</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1.2</X><Y>0.38</Y><Z>0.38</Z></Vector3>
+          <token name="shape">2</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX25"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.2581</X><Y>7.2508</Y><Z>0.8</Z><R00>-0.866</R00><R01>0.5</R01><R02>0</R02><R10>0.5</R10><R11>0.866</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294947980</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.8</X><Y>0.28</Y><Z>0.28</Z></Vector3>
+          <token name="shape">2</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX26"><Properties>
+          <string name="Name">Coral armor</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-2.7755</X><Y>7.5329</Y><Z>0.7</Z><R00>0.2588</R00><R01>0.9659</R01><R02>0</R02><R10>0.9659</R10><R11>-0.2588</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>-1</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294933090</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.7</X><Y>0.28</Y><Z>0.28</Z></Vector3>
+          <token name="shape">2</token>
+        </Properties></Item>
+      </Item>
+      <Item class="Model" referent="RBX27"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>8.2198</Y><Z>1.2</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9903</R11><R12>0.1392</R12><R20>0</R20><R21>0.1392</R21><R22>-0.9903</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX28"><Properties>
+          <string name="Name">Velvet</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0</X><Y>9.8042</Y><Z>1.4227</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9903</R11><R12>0.1392</R12><R20>0</R20><R21>0.1392</R21><R22>-0.9903</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4286453816</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>2.8</X><Y>3.2</Y><Z>0.35</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX29"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.6</X><Y>10.0518</Y><Z>1.4575</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9903</R11><R12>0.1392</R12><R20>0</R20><R21>0.1392</R21><R22>-0.9903</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.45</X><Y>3.9</Y><Z>0.55</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="WedgePart" referent="RBX30"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.4939</X><Y>12.3294</Y><Z>1.7776</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0.1392</R10><R11>0.9903</R11><R12>0</R12><R20>-0.9903</R20><R21>0.1392</R21><R22>0</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.4243</X><Y>0.7</Y><Z>0.2121</Z></Vector3>
+        </Properties></Item>
+        <Item class="WedgePart" referent="RBX31"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.7061</X><Y>12.3294</Y><Z>1.7776</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>-0.1392</R10><R11>0.9903</R11><R12>0</R12><R20>0.9903</R20><R21>0.1392</R21><R22>0</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.4243</X><Y>0.7</Y><Z>0.2121</Z></Vector3>
+        </Properties></Item>
+        <Item class="Part" referent="RBX32"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.95</X><Y>8.5856</Y><Z>0.3931</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9903</R11><R12>0.1392</R12><R20>0</R20><R21>0.1392</R21><R22>-0.9903</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.45</X><Y>0.6</Y><Z>1.9</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX33"><Properties>
+          <string name="Name">Coral armor</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.95</X><Y>9.0575</Y><Z>-0.4495</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9903</R11><R12>0.1392</R12><R20>0</R20><R21>0.1392</R21><R22>-0.9903</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294933090</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.6</X><Y>0.5</Y><Z>0.6</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX34"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.6</X><Y>10.0518</Y><Z>1.4575</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9903</R11><R12>0.1392</R12><R20>0</R20><R21>0.1392</R21><R22>-0.9903</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.45</X><Y>3.9</Y><Z>0.55</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="WedgePart" referent="RBX35"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.7061</X><Y>12.3294</Y><Z>1.7776</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0.1392</R10><R11>0.9903</R11><R12>0</R12><R20>-0.9903</R20><R21>0.1392</R21><R22>0</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.4243</X><Y>0.7</Y><Z>0.2121</Z></Vector3>
+        </Properties></Item>
+        <Item class="WedgePart" referent="RBX36"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.4939</X><Y>12.3294</Y><Z>1.7776</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>-0.1392</R10><R11>0.9903</R11><R12>0</R12><R20>0.9903</R20><R21>0.1392</R21><R22>0</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.4243</X><Y>0.7</Y><Z>0.2121</Z></Vector3>
+        </Properties></Item>
+        <Item class="Part" referent="RBX37"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.95</X><Y>8.5856</Y><Z>0.3931</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9903</R11><R12>0.1392</R12><R20>0</R20><R21>0.1392</R21><R22>-0.9903</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.45</X><Y>0.6</Y><Z>1.9</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX38"><Properties>
+          <string name="Name">Coral armor</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.95</X><Y>9.0575</Y><Z>-0.4495</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9903</R11><R12>0.1392</R12><R20>0</R20><R21>0.1392</R21><R22>-0.9903</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294933090</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.6</X><Y>0.5</Y><Z>0.6</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX39"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0</X><Y>11.5372</Y><Z>1.6662</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9903</R11><R12>0.1392</R12><R20>0</R20><R21>0.1392</R21><R22>-0.9903</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>3.6</X><Y>0.4</Y><Z>0.6</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="WedgePart" referent="RBX40"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.6</X><Y>12.4284</Y><Z>1.7915</Z><R00>0</R00><R01>0.6644</R01><R02>0.7474</R02><R10>0.1392</R10><R11>0.7401</R11><R12>-0.6579</R12><R20>-0.9903</R20><R21>0.104</R21><R22>-0.0925</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5</X><Y>0.2491</Y><Z>0.5813</Z></Vector3>
+        </Properties></Item>
+        <Item class="WedgePart" referent="RBX41"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.05</X><Y>12.0323</Y><Z>1.7358</Z><R00>0</R00><R01>0.6644</R01><R02>-0.7474</R02><R10>-0.1392</R10><R11>0.7401</R11><R12>0.6579</R12><R20>0.9903</R20><R21>0.104</R21><R22>0.0925</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5</X><Y>0.2491</Y><Z>0.6228</Z></Vector3>
+        </Properties></Item>
+        <Item class="WedgePart" referent="RBX42"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.05</X><Y>12.0323</Y><Z>1.7358</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0.1392</R10><R11>0.9903</R11><R12>0</R12><R20>-0.9903</R20><R21>0.1392</R21><R22>0</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5</X><Y>0.6</Y><Z>0.3</Z></Vector3>
+        </Properties></Item>
+        <Item class="WedgePart" referent="RBX43"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.15</X><Y>12.0323</Y><Z>1.7358</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>-0.1392</R10><R11>0.9903</R11><R12>0</R12><R20>0.9903</R20><R21>0.1392</R21><R22>0</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5</X><Y>0.6</Y><Z>2.1</Z></Vector3>
+        </Properties></Item>
+        <Item class="WedgePart" referent="RBX44"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.15</X><Y>12.775</Y><Z>1.8402</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0.1392</R10><R11>0.9903</R11><R12>0</R12><R20>-0.9903</R20><R21>0.1392</R21><R22>0</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5</X><Y>0.5</Y><Z>0.3</Z></Vector3>
+        </Properties></Item>
+        <Item class="WedgePart" referent="RBX45"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.15</X><Y>12.775</Y><Z>1.8402</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>-0.1392</R10><R11>0.9903</R11><R12>0</R12><R20>0.9903</R20><R21>0.1392</R21><R22>0</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5</X><Y>0.5</Y><Z>0.3</Z></Vector3>
+        </Properties></Item>
+        <Item class="WedgePart" referent="RBX46"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.75</X><Y>12.1313</Y><Z>1.7497</Z><R00>0</R00><R01>0.2747</R01><R02>-0.9615</R02><R10>-0.1392</R10><R11>0.9522</R11><R12>0.272</R12><R20>0.9903</R20><R21>0.1338</R21><R22>0.0382</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5</X><Y>0.522</Y><Z>1.0851</Z></Vector3>
+        </Properties></Item>
+        <Item class="WedgePart" referent="RBX47"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.3</X><Y>12.4284</Y><Z>1.7915</Z><R00>0</R00><R01>0.2747</R01><R02>0.9615</R02><R10>0.1392</R10><R11>0.9522</R11><R12>-0.272</R12><R20>-0.9903</R20><R21>0.1338</R21><R22>-0.0382</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5</X><Y>0.522</Y><Z>1.0989</Z></Vector3>
+        </Properties></Item>
+        <Item class="WedgePart" referent="RBX48"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.6</X><Y>12.4284</Y><Z>1.7915</Z><R00>0</R00><R01>-0.1644</R01><R02>0.9864</R02><R10>0.1392</R10><R11>0.9768</R11><R12>0.1628</R12><R20>-0.9903</R20><R21>0.1373</R21><R22>0.0229</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5</X><Y>0.0986</Y><Z>0.6247</Z></Vector3>
+        </Properties></Item>
+        <Item class="WedgePart" referent="RBX49"><Properties>
+          <string name="Name">Throne gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0</X><Y>12.5274</Y><Z>1.8054</Z><R00>0</R00><R01>-0.1644</R01><R02>-0.9864</R02><R10>-0.1392</R10><R11>0.9768</R11><R12>-0.1628</R12><R20>0.9903</R20><R21>0.1373</R21><R22>-0.0229</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5</X><Y>0.0986</Y><Z>0.5918</Z></Vector3>
+        </Properties></Item>
+        <Item class="Part" referent="RBX50"><Properties>
+          <string name="Name">Glow</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0</X><Y>12.2721</Y><Z>1.4666</Z><R00>-0.7071</R00><R01>0.7071</R01><R02>0</R02><R10>0.7002</R10><R11>0.7002</R11><R12>0.1392</R12><R20>0.0984</R20><R21>0.0984</R21><R22>-0.9903</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294954035</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.4</X><Y>0.4</Y><Z>0.2</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX51"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0</X><Y>8.2693</Y><Z>1.207</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.9903</R11><R12>0.1392</R12><R20>0</R20><R21>0.1392</R21><R22>-0.9903</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4289230891</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>3.2</X><Y>0.3</Y><Z>0.5</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+      </Item>
+      <Item class="Model" referent="RBX52"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.5</X><Y>3.5198</Y><Z>0</Z><R00>0</R00><R01>-0.6558</R01><R02>-0.7549</R02><R10>0</R10><R11>0.7549</R11><R12>-0.6558</R12><R20>1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX53"><Properties>
+          <string name="Name">Royal skin</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.9152</X><Y>3.1591</Y><Z>0</Z><R00>0</R00><R01>-0.6558</R01><R02>-0.7549</R02><R10>0</R10><R11>0.7549</R11><R12>-0.6558</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1</X><Y>0.85</Y><Z>1.1</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX54"><Properties>
+          <string name="Name">Ink shadow</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-2.27</X><Y>2.8508</Y><Z>0</Z><R00>0</R00><R01>-0.6558</R01><R02>-0.7549</R02><R10>0</R10><R11>0.7549</R11><R12>-0.6558</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1.08</X><Y>0.93</Y><Z>0.14</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX55"><Properties>
+          <string name="Name">Sucker pink</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.6332</X><Y>2.8344</Y><Z>0</Z><R00>0</R00><R01>-0.6558</R01><R02>-0.7549</R02><R10>0</R10><R11>0.7549</R11><R12>-0.6558</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.45</X><Y>0.12</Y><Z>0.45</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Model" referent="RBX56"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.3304</X><Y>2.7984</Y><Z>0</Z><R00>0</R00><R01>-0.8384</R01><R02>-0.545</R02><R10>0</R10><R11>0.545</R11><R12>-0.8384</R12><R20>1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX57"><Properties>
+            <string name="Name">Royal skin</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-2.6029</X><Y>2.3791</Y><Z>0</Z><R00>0</R00><R01>-0.8384</R01><R02>-0.545</R02><R10>0</R10><R11>0.545</R11><R12>-0.8384</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.88</X><Y>0.748</Y><Z>1</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX58"><Properties>
+            <string name="Name">Ink shadow</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-2.8318</X><Y>2.027</Y><Z>0</Z><R00>0</R00><R01>-0.8384</R01><R02>-0.545</R02><R10>0</R10><R11>0.545</R11><R12>-0.8384</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.96</X><Y>0.828</Y><Z>0.14</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX59"><Properties>
+            <string name="Name">Sucker pink</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-2.2857</X><Y>2.1729</Y><Z>0</Z><R00>0</R00><R01>-0.8384</R01><R02>-0.545</R02><R10>0</R10><R11>0.545</R11><R12>-0.8384</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.396</X><Y>0.12</Y><Z>0.396</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX60"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.8754</X><Y>1.9599</Y><Z>0</Z><R00>0</R00><R01>-0.9658</R01><R02>-0.2594</R02><R10>0</R10><R11>0.2594</R11><R12>-0.9658</R12><R20>1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX61"><Properties>
+              <string name="Name">Royal skin</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-2.9986</X><Y>1.5012</Y><Z>0</Z><R00>0</R00><R01>-0.9658</R01><R02>-0.2594</R02><R10>0</R10><R11>0.2594</R11><R12>-0.9658</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.76</X><Y>0.646</Y><Z>0.95</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX62"><Properties>
+              <string name="Name">Ink shadow</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-3.1011</X><Y>1.1197</Y><Z>0</Z><R00>0</R00><R01>-0.9658</R01><R02>-0.2594</R02><R10>0</R10><R11>0.2594</R11><R12>-0.9658</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.84</X><Y>0.726</Y><Z>0.14</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX63"><Properties>
+              <string name="Name">Sucker pink</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-2.683</X><Y>1.4164</Y><Z>0</Z><R00>0</R00><R01>-0.9658</R01><R02>-0.2594</R02><R10>0</R10><R11>0.2594</R11><R12>-0.9658</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.342</X><Y>0.12</Y><Z>0.342</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Model" referent="RBX64"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-3.1218</X><Y>1.0424</Y><Z>0</Z><R00>0</R00><R01>-0.9202</R01><R02>-0.3914</R02><R10>0</R10><R11>0.3914</R11><R12>-0.9202</R12><R20>1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX65"><Properties>
+                <string name="Name">Royal skin</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-3.2882</X><Y>0.6513</Y><Z>0</Z><R00>0</R00><R01>-0.9202</R01><R02>-0.3914</R02><R10>0</R10><R11>0.3914</R11><R12>-0.9202</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.64</X><Y>0.544</Y><Z>0.85</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX66"><Properties>
+                <string name="Name">Ink shadow</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-3.4232</X><Y>0.3339</Y><Z>0</Z><R00>0</R00><R01>-0.9202</R01><R02>-0.3914</R02><R10>0</R10><R11>0.3914</R11><R12>-0.9202</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.72</X><Y>0.624</Y><Z>0.14</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX67"><Properties>
+                <string name="Name">Sucker pink</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-3.0349</X><Y>0.5436</Y><Z>0</Z><R00>0</R00><R01>-0.9202</R01><R02>-0.3914</R02><R10>0</R10><R11>0.3914</R11><R12>-0.9202</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.288</X><Y>0.12</Y><Z>0.288</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX68"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-3.4545</X><Y>0.2603</Y><Z>0</Z><R00>0</R00><R01>-0.7065</R01><R02>-0.7077</R02><R10>0</R10><R11>0.7077</R11><R12>-0.7065</R12><R20>1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX69"><Properties>
+                  <string name="Name">Royal skin</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-3.7199</X><Y>-0.0047</Y><Z>0</Z><R00>0</R00><R01>-0.7065</R01><R02>-0.7077</R02><R10>0</R10><R11>0.7077</R11><R12>-0.7065</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.52</X><Y>0.442</Y><Z>0.75</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX70"><Properties>
+                  <string name="Name">Ink shadow</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-3.9287</X><Y>-0.2131</Y><Z>0</Z><R00>0</R00><R01>-0.7065</R01><R02>-0.7077</R02><R10>0</R10><R11>0.7077</R11><R12>-0.7065</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.6</X><Y>0.522</Y><Z>0.14</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX71"><Properties>
+                  <string name="Name">Sucker pink</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-3.5619</X><Y>-0.1629</Y><Z>0</Z><R00>0</R00><R01>-0.7065</R01><R02>-0.7077</R02><R10>0</R10><R11>0.7077</R11><R12>-0.7065</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.234</X><Y>0.12</Y><Z>0.234</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item class="Model" referent="RBX72"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.1491</X><Y>3.5198</Y><Z>0.9642</Z><R00>0.6428</R00><R01>-0.3596</R01><R02>-0.6764</R02><R10>0</R10><R11>0.883</R11><R12>-0.4694</R12><R20>0.766</R20><R21>0.3018</R21><R22>0.5676</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX73"><Properties>
+          <string name="Name">Royal skin</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.5211</X><Y>3.2616</Y><Z>1.2763</Z><R00>0.6428</R00><R01>-0.3596</R01><R02>-0.6764</R02><R10>0</R10><R11>0.883</R11><R12>-0.4694</R12><R20>0.766</R20><R21>0.3018</R21><R22>0.5676</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1</X><Y>0.85</Y><Z>1.1</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX74"><Properties>
+          <string name="Name">Ink shadow</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.839</X><Y>3.0409</Y><Z>1.5431</Z><R00>0.6428</R00><R01>-0.3596</R01><R02>-0.6764</R02><R10>0</R10><R11>0.883</R11><R12>-0.4694</R12><R20>0.766</R20><R21>0.3018</R21><R22>0.5676</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1.08</X><Y>0.93</Y><Z>0.14</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX75"><Properties>
+          <string name="Name">Sucker pink</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.3664</X><Y>2.8819</Y><Z>1.1466</Z><R00>0.6428</R00><R01>-0.3596</R01><R02>-0.6764</R02><R10>0</R10><R11>0.883</R11><R12>-0.4694</R12><R20>0.766</R20><R21>0.3018</R21><R22>0.5676</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.45</X><Y>0.12</Y><Z>0.45</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Model" referent="RBX76"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.8931</X><Y>3.0034</Y><Z>1.5885</Z><R00>0.6428</R00><R01>-0.4739</R01><R02>-0.6018</R02><R10>0</R10><R11>0.7856</R11><R12>-0.6187</R12><R20>0.766</R20><R21>0.3977</R21><R22>0.505</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX77"><Properties>
+            <string name="Name">Royal skin</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-2.194</X><Y>2.694</Y><Z>1.841</Z><R00>0.6428</R00><R01>-0.4739</R01><R02>-0.6018</R02><R10>0</R10><R11>0.7856</R11><R12>-0.6187</R12><R20>0.766</R20><R21>0.3977</R21><R22>0.505</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.88</X><Y>0.748</Y><Z>1</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX78"><Properties>
+            <string name="Name">Ink shadow</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-2.4468</X><Y>2.4342</Y><Z>2.0531</Z><R00>0.6428</R00><R01>-0.4739</R01><R02>-0.6018</R02><R10>0</R10><R11>0.7856</R11><R12>-0.6187</R12><R20>0.766</R20><R21>0.3977</R21><R22>0.505</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.96</X><Y>0.828</Y><Z>0.14</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX79"><Properties>
+            <string name="Name">Sucker pink</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-2.0147</X><Y>2.3967</Y><Z>1.6905</Z><R00>0.6428</R00><R01>-0.4739</R01><R02>-0.6018</R02><R10>0</R10><R11>0.7856</R11><R12>-0.6187</R12><R20>0.766</R20><R21>0.3977</R21><R22>0.505</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.396</X><Y>0.12</Y><Z>0.396</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX80"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.4949</X><Y>2.3847</Y><Z>2.0935</Z><R00>0.6428</R00><R01>-0.5906</R01><R02>-0.4879</R02><R10>0</R10><R11>0.6369</R11><R12>-0.771</R12><R20>0.766</R20><R21>0.4956</R21><R22>0.4094</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX81"><Properties>
+              <string name="Name">Royal skin</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-2.7267</X><Y>2.0185</Y><Z>2.2879</Z><R00>0.6428</R00><R01>-0.5906</R01><R02>-0.4879</R02><R10>0</R10><R11>0.6369</R11><R12>-0.771</R12><R20>0.766</R20><R21>0.4956</R21><R22>0.4094</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.76</X><Y>0.646</Y><Z>0.95</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX82"><Properties>
+              <string name="Name">Ink shadow</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-2.9194</X><Y>1.7139</Y><Z>2.4496</Z><R00>0.6428</R00><R01>-0.5906</R01><R02>-0.4879</R02><R10>0</R10><R11>0.6369</R11><R12>-0.771</R12><R20>0.766</R20><R21>0.4956</R21><R22>0.4094</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.84</X><Y>0.726</Y><Z>0.14</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX83"><Properties>
+              <string name="Name">Sucker pink</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-2.5337</X><Y>1.8104</Y><Z>2.126</Z><R00>0.6428</R00><R01>-0.5906</R01><R02>-0.4879</R02><R10>0</R10><R11>0.6369</R11><R12>-0.771</R12><R20>0.766</R20><R21>0.4956</R21><R22>0.4094</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.342</X><Y>0.12</Y><Z>0.342</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Model" referent="RBX84"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.9584</X><Y>1.6523</Y><Z>2.4824</Z><R00>0.6428</R00><R01>-0.4574</R01><R02>-0.6145</R02><R10>0</R10><R11>0.8022</R11><R12>-0.5971</R12><R20>0.766</R20><R21>0.3838</R21><R22>0.5156</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX85"><Properties>
+                <string name="Name">Royal skin</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-3.2196</X><Y>1.3985</Y><Z>2.7015</Z><R00>0.6428</R00><R01>-0.4574</R01><R02>-0.6145</R02><R10>0</R10><R11>0.8022</R11><R12>-0.5971</R12><R20>0.766</R20><R21>0.3838</R21><R22>0.5156</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.64</X><Y>0.544</Y><Z>0.85</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX86"><Properties>
+                <string name="Name">Ink shadow</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-3.4316</X><Y>1.1925</Y><Z>2.8794</Z><R00>0.6428</R00><R01>-0.4574</R01><R02>-0.6145</R02><R10>0</R10><R11>0.8022</R11><R12>-0.5971</R12><R20>0.766</R20><R21>0.3838</R21><R22>0.5156</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.72</X><Y>0.624</Y><Z>0.14</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX87"><Properties>
+                <string name="Name">Sucker pink</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-3.0937</X><Y>1.1777</Y><Z>2.5959</Z><R00>0.6428</R00><R01>-0.4574</R01><R02>-0.6145</R02><R10>0</R10><R11>0.8022</R11><R12>-0.5971</R12><R20>0.766</R20><R21>0.3838</R21><R22>0.5156</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.288</X><Y>0.12</Y><Z>0.288</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX88"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-3.4807</X><Y>1.1447</Y><Z>2.9207</Z><R00>0.6428</R00><R01>-0.1183</R01><R02>-0.7569</R02><R10>0</R10><R11>0.988</R11><R12>-0.1544</R12><R20>0.766</R20><R21>0.0993</R21><R22>0.6351</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX89"><Properties>
+                  <string name="Name">Royal skin</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-3.7645</X><Y>1.0868</Y><Z>3.1588</Z><R00>0.6428</R00><R01>-0.1183</R01><R02>-0.7569</R02><R10>0</R10><R11>0.988</R11><R12>-0.1544</R12><R20>0.766</R20><R21>0.0993</R21><R22>0.6351</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.52</X><Y>0.442</Y><Z>0.75</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX90"><Properties>
+                  <string name="Name">Ink shadow</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-3.9878</X><Y>1.0413</Y><Z>3.3462</Z><R00>0.6428</R00><R01>-0.1183</R01><R02>-0.7569</R02><R10>0</R10><R11>0.988</R11><R12>-0.1544</R12><R20>0.766</R20><R21>0.0993</R21><R22>0.6351</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.6</X><Y>0.522</Y><Z>0.14</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX91"><Properties>
+                  <string name="Name">Sucker pink</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-3.7381</X><Y>0.8659</Y><Z>3.1366</Z><R00>0.6428</R00><R01>-0.1183</R01><R02>-0.7569</R02><R10>0</R10><R11>0.988</R11><R12>-0.1544</R12><R20>0.766</R20><R21>0.0993</R21><R22>0.6351</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.234</X><Y>0.12</Y><Z>0.234</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item class="Model" referent="RBX92"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.3882</X><Y>3.5198</Y><Z>1.4489</Z><R00>0.9659</R00><R01>-0.1176</R01><R02>-0.2306</R02><R10>0</R10><R11>0.8909</R11><R12>-0.4543</R12><R20>0.2588</R20><R21>0.4388</R21><R22>0.8605</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX93"><Properties>
+          <string name="Name">Royal skin</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.515</X><Y>3.2699</Y><Z>1.9222</Z><R00>0.9659</R00><R01>-0.1176</R01><R02>-0.2306</R02><R10>0</R10><R11>0.8909</R11><R12>-0.4543</R12><R20>0.2588</R20><R21>0.4388</R21><R22>0.8605</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1</X><Y>0.85</Y><Z>1.1</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX94"><Properties>
+          <string name="Name">Ink shadow</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.6234</X><Y>3.0564</Y><Z>2.3266</Z><R00>0.9659</R00><R01>-0.1176</R01><R02>-0.2306</R02><R10>0</R10><R11>0.8909</R11><R12>-0.4543</R12><R20>0.2588</R20><R21>0.4388</R21><R22>0.8605</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1.08</X><Y>0.93</Y><Z>0.14</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX95"><Properties>
+          <string name="Name">Sucker pink</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.4645</X><Y>2.8868</Y><Z>1.7335</Z><R00>0.9659</R00><R01>-0.1176</R01><R02>-0.2306</R02><R10>0</R10><R11>0.8909</R11><R12>-0.4543</R12><R20>0.2588</R20><R21>0.4388</R21><R22>0.8605</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.45</X><Y>0.12</Y><Z>0.45</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Model" referent="RBX96"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.6419</X><Y>3.02</Y><Z>2.3954</Z><R00>0.9659</R00><R01>-0.1551</R01><R02>-0.2072</R02><R10>0</R10><R11>0.8007</R11><R12>-0.5991</R12><R20>0.2588</R20><R21>0.5787</R21><R22>0.7734</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX97"><Properties>
+            <string name="Name">Royal skin</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-0.7455</X><Y>2.7205</Y><Z>2.7821</Z><R00>0.9659</R00><R01>-0.1551</R01><R02>-0.2072</R02><R10>0</R10><R11>0.8007</R11><R12>-0.5991</R12><R20>0.2588</R20><R21>0.5787</R21><R22>0.7734</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.88</X><Y>0.748</Y><Z>1</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX98"><Properties>
+            <string name="Name">Ink shadow</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-0.8325</X><Y>2.4689</Y><Z>3.107</Z><R00>0.9659</R00><R01>-0.1551</R01><R02>-0.2072</R02><R10>0</R10><R11>0.8007</R11><R12>-0.5991</R12><R20>0.2588</R20><R21>0.5787</R21><R22>0.7734</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.96</X><Y>0.828</Y><Z>0.14</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX99"><Properties>
+            <string name="Name">Sucker pink</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-0.6868</X><Y>2.4175</Y><Z>2.5632</Z><R00>0.9659</R00><R01>-0.1551</R01><R02>-0.2072</R02><R10>0</R10><R11>0.8007</R11><R12>-0.5991</R12><R20>0.2588</R20><R21>0.5787</R21><R22>0.7734</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.396</X><Y>0.12</Y><Z>0.396</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX100"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.8491</X><Y>2.4209</Y><Z>3.1688</Z><R00>0.9659</R00><R01>-0.1941</R01><R02>-0.1712</R02><R10>0</R10><R11>0.6614</R11><R12>-0.75</R12><R20>0.2588</R20><R21>0.7245</R21><R22>0.6389</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX101"><Properties>
+              <string name="Name">Royal skin</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-0.9304</X><Y>2.0647</Y><Z>3.4723</Z><R00>0.9659</R00><R01>-0.1941</R01><R02>-0.1712</R02><R10>0</R10><R11>0.6614</R11><R12>-0.75</R12><R20>0.2588</R20><R21>0.7245</R21><R22>0.6389</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.76</X><Y>0.646</Y><Z>0.95</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX102"><Properties>
+              <string name="Name">Ink shadow</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-0.998</X><Y>1.7684</Y><Z>3.7246</Z><R00>0.9659</R00><R01>-0.1941</R01><R02>-0.1712</R02><R10>0</R10><R11>0.6614</R11><R12>-0.75</R12><R20>0.2588</R20><R21>0.7245</R21><R22>0.6389</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.84</X><Y>0.726</Y><Z>0.14</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX103"><Properties>
+              <string name="Name">Sucker pink</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-0.867</X><Y>1.8485</Y><Z>3.2355</Z><R00>0.9659</R00><R01>-0.1941</R01><R02>-0.1712</R02><R10>0</R10><R11>0.6614</R11><R12>-0.75</R12><R20>0.2588</R20><R21>0.7245</R21><R22>0.6389</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.342</X><Y>0.12</Y><Z>0.342</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Model" referent="RBX104"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.0117</X><Y>1.7084</Y><Z>3.7758</Z><R00>0.9659</R00><R01>-0.1461</R01><R02>-0.2136</R02><R10>0</R10><R11>0.8253</R11><R12>-0.5647</R12><R20>0.2588</R20><R21>0.5454</R21><R22>0.7972</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX105"><Properties>
+                <string name="Name">Royal skin</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-1.1025</X><Y>1.4684</Y><Z>4.1146</Z><R00>0.9659</R00><R01>-0.1461</R01><R02>-0.2136</R02><R10>0</R10><R11>0.8253</R11><R12>-0.5647</R12><R20>0.2588</R20><R21>0.5454</R21><R22>0.7972</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.64</X><Y>0.544</Y><Z>0.85</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX106"><Properties>
+                <string name="Name">Ink shadow</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-1.1762</X><Y>1.2736</Y><Z>4.3896</Z><R00>0.9659</R00><R01>-0.1461</R01><R02>-0.2136</R02><R10>0</R10><R11>0.8253</R11><R12>-0.5647</R12><R20>0.2588</R20><R21>0.5454</R21><R22>0.7972</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.72</X><Y>0.624</Y><Z>0.14</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX107"><Properties>
+                <string name="Name">Sucker pink</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-1.0623</X><Y>1.2413</Y><Z>3.9645</Z><R00>0.9659</R00><R01>-0.1461</R01><R02>-0.2136</R02><R10>0</R10><R11>0.8253</R11><R12>-0.5647</R12><R20>0.2588</R20><R21>0.5454</R21><R22>0.7972</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.288</X><Y>0.12</Y><Z>0.288</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX108"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.1933</X><Y>1.2285</Y><Z>4.4534</Z><R00>0.9659</R00><R01>-0.0278</R01><R02>-0.2573</R02><R10>0</R10><R11>0.9942</R11><R12>-0.1074</R12><R20>0.2588</R20><R21>0.1037</R21><R22>0.9603</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX109"><Properties>
+                  <string name="Name">Royal skin</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-1.2898</X><Y>1.1882</Y><Z>4.8135</Z><R00>0.9659</R00><R01>-0.0278</R01><R02>-0.2573</R02><R10>0</R10><R11>0.9942</R11><R12>-0.1074</R12><R20>0.2588</R20><R21>0.1037</R21><R22>0.9603</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.52</X><Y>0.442</Y><Z>0.75</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX110"><Properties>
+                  <string name="Name">Ink shadow</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-1.3657</X><Y>1.1565</Y><Z>5.0968</Z><R00>0.9659</R00><R01>-0.0278</R01><R02>-0.2573</R02><R10>0</R10><R11>0.9942</R11><R12>-0.1074</R12><R20>0.2588</R20><R21>0.1037</R21><R22>0.9603</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.6</X><Y>0.522</Y><Z>0.14</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX111"><Properties>
+                  <string name="Name">Sucker pink</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-1.2836</X><Y>0.9659</Y><Z>4.7903</Z><R00>0.9659</R00><R01>-0.0278</R01><R02>-0.2573</R02><R10>0</R10><R11>0.9942</R11><R12>-0.1074</R12><R20>0.2588</R20><R21>0.1037</R21><R22>0.9603</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.234</X><Y>0.12</Y><Z>0.234</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item class="Model" referent="RBX112"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.3882</X><Y>3.5198</Y><Z>1.4489</Z><R00>0.9659</R00><R01>0.1697</R01><R02>0.1954</R02><R10>0</R10><R11>0.7549</R11><R12>-0.6558</R12><R20>-0.2588</R20><R21>0.6335</R21><R22>0.7292</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX113"><Properties>
+          <string name="Name">Royal skin</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.4957</X><Y>3.1591</Y><Z>1.8499</Z><R00>0.9659</R00><R01>0.1697</R01><R02>0.1954</R02><R10>0</R10><R11>0.7549</R11><R12>-0.6558</R12><R20>-0.2588</R20><R21>0.6335</R21><R22>0.7292</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1</X><Y>0.85</Y><Z>1.1</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX114"><Properties>
+          <string name="Name">Ink shadow</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.5875</X><Y>2.8508</Y><Z>2.1927</Z><R00>0.9659</R00><R01>0.1697</R01><R02>0.1954</R02><R10>0</R10><R11>0.7549</R11><R12>-0.6558</R12><R20>-0.2588</R20><R21>0.6335</R21><R22>0.7292</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1.08</X><Y>0.93</Y><Z>0.14</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX115"><Properties>
+          <string name="Name">Sucker pink</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.4227</X><Y>2.8344</Y><Z>1.5775</Z><R00>0.9659</R00><R01>0.1697</R01><R02>0.1954</R02><R10>0</R10><R11>0.7549</R11><R12>-0.6558</R12><R20>-0.2588</R20><R21>0.6335</R21><R22>0.7292</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.45</X><Y>0.12</Y><Z>0.45</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Model" referent="RBX116"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.6032</X><Y>2.7984</Y><Z>2.251</Z><R00>0.9659</R00><R01>0.217</R01><R02>0.1411</R02><R10>0</R10><R11>0.545</R11><R12>-0.8384</R12><R20>-0.2588</R20><R21>0.8099</R21><R22>0.5264</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX117"><Properties>
+            <string name="Name">Royal skin</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>0.6737</X><Y>2.3791</Y><Z>2.5142</Z><R00>0.9659</R00><R01>0.217</R01><R02>0.1411</R02><R10>0</R10><R11>0.545</R11><R12>-0.8384</R12><R20>-0.2588</R20><R21>0.8099</R21><R22>0.5264</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.88</X><Y>0.748</Y><Z>1</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX118"><Properties>
+            <string name="Name">Ink shadow</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>0.7329</X><Y>2.027</Y><Z>2.7353</Z><R00>0.9659</R00><R01>0.217</R01><R02>0.1411</R02><R10>0</R10><R11>0.545</R11><R12>-0.8384</R12><R20>-0.2588</R20><R21>0.8099</R21><R22>0.5264</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.96</X><Y>0.828</Y><Z>0.14</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX119"><Properties>
+            <string name="Name">Sucker pink</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>0.5916</X><Y>2.1729</Y><Z>2.2078</Z><R00>0.9659</R00><R01>0.217</R01><R02>0.1411</R02><R10>0</R10><R11>0.545</R11><R12>-0.8384</R12><R20>-0.2588</R20><R21>0.8099</R21><R22>0.5264</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.396</X><Y>0.12</Y><Z>0.396</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX120"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.7442</X><Y>1.9599</Y><Z>2.7774</Z><R00>0.9659</R00><R01>0.25</R01><R02>0.0671</R02><R10>0</R10><R11>0.2594</R11><R12>-0.9658</R12><R20>-0.2588</R20><R21>0.9329</R21><R22>0.2505</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX121"><Properties>
+              <string name="Name">Royal skin</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>0.7761</X><Y>1.5012</Y><Z>2.8965</Z><R00>0.9659</R00><R01>0.25</R01><R02>0.0671</R02><R10>0</R10><R11>0.2594</R11><R12>-0.9658</R12><R20>-0.2588</R20><R21>0.9329</R21><R22>0.2505</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.76</X><Y>0.646</Y><Z>0.95</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX122"><Properties>
+              <string name="Name">Ink shadow</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>0.8026</X><Y>1.1197</Y><Z>2.9954</Z><R00>0.9659</R00><R01>0.25</R01><R02>0.0671</R02><R10>0</R10><R11>0.2594</R11><R12>-0.9658</R12><R20>-0.2588</R20><R21>0.9329</R21><R22>0.2505</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.84</X><Y>0.726</Y><Z>0.14</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX123"><Properties>
+              <string name="Name">Sucker pink</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>0.6944</X><Y>1.4164</Y><Z>2.5916</Z><R00>0.9659</R00><R01>0.25</R01><R02>0.0671</R02><R10>0</R10><R11>0.2594</R11><R12>-0.9658</R12><R20>-0.2588</R20><R21>0.9329</R21><R22>0.2505</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.342</X><Y>0.12</Y><Z>0.342</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Model" referent="RBX124"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.808</X><Y>1.0424</Y><Z>3.0155</Z><R00>0.9659</R00><R01>0.2382</R01><R02>0.1013</R02><R10>0</R10><R11>0.3914</R11><R12>-0.9202</R12><R20>-0.2588</R20><R21>0.8889</R21><R22>0.3781</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX125"><Properties>
+                <string name="Name">Royal skin</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>0.851</X><Y>0.6513</Y><Z>3.1761</Z><R00>0.9659</R00><R01>0.2382</R01><R02>0.1013</R02><R10>0</R10><R11>0.3914</R11><R12>-0.9202</R12><R20>-0.2588</R20><R21>0.8889</R21><R22>0.3781</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.64</X><Y>0.544</Y><Z>0.85</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX126"><Properties>
+                <string name="Name">Ink shadow</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>0.886</X><Y>0.3339</Y><Z>3.3066</Z><R00>0.9659</R00><R01>0.2382</R01><R02>0.1013</R02><R10>0</R10><R11>0.3914</R11><R12>-0.9202</R12><R20>-0.2588</R20><R21>0.8889</R21><R22>0.3781</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.72</X><Y>0.624</Y><Z>0.14</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX127"><Properties>
+                <string name="Name">Sucker pink</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>0.7855</X><Y>0.5436</Y><Z>2.9315</Z><R00>0.9659</R00><R01>0.2382</R01><R02>0.1013</R02><R10>0</R10><R11>0.3914</R11><R12>-0.9202</R12><R20>-0.2588</R20><R21>0.8889</R21><R22>0.3781</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.288</X><Y>0.12</Y><Z>0.288</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX128"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.8941</X><Y>0.2603</Y><Z>3.3368</Z><R00>0.9659</R00><R01>0.1829</R01><R02>0.1832</R02><R10>0</R10><R11>0.7077</R11><R12>-0.7065</R12><R20>-0.2588</R20><R21>0.6824</R21><R22>0.6836</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX129"><Properties>
+                  <string name="Name">Royal skin</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>0.9628</X><Y>-0.0047</Y><Z>3.5932</Z><R00>0.9659</R00><R01>0.1829</R01><R02>0.1832</R02><R10>0</R10><R11>0.7077</R11><R12>-0.7065</R12><R20>-0.2588</R20><R21>0.6824</R21><R22>0.6836</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.52</X><Y>0.442</Y><Z>0.75</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX130"><Properties>
+                  <string name="Name">Ink shadow</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>1.0168</X><Y>-0.2131</Y><Z>3.7948</Z><R00>0.9659</R00><R01>0.1829</R01><R02>0.1832</R02><R10>0</R10><R11>0.7077</R11><R12>-0.7065</R12><R20>-0.2588</R20><R21>0.6824</R21><R22>0.6836</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.6</X><Y>0.522</Y><Z>0.14</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX131"><Properties>
+                  <string name="Name">Sucker pink</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>0.9219</X><Y>-0.1629</Y><Z>3.4406</Z><R00>0.9659</R00><R01>0.1829</R01><R02>0.1832</R02><R10>0</R10><R11>0.7077</R11><R12>-0.7065</R12><R20>-0.2588</R20><R21>0.6824</R21><R22>0.6836</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.234</X><Y>0.12</Y><Z>0.234</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item class="Model" referent="RBX132"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.1491</X><Y>3.5198</Y><Z>0.9642</Z><R00>0.6428</R00><R01>0.3596</R01><R02>0.6764</R02><R10>0</R10><R11>0.883</R11><R12>-0.4694</R12><R20>-0.766</R20><R21>0.3018</R21><R22>0.5676</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX133"><Properties>
+          <string name="Name">Royal skin</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.5211</X><Y>3.2616</Y><Z>1.2763</Z><R00>0.6428</R00><R01>0.3596</R01><R02>0.6764</R02><R10>0</R10><R11>0.883</R11><R12>-0.4694</R12><R20>-0.766</R20><R21>0.3018</R21><R22>0.5676</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1</X><Y>0.85</Y><Z>1.1</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX134"><Properties>
+          <string name="Name">Ink shadow</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.839</X><Y>3.0409</Y><Z>1.5431</Z><R00>0.6428</R00><R01>0.3596</R01><R02>0.6764</R02><R10>0</R10><R11>0.883</R11><R12>-0.4694</R12><R20>-0.766</R20><R21>0.3018</R21><R22>0.5676</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1.08</X><Y>0.93</Y><Z>0.14</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX135"><Properties>
+          <string name="Name">Sucker pink</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.3664</X><Y>2.8819</Y><Z>1.1466</Z><R00>0.6428</R00><R01>0.3596</R01><R02>0.6764</R02><R10>0</R10><R11>0.883</R11><R12>-0.4694</R12><R20>-0.766</R20><R21>0.3018</R21><R22>0.5676</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.45</X><Y>0.12</Y><Z>0.45</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Model" referent="RBX136"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.8931</X><Y>3.0034</Y><Z>1.5885</Z><R00>0.6428</R00><R01>0.4739</R01><R02>0.6018</R02><R10>0</R10><R11>0.7856</R11><R12>-0.6187</R12><R20>-0.766</R20><R21>0.3977</R21><R22>0.505</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX137"><Properties>
+            <string name="Name">Royal skin</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>2.194</X><Y>2.694</Y><Z>1.841</Z><R00>0.6428</R00><R01>0.4739</R01><R02>0.6018</R02><R10>0</R10><R11>0.7856</R11><R12>-0.6187</R12><R20>-0.766</R20><R21>0.3977</R21><R22>0.505</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.88</X><Y>0.748</Y><Z>1</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX138"><Properties>
+            <string name="Name">Ink shadow</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>2.4468</X><Y>2.4342</Y><Z>2.0531</Z><R00>0.6428</R00><R01>0.4739</R01><R02>0.6018</R02><R10>0</R10><R11>0.7856</R11><R12>-0.6187</R12><R20>-0.766</R20><R21>0.3977</R21><R22>0.505</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.96</X><Y>0.828</Y><Z>0.14</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX139"><Properties>
+            <string name="Name">Sucker pink</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>2.0147</X><Y>2.3967</Y><Z>1.6905</Z><R00>0.6428</R00><R01>0.4739</R01><R02>0.6018</R02><R10>0</R10><R11>0.7856</R11><R12>-0.6187</R12><R20>-0.766</R20><R21>0.3977</R21><R22>0.505</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.396</X><Y>0.12</Y><Z>0.396</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX140"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.4949</X><Y>2.3847</Y><Z>2.0935</Z><R00>0.6428</R00><R01>0.5906</R01><R02>0.4879</R02><R10>0</R10><R11>0.6369</R11><R12>-0.771</R12><R20>-0.766</R20><R21>0.4956</R21><R22>0.4094</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX141"><Properties>
+              <string name="Name">Royal skin</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>2.7267</X><Y>2.0185</Y><Z>2.2879</Z><R00>0.6428</R00><R01>0.5906</R01><R02>0.4879</R02><R10>0</R10><R11>0.6369</R11><R12>-0.771</R12><R20>-0.766</R20><R21>0.4956</R21><R22>0.4094</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.76</X><Y>0.646</Y><Z>0.95</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX142"><Properties>
+              <string name="Name">Ink shadow</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>2.9194</X><Y>1.7139</Y><Z>2.4496</Z><R00>0.6428</R00><R01>0.5906</R01><R02>0.4879</R02><R10>0</R10><R11>0.6369</R11><R12>-0.771</R12><R20>-0.766</R20><R21>0.4956</R21><R22>0.4094</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.84</X><Y>0.726</Y><Z>0.14</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX143"><Properties>
+              <string name="Name">Sucker pink</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>2.5337</X><Y>1.8104</Y><Z>2.126</Z><R00>0.6428</R00><R01>0.5906</R01><R02>0.4879</R02><R10>0</R10><R11>0.6369</R11><R12>-0.771</R12><R20>-0.766</R20><R21>0.4956</R21><R22>0.4094</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.342</X><Y>0.12</Y><Z>0.342</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Model" referent="RBX144"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.9584</X><Y>1.6523</Y><Z>2.4824</Z><R00>0.6428</R00><R01>0.4574</R01><R02>0.6145</R02><R10>0</R10><R11>0.8022</R11><R12>-0.5971</R12><R20>-0.766</R20><R21>0.3838</R21><R22>0.5156</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX145"><Properties>
+                <string name="Name">Royal skin</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>3.2196</X><Y>1.3985</Y><Z>2.7015</Z><R00>0.6428</R00><R01>0.4574</R01><R02>0.6145</R02><R10>0</R10><R11>0.8022</R11><R12>-0.5971</R12><R20>-0.766</R20><R21>0.3838</R21><R22>0.5156</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.64</X><Y>0.544</Y><Z>0.85</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX146"><Properties>
+                <string name="Name">Ink shadow</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>3.4316</X><Y>1.1925</Y><Z>2.8794</Z><R00>0.6428</R00><R01>0.4574</R01><R02>0.6145</R02><R10>0</R10><R11>0.8022</R11><R12>-0.5971</R12><R20>-0.766</R20><R21>0.3838</R21><R22>0.5156</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.72</X><Y>0.624</Y><Z>0.14</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX147"><Properties>
+                <string name="Name">Sucker pink</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>3.0937</X><Y>1.1777</Y><Z>2.5959</Z><R00>0.6428</R00><R01>0.4574</R01><R02>0.6145</R02><R10>0</R10><R11>0.8022</R11><R12>-0.5971</R12><R20>-0.766</R20><R21>0.3838</R21><R22>0.5156</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.288</X><Y>0.12</Y><Z>0.288</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX148"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>3.4807</X><Y>1.1447</Y><Z>2.9207</Z><R00>0.6428</R00><R01>0.1183</R01><R02>0.7569</R02><R10>0</R10><R11>0.988</R11><R12>-0.1544</R12><R20>-0.766</R20><R21>0.0993</R21><R22>0.6351</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX149"><Properties>
+                  <string name="Name">Royal skin</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>3.7645</X><Y>1.0868</Y><Z>3.1588</Z><R00>0.6428</R00><R01>0.1183</R01><R02>0.7569</R02><R10>0</R10><R11>0.988</R11><R12>-0.1544</R12><R20>-0.766</R20><R21>0.0993</R21><R22>0.6351</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.52</X><Y>0.442</Y><Z>0.75</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX150"><Properties>
+                  <string name="Name">Ink shadow</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>3.9878</X><Y>1.0413</Y><Z>3.3462</Z><R00>0.6428</R00><R01>0.1183</R01><R02>0.7569</R02><R10>0</R10><R11>0.988</R11><R12>-0.1544</R12><R20>-0.766</R20><R21>0.0993</R21><R22>0.6351</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.6</X><Y>0.522</Y><Z>0.14</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX151"><Properties>
+                  <string name="Name">Sucker pink</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>3.7381</X><Y>0.8659</Y><Z>3.1366</Z><R00>0.6428</R00><R01>0.1183</R01><R02>0.7569</R02><R10>0</R10><R11>0.988</R11><R12>-0.1544</R12><R20>-0.766</R20><R21>0.0993</R21><R22>0.6351</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.234</X><Y>0.12</Y><Z>0.234</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item class="Model" referent="RBX152"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.5</X><Y>3.5198</Y><Z>0</Z><R00>0</R00><R01>0.4543</R01><R02>0.8909</R02><R10>0</R10><R11>0.8909</R11><R12>-0.4543</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX153"><Properties>
+          <string name="Name">Royal skin</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.99</X><Y>3.2699</Y><Z>0</Z><R00>0</R00><R01>0.4543</R01><R02>0.8909</R02><R10>0</R10><R11>0.8909</R11><R12>-0.4543</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1</X><Y>0.85</Y><Z>1.1</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX154"><Properties>
+          <string name="Name">Ink shadow</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>2.4087</X><Y>3.0564</Y><Z>0</Z><R00>0</R00><R01>0.4543</R01><R02>0.8909</R02><R10>0</R10><R11>0.8909</R11><R12>-0.4543</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1.08</X><Y>0.93</Y><Z>0.14</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX155"><Properties>
+          <string name="Name">Sucker pink</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.7946</X><Y>2.8868</Y><Z>0</Z><R00>0</R00><R01>0.4543</R01><R02>0.8909</R02><R10>0</R10><R11>0.8909</R11><R12>-0.4543</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.45</X><Y>0.12</Y><Z>0.45</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Model" referent="RBX156"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.4799</X><Y>3.02</Y><Z>0</Z><R00>0</R00><R01>0.5991</R01><R02>0.8007</R02><R10>0</R10><R11>0.8007</R11><R12>-0.5991</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX157"><Properties>
+            <string name="Name">Royal skin</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>2.8803</X><Y>2.7205</Y><Z>0</Z><R00>0</R00><R01>0.5991</R01><R02>0.8007</R02><R10>0</R10><R11>0.8007</R11><R12>-0.5991</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.88</X><Y>0.748</Y><Z>1</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX158"><Properties>
+            <string name="Name">Ink shadow</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>3.2166</X><Y>2.4689</Y><Z>0</Z><R00>0</R00><R01>0.5991</R01><R02>0.8007</R02><R10>0</R10><R11>0.8007</R11><R12>-0.5991</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.96</X><Y>0.828</Y><Z>0.14</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX159"><Properties>
+            <string name="Name">Sucker pink</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>2.6536</X><Y>2.4175</Y><Z>0</Z><R00>0</R00><R01>0.5991</R01><R02>0.8007</R02><R10>0</R10><R11>0.8007</R11><R12>-0.5991</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.396</X><Y>0.12</Y><Z>0.396</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX160"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>3.2806</X><Y>2.4209</Y><Z>0</Z><R00>0</R00><R01>0.75</R01><R02>0.6614</R02><R10>0</R10><R11>0.6614</R11><R12>-0.75</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX161"><Properties>
+              <string name="Name">Royal skin</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>3.5948</X><Y>2.0647</Y><Z>0</Z><R00>0</R00><R01>0.75</R01><R02>0.6614</R02><R10>0</R10><R11>0.6614</R11><R12>-0.75</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.76</X><Y>0.646</Y><Z>0.95</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX162"><Properties>
+              <string name="Name">Ink shadow</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>3.856</X><Y>1.7684</Y><Z>0</Z><R00>0</R00><R01>0.75</R01><R02>0.6614</R02><R10>0</R10><R11>0.6614</R11><R12>-0.75</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.84</X><Y>0.726</Y><Z>0.14</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX163"><Properties>
+              <string name="Name">Sucker pink</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>3.3497</X><Y>1.8485</Y><Z>0</Z><R00>0</R00><R01>0.75</R01><R02>0.6614</R02><R10>0</R10><R11>0.6614</R11><R12>-0.75</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.342</X><Y>0.12</Y><Z>0.342</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Model" referent="RBX164"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>3.9089</X><Y>1.7084</Y><Z>0</Z><R00>0</R00><R01>0.5647</R01><R02>0.8253</R02><R10>0</R10><R11>0.8253</R11><R12>-0.5647</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX165"><Properties>
+                <string name="Name">Royal skin</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>4.2597</X><Y>1.4684</Y><Z>0</Z><R00>0</R00><R01>0.5647</R01><R02>0.8253</R02><R10>0</R10><R11>0.8253</R11><R12>-0.5647</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.64</X><Y>0.544</Y><Z>0.85</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX166"><Properties>
+                <string name="Name">Ink shadow</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>4.5444</X><Y>1.2736</Y><Z>0</Z><R00>0</R00><R01>0.5647</R01><R02>0.8253</R02><R10>0</R10><R11>0.8253</R11><R12>-0.5647</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.72</X><Y>0.624</Y><Z>0.14</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX167"><Properties>
+                <string name="Name">Sucker pink</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>4.1043</X><Y>1.2413</Y><Z>0</Z><R00>0</R00><R01>0.5647</R01><R02>0.8253</R02><R10>0</R10><R11>0.8253</R11><R12>-0.5647</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.288</X><Y>0.12</Y><Z>0.288</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX168"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>4.6105</X><Y>1.2285</Y><Z>0</Z><R00>0</R00><R01>0.1074</R01><R02>0.9942</R02><R10>0</R10><R11>0.9942</R11><R12>-0.1074</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX169"><Properties>
+                  <string name="Name">Royal skin</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>4.9833</X><Y>1.1882</Y><Z>0</Z><R00>0</R00><R01>0.1074</R01><R02>0.9942</R02><R10>0</R10><R11>0.9942</R11><R12>-0.1074</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.52</X><Y>0.442</Y><Z>0.75</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX170"><Properties>
+                  <string name="Name">Ink shadow</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>5.2766</X><Y>1.1565</Y><Z>0</Z><R00>0</R00><R01>0.1074</R01><R02>0.9942</R02><R10>0</R10><R11>0.9942</R11><R12>-0.1074</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.6</X><Y>0.522</Y><Z>0.14</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX171"><Properties>
+                  <string name="Name">Sucker pink</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>4.9593</X><Y>0.9659</Y><Z>0</Z><R00>0</R00><R01>0.1074</R01><R02>0.9942</R02><R10>0</R10><R11>0.9942</R11><R12>-0.1074</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.234</X><Y>0.12</Y><Z>0.234</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+              </Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item class="Model" referent="RBX172"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.4</X><Y>4.0198</Y><Z>-1.4</Z><R00>-0.766</R00><R01>-0.3687</R01><R02>0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>-0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Model" referent="RBX173"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>1.4</X><Y>4.0198</Y><Z>-1.4</Z><R00>-0.766</R00><R01>-0.3687</R01><R02>0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>-0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX174"><Properties>
+            <string name="Name">Royal skin</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>1.7686</X><Y>4.4213</Y><Z>-1.8393</Z><R00>-0.766</R00><R01>-0.3687</R01><R02>0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>-0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>1.3</X><Y>1.105</Y><Z>1.4</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX175"><Properties>
+            <string name="Name">Ink shadow</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>2.095</X><Y>4.7769</Y><Z>-2.2283</Z><R00>-0.766</R00><R01>-0.3687</R01><R02>0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>-0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>1.38</X><Y>1.185</Y><Z>0.14</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX176"><Properties>
+            <string name="Name">Sucker pink</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>1.9747</X><Y>3.9634</Y><Z>-2.0849</Z><R00>-0.766</R00><R01>-0.3687</R01><R02>0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>-0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.585</X><Y>0.12</Y><Z>0.585</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX177"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.1372</X><Y>4.8228</Y><Z>-2.2785</Z><R00>-0.8278</R00><R01>-0.1247</R01><R02>0.547</R02><R10>-0.0203</R10><R11>0.981</R11><R12>0.1929</R12><R20>-0.5607</R20><R21>0.1486</R21><R22>-0.8146</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX178"><Properties>
+              <string name="Name">Royal skin</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>2.4927</X><Y>4.9482</Y><Z>-2.808</Z><R00>-0.8278</R00><R01>-0.1247</R01><R02>0.547</R02><R10>-0.0203</R10><R11>0.981</R11><R12>0.1929</R12><R20>-0.5607</R20><R21>0.1486</R21><R22>-0.8146</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.15</X><Y>0.9775</Y><Z>1.3</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX179"><Properties>
+              <string name="Name">Ink shadow</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>2.8046</X><Y>5.0581</Y><Z>-3.2723</Z><R00>-0.8278</R00><R01>-0.1247</R01><R02>0.547</R02><R10>-0.0203</R10><R11>0.981</R11><R12>0.1929</R12><R20>-0.5607</R20><R21>0.1486</R21><R22>-0.8146</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.23</X><Y>1.0575</Y><Z>0.14</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX180"><Properties>
+              <string name="Name">Sucker pink</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>2.5544</X><Y>4.4631</Y><Z>-2.8815</Z><R00>-0.8278</R00><R01>-0.1247</R01><R02>0.547</R02><R10>-0.0203</R10><R11>0.981</R11><R12>0.1929</R12><R20>-0.5607</R20><R21>0.1486</R21><R22>-0.8146</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.5175</X><Y>0.12</Y><Z>0.5175</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Model" referent="RBX181"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>2.8483</X><Y>5.0736</Y><Z>-3.3374</Z><R00>-0.8811</R00><R01>0.0919</R01><R02>0.4639</R02><R10>0</R10><R11>0.9809</R11><R12>-0.1943</R12><R20>-0.473</R20><R21>-0.1712</R21><R22>-0.8643</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX182"><Properties>
+                <string name="Name">Royal skin</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>3.1267</X><Y>4.957</Y><Z>-3.856</Z><R00>-0.8811</R00><R01>0.0919</R01><R02>0.4639</R02><R10>0</R10><R11>0.9809</R11><R12>-0.1943</R12><R20>-0.473</R20><R21>-0.1712</R21><R22>-0.8643</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>1</X><Y>0.85</Y><Z>1.2</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX183"><Properties>
+                <string name="Name">Ink shadow</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>3.3679</X><Y>4.8559</Y><Z>-4.3054</Z><R00>-0.8811</R00><R01>0.0919</R01><R02>0.4639</R02><R10>0</R10><R11>0.9809</R11><R12>-0.1943</R12><R20>-0.473</R20><R21>-0.1712</R21><R22>-0.8643</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>1.08</X><Y>0.93</Y><Z>0.14</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX184"><Properties>
+                <string name="Name">Sucker pink</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>3.0872</X><Y>4.5352</Y><Z>-3.7824</Z><R00>-0.8811</R00><R01>0.0919</R01><R02>0.4639</R02><R10>0</R10><R11>0.9809</R11><R12>-0.1943</R12><R20>-0.473</R20><R21>-0.1712</R21><R22>-0.8643</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.45</X><Y>0.12</Y><Z>0.45</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX185"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>3.405</X><Y>4.8404</Y><Z>-4.3746</Z><R00>-0.9183</R00><R01>0.2484</R01><R02>0.3081</R02><R10>0.0549</R10><R11>0.851</R11><R12>-0.5224</R12><R20>-0.392</R20><R21>-0.4628</R21><R22>-0.7951</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX186"><Properties>
+                  <string name="Name">Royal skin</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>3.5745</X><Y>4.5531</Y><Z>-4.8119</Z><R00>-0.9183</R00><R01>0.2484</R01><R02>0.3081</R02><R10>0.0549</R10><R11>0.851</R11><R12>-0.5224</R12><R20>-0.392</R20><R21>-0.4628</R21><R22>-0.7951</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.85</X><Y>0.7225</Y><Z>1.1</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX187"><Properties>
+                  <string name="Name">Ink shadow</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>3.7194</X><Y>4.3076</Y><Z>-5.1856</Z><R00>-0.9183</R00><R01>0.2484</R01><R02>0.3081</R02><R10>0.0549</R10><R11>0.851</R11><R12>-0.5224</R12><R20>-0.392</R20><R21>-0.4628</R21><R22>-0.7951</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.93</X><Y>0.8025</Y><Z>0.14</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX188"><Properties>
+                  <string name="Name">Sucker pink</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>3.4837</X><Y>4.2421</Y><Z>-4.6428</Z><R00>-0.9183</R00><R01>0.2484</R01><R02>0.3081</R02><R10>0.0549</R10><R11>0.851</R11><R12>-0.5224</R12><R20>-0.392</R20><R21>-0.4628</R21><R22>-0.7951</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.3825</X><Y>0.12</Y><Z>0.3825</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Model" referent="RBX189"><Properties>
+                  <string name="Name">Joint</string>
+                  <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>3.744</X><Y>4.2658</Y><Z>-5.2492</Z><R00>-0.9346</R00><R01>0.3392</R01><R02>0.107</R02><R10>0.1365</R10><R11>0.6198</R11><R12>-0.7728</R12><R20>-0.3284</R20><R21>-0.7077</R21><R22>-0.6256</R22></CFrame></OptionalCoordinateFrame>
+                </Properties>
+                  <Item class="Part" referent="RBX190"><Properties>
+                    <string name="Name">Royal skin</string>
+                    <bool name="Anchored">true</bool>
+                    <CoordinateFrame name="CFrame"><X>3.7975</X><Y>3.8794</Y><Z>-5.562</Z><R00>-0.9346</R00><R01>0.3392</R01><R02>0.107</R02><R10>0.1365</R10><R11>0.6198</R11><R12>-0.7728</R12><R20>-0.3284</R20><R21>-0.7077</R21><R22>-0.6256</R22></CoordinateFrame>
+                    <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                    <token name="Material">272</token>
+                    <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                    <Vector3 name="size"><X>0.72</X><Y>0.612</Y><Z>1</Z></Vector3>
+                    <token name="shape">1</token>
+                  </Properties></Item>
+                  <Item class="Part" referent="RBX191"><Properties>
+                    <string name="Name">Ink shadow</string>
+                    <bool name="Anchored">true</bool>
+                    <CoordinateFrame name="CFrame"><X>3.8424</X><Y>3.5548</Y><Z>-5.8247</Z><R00>-0.9346</R00><R01>0.3392</R01><R02>0.107</R02><R10>0.1365</R10><R11>0.6198</R11><R12>-0.7728</R12><R20>-0.3284</R20><R21>-0.7077</R21><R22>-0.6256</R22></CoordinateFrame>
+                    <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                    <token name="Material">272</token>
+                    <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                    <Vector3 name="size"><X>0.8</X><Y>0.692</Y><Z>0.14</Z></Vector3>
+                    <token name="shape">1</token>
+                  </Properties></Item>
+                  <Item class="Part" referent="RBX192"><Properties>
+                    <string name="Name">Sucker pink</string>
+                    <bool name="Anchored">true</bool>
+                    <CoordinateFrame name="CFrame"><X>3.6925</X><Y>3.6875</Y><Z>-5.3429</Z><R00>-0.9346</R00><R01>0.3392</R01><R02>0.107</R02><R10>0.1365</R10><R11>0.6198</R11><R12>-0.7728</R12><R20>-0.3284</R20><R21>-0.7077</R21><R22>-0.6256</R22></CoordinateFrame>
+                    <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                    <token name="Material">272</token>
+                    <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                    <Vector3 name="size"><X>0.324</X><Y>0.12</Y><Z>0.324</Z></Vector3>
+                    <token name="shape">1</token>
+                  </Properties></Item>
+                  <Item class="Model" referent="RBX193"><Properties>
+                    <string name="Name">Joint</string>
+                    <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>3.851</X><Y>3.493</Y><Z>-5.8748</Z><R00>-0.9269</R00><R01>0.3548</R01><R02>-0.122</R02><R10>0.2346</R10><R11>0.2943</R11><R12>-0.9265</R12><R20>-0.2928</R20><R21>-0.8874</R21><R22>-0.356</R22></CFrame></OptionalCoordinateFrame>
+                  </Properties>
+                    <Item class="Part" referent="RBX194"><Properties>
+                      <string name="Name">Royal skin</string>
+                      <bool name="Anchored">true</bool>
+                      <CoordinateFrame name="CFrame"><X>3.7961</X><Y>3.0761</Y><Z>-6.035</Z><R00>-0.9269</R00><R01>0.3548</R01><R02>-0.122</R02><R10>0.2346</R10><R11>0.2943</R11><R12>-0.9265</R12><R20>-0.2928</R20><R21>-0.8874</R21><R22>-0.356</R22></CoordinateFrame>
+                      <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                      <token name="Material">272</token>
+                      <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                      <Vector3 name="size"><X>0.6</X><Y>0.51</Y><Z>0.9</Z></Vector3>
+                      <token name="shape">1</token>
+                    </Properties></Item>
+                    <Item class="Part" referent="RBX195"><Properties>
+                      <string name="Name">Ink shadow</string>
+                      <bool name="Anchored">true</bool>
+                      <CoordinateFrame name="CFrame"><X>3.7509</X><Y>2.7333</Y><Z>-6.1667</Z><R00>-0.9269</R00><R01>0.3548</R01><R02>-0.122</R02><R10>0.2346</R10><R11>0.2943</R11><R12>-0.9265</R12><R20>-0.2928</R20><R21>-0.8874</R21><R22>-0.356</R22></CoordinateFrame>
+                      <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                      <token name="Material">272</token>
+                      <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                      <Vector3 name="size"><X>0.68</X><Y>0.59</Y><Z>0.14</Z></Vector3>
+                      <token name="shape">1</token>
+                    </Properties></Item>
+                    <Item class="Part" referent="RBX196"><Properties>
+                      <string name="Name">Sucker pink</string>
+                      <bool name="Anchored">true</bool>
+                      <CoordinateFrame name="CFrame"><X>3.7045</X><Y>3.0002</Y><Z>-5.806</Z><R00>-0.9269</R00><R01>0.3548</R01><R02>-0.122</R02><R10>0.2346</R10><R11>0.2943</R11><R12>-0.9265</R12><R20>-0.2928</R20><R21>-0.8874</R21><R22>-0.356</R22></CoordinateFrame>
+                      <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                      <token name="Material">272</token>
+                      <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                      <Vector3 name="size"><X>0.27</X><Y>0.12</Y><Z>0.27</Z></Vector3>
+                      <token name="shape">1</token>
+                    </Properties></Item>
+                    <Item class="Model" referent="RBX197"><Properties>
+                      <string name="Name">Joint</string>
+                      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>3.7412</X><Y>2.6592</Y><Z>-6.1952</Z><R00>-0.8955</R00><R01>0.2775</R01><R02>-0.348</R02><R10>0.3344</R10><R11>-0.0966</R11><R12>-0.9375</R12><R20>-0.2938</R20><R21>-0.9559</R21><R22>-0.0063</R22></CFrame></OptionalCoordinateFrame>
+                    </Properties>
+                      <Item class="Part" referent="RBX198"><Properties>
+                        <string name="Name">Royal skin</string>
+                        <bool name="Anchored">true</bool>
+                        <CoordinateFrame name="CFrame"><X>3.602</X><Y>2.2842</Y><Z>-6.1977</Z><R00>-0.8955</R00><R01>0.2775</R01><R02>-0.348</R02><R10>0.3344</R10><R11>-0.0966</R11><R12>-0.9375</R12><R20>-0.2938</R20><R21>-0.9559</R21><R22>-0.0063</R22></CoordinateFrame>
+                        <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                        <token name="Material">272</token>
+                        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                        <Vector3 name="size"><X>0.48</X><Y>0.408</Y><Z>0.8</Z></Vector3>
+                        <token name="shape">1</token>
+                      </Properties></Item>
+                      <Item class="Part" referent="RBX199"><Properties>
+                        <string name="Name">Ink shadow</string>
+                        <bool name="Anchored">true</bool>
+                        <CoordinateFrame name="CFrame"><X>3.4906</X><Y>1.9842</Y><Z>-6.1997</Z><R00>-0.8955</R00><R01>0.2775</R01><R02>-0.348</R02><R10>0.3344</R10><R11>-0.0966</R11><R12>-0.9375</R12><R20>-0.2938</R20><R21>-0.9559</R21><R22>-0.0063</R22></CoordinateFrame>
+                        <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                        <token name="Material">272</token>
+                        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                        <Vector3 name="size"><X>0.56</X><Y>0.488</Y><Z>0.14</Z></Vector3>
+                        <token name="shape">1</token>
+                      </Properties></Item>
+                      <Item class="Part" referent="RBX200"><Properties>
+                        <string name="Name">Sucker pink</string>
+                        <bool name="Anchored">true</bool>
+                        <CoordinateFrame name="CFrame"><X>3.5447</X><Y>2.3041</Y><Z>-6.0004</Z><R00>-0.8955</R00><R01>0.2775</R01><R02>-0.348</R02><R10>0.3344</R10><R11>-0.0966</R11><R12>-0.9375</R12><R20>-0.2938</R20><R21>-0.9559</R21><R22>-0.0063</R22></CoordinateFrame>
+                        <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                        <token name="Material">272</token>
+                        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                        <Vector3 name="size"><X>0.216</X><Y>0.12</Y><Z>0.216</Z></Vector3>
+                        <token name="shape">1</token>
+                      </Properties></Item>
+                    </Item>
+                  </Item>
+                </Item>
+              </Item>
+            </Item>
+            <Item class="Part" referent="RBX201"><Properties>
+              <string name="Name">Throne gold</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>2.3421</X><Y>5.4588</Y><Z>-2.6041</Z><R00>-0.8278</R00><R01>-0.1247</R01><R02>0.547</R02><R10>-0.0203</R10><R11>0.981</R11><R12>0.1929</R12><R20>-0.5607</R20><R21>0.1486</R21><R22>-0.8146</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.3</X><Y>0.35</Y><Z>0.6</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+          </Item>
+          <Item class="Part" referent="RBX202"><Properties>
+            <string name="Name">Coral armor</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>1.5658</X><Y>4.8718</Y><Z>-1.5976</Z><R00>-0.766</R00><R01>-0.3687</R01><R02>0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>-0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4294933090</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>1.5</X><Y>0.5</Y><Z>1</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+        </Item>
+      </Item>
+      <Item class="Model" referent="RBX203"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.4</X><Y>4.0198</Y><Z>-1.4</Z><R00>-0.766</R00><R01>0.3687</R01><R02>-0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Model" referent="RBX204"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.4</X><Y>4.0198</Y><Z>-1.4</Z><R00>-0.766</R00><R01>0.3687</R01><R02>-0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX205"><Properties>
+            <string name="Name">Royal skin</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-1.7686</X><Y>4.4213</Y><Z>-1.8393</Z><R00>-0.766</R00><R01>0.3687</R01><R02>-0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>1.3</X><Y>1.105</Y><Z>1.4</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX206"><Properties>
+            <string name="Name">Ink shadow</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-2.095</X><Y>4.7769</Y><Z>-2.2283</Z><R00>-0.766</R00><R01>0.3687</R01><R02>-0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>1.38</X><Y>1.185</Y><Z>0.14</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Part" referent="RBX207"><Properties>
+            <string name="Name">Sucker pink</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-1.9747</X><Y>3.9634</Y><Z>-2.0849</Z><R00>-0.766</R00><R01>0.3687</R01><R02>-0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.585</X><Y>0.12</Y><Z>0.585</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+          <Item class="Model" referent="RBX208"><Properties>
+            <string name="Name">Joint</string>
+            <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.1372</X><Y>4.8228</Y><Z>-2.2785</Z><R00>-0.8278</R00><R01>0.1247</R01><R02>-0.547</R02><R10>0.0203</R10><R11>0.981</R11><R12>0.1929</R12><R20>0.5607</R20><R21>0.1486</R21><R22>-0.8146</R22></CFrame></OptionalCoordinateFrame>
+          </Properties>
+            <Item class="Part" referent="RBX209"><Properties>
+              <string name="Name">Royal skin</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-2.4927</X><Y>4.9482</Y><Z>-2.808</Z><R00>-0.8278</R00><R01>0.1247</R01><R02>-0.547</R02><R10>0.0203</R10><R11>0.981</R11><R12>0.1929</R12><R20>0.5607</R20><R21>0.1486</R21><R22>-0.8146</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.15</X><Y>0.9775</Y><Z>1.3</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX210"><Properties>
+              <string name="Name">Ink shadow</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-2.8046</X><Y>5.0581</Y><Z>-3.2723</Z><R00>-0.8278</R00><R01>0.1247</R01><R02>-0.547</R02><R10>0.0203</R10><R11>0.981</R11><R12>0.1929</R12><R20>0.5607</R20><R21>0.1486</R21><R22>-0.8146</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.23</X><Y>1.0575</Y><Z>0.14</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Part" referent="RBX211"><Properties>
+              <string name="Name">Sucker pink</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-2.5544</X><Y>4.4631</Y><Z>-2.8815</Z><R00>-0.8278</R00><R01>0.1247</R01><R02>-0.547</R02><R10>0.0203</R10><R11>0.981</R11><R12>0.1929</R12><R20>0.5607</R20><R21>0.1486</R21><R22>-0.8146</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>0.5175</X><Y>0.12</Y><Z>0.5175</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+            <Item class="Model" referent="RBX212"><Properties>
+              <string name="Name">Joint</string>
+              <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-2.8483</X><Y>5.0736</Y><Z>-3.3374</Z><R00>-0.8811</R00><R01>-0.0919</R01><R02>-0.4639</R02><R10>0</R10><R11>0.9809</R11><R12>-0.1943</R12><R20>0.473</R20><R21>-0.1712</R21><R22>-0.8643</R22></CFrame></OptionalCoordinateFrame>
+            </Properties>
+              <Item class="Part" referent="RBX213"><Properties>
+                <string name="Name">Royal skin</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-3.1267</X><Y>4.957</Y><Z>-3.856</Z><R00>-0.8811</R00><R01>-0.0919</R01><R02>-0.4639</R02><R10>0</R10><R11>0.9809</R11><R12>-0.1943</R12><R20>0.473</R20><R21>-0.1712</R21><R22>-0.8643</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>1</X><Y>0.85</Y><Z>1.2</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX214"><Properties>
+                <string name="Name">Ink shadow</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-3.3679</X><Y>4.8559</Y><Z>-4.3054</Z><R00>-0.8811</R00><R01>-0.0919</R01><R02>-0.4639</R02><R10>0</R10><R11>0.9809</R11><R12>-0.1943</R12><R20>0.473</R20><R21>-0.1712</R21><R22>-0.8643</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>1.08</X><Y>0.93</Y><Z>0.14</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Part" referent="RBX215"><Properties>
+                <string name="Name">Sucker pink</string>
+                <bool name="Anchored">true</bool>
+                <CoordinateFrame name="CFrame"><X>-3.0872</X><Y>4.5352</Y><Z>-3.7824</Z><R00>-0.8811</R00><R01>-0.0919</R01><R02>-0.4639</R02><R10>0</R10><R11>0.9809</R11><R12>-0.1943</R12><R20>0.473</R20><R21>-0.1712</R21><R22>-0.8643</R22></CoordinateFrame>
+                <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                <token name="Material">272</token>
+                <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                <Vector3 name="size"><X>0.45</X><Y>0.12</Y><Z>0.45</Z></Vector3>
+                <token name="shape">1</token>
+              </Properties></Item>
+              <Item class="Model" referent="RBX216"><Properties>
+                <string name="Name">Joint</string>
+                <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-3.405</X><Y>4.8404</Y><Z>-4.3746</Z><R00>-0.9183</R00><R01>-0.2484</R01><R02>-0.3081</R02><R10>-0.0549</R10><R11>0.851</R11><R12>-0.5224</R12><R20>0.392</R20><R21>-0.4628</R21><R22>-0.7951</R22></CFrame></OptionalCoordinateFrame>
+              </Properties>
+                <Item class="Part" referent="RBX217"><Properties>
+                  <string name="Name">Royal skin</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-3.5745</X><Y>4.5531</Y><Z>-4.8119</Z><R00>-0.9183</R00><R01>-0.2484</R01><R02>-0.3081</R02><R10>-0.0549</R10><R11>0.851</R11><R12>-0.5224</R12><R20>0.392</R20><R21>-0.4628</R21><R22>-0.7951</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.85</X><Y>0.7225</Y><Z>1.1</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX218"><Properties>
+                  <string name="Name">Ink shadow</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-3.7194</X><Y>4.3076</Y><Z>-5.1856</Z><R00>-0.9183</R00><R01>-0.2484</R01><R02>-0.3081</R02><R10>-0.0549</R10><R11>0.851</R11><R12>-0.5224</R12><R20>0.392</R20><R21>-0.4628</R21><R22>-0.7951</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.93</X><Y>0.8025</Y><Z>0.14</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Part" referent="RBX219"><Properties>
+                  <string name="Name">Sucker pink</string>
+                  <bool name="Anchored">true</bool>
+                  <CoordinateFrame name="CFrame"><X>-3.4837</X><Y>4.2421</Y><Z>-4.6428</Z><R00>-0.9183</R00><R01>-0.2484</R01><R02>-0.3081</R02><R10>-0.0549</R10><R11>0.851</R11><R12>-0.5224</R12><R20>0.392</R20><R21>-0.4628</R21><R22>-0.7951</R22></CoordinateFrame>
+                  <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                  <token name="Material">272</token>
+                  <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                  <Vector3 name="size"><X>0.3825</X><Y>0.12</Y><Z>0.3825</Z></Vector3>
+                  <token name="shape">1</token>
+                </Properties></Item>
+                <Item class="Model" referent="RBX220"><Properties>
+                  <string name="Name">Joint</string>
+                  <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-3.744</X><Y>4.2658</Y><Z>-5.2492</Z><R00>-0.9346</R00><R01>-0.3392</R01><R02>-0.107</R02><R10>-0.1365</R10><R11>0.6198</R11><R12>-0.7728</R12><R20>0.3284</R20><R21>-0.7077</R21><R22>-0.6256</R22></CFrame></OptionalCoordinateFrame>
+                </Properties>
+                  <Item class="Part" referent="RBX221"><Properties>
+                    <string name="Name">Royal skin</string>
+                    <bool name="Anchored">true</bool>
+                    <CoordinateFrame name="CFrame"><X>-3.7975</X><Y>3.8794</Y><Z>-5.562</Z><R00>-0.9346</R00><R01>-0.3392</R01><R02>-0.107</R02><R10>-0.1365</R10><R11>0.6198</R11><R12>-0.7728</R12><R20>0.3284</R20><R21>-0.7077</R21><R22>-0.6256</R22></CoordinateFrame>
+                    <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                    <token name="Material">272</token>
+                    <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                    <Vector3 name="size"><X>0.72</X><Y>0.612</Y><Z>1</Z></Vector3>
+                    <token name="shape">1</token>
+                  </Properties></Item>
+                  <Item class="Part" referent="RBX222"><Properties>
+                    <string name="Name">Ink shadow</string>
+                    <bool name="Anchored">true</bool>
+                    <CoordinateFrame name="CFrame"><X>-3.8424</X><Y>3.5548</Y><Z>-5.8247</Z><R00>-0.9346</R00><R01>-0.3392</R01><R02>-0.107</R02><R10>-0.1365</R10><R11>0.6198</R11><R12>-0.7728</R12><R20>0.3284</R20><R21>-0.7077</R21><R22>-0.6256</R22></CoordinateFrame>
+                    <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                    <token name="Material">272</token>
+                    <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                    <Vector3 name="size"><X>0.8</X><Y>0.692</Y><Z>0.14</Z></Vector3>
+                    <token name="shape">1</token>
+                  </Properties></Item>
+                  <Item class="Part" referent="RBX223"><Properties>
+                    <string name="Name">Sucker pink</string>
+                    <bool name="Anchored">true</bool>
+                    <CoordinateFrame name="CFrame"><X>-3.6925</X><Y>3.6875</Y><Z>-5.3429</Z><R00>-0.9346</R00><R01>-0.3392</R01><R02>-0.107</R02><R10>-0.1365</R10><R11>0.6198</R11><R12>-0.7728</R12><R20>0.3284</R20><R21>-0.7077</R21><R22>-0.6256</R22></CoordinateFrame>
+                    <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                    <token name="Material">272</token>
+                    <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                    <Vector3 name="size"><X>0.324</X><Y>0.12</Y><Z>0.324</Z></Vector3>
+                    <token name="shape">1</token>
+                  </Properties></Item>
+                  <Item class="Model" referent="RBX224"><Properties>
+                    <string name="Name">Joint</string>
+                    <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-3.851</X><Y>3.493</Y><Z>-5.8748</Z><R00>-0.9269</R00><R01>-0.3548</R01><R02>0.122</R02><R10>-0.2346</R10><R11>0.2943</R11><R12>-0.9265</R12><R20>0.2928</R20><R21>-0.8874</R21><R22>-0.356</R22></CFrame></OptionalCoordinateFrame>
+                  </Properties>
+                    <Item class="Part" referent="RBX225"><Properties>
+                      <string name="Name">Royal skin</string>
+                      <bool name="Anchored">true</bool>
+                      <CoordinateFrame name="CFrame"><X>-3.7961</X><Y>3.0761</Y><Z>-6.035</Z><R00>-0.9269</R00><R01>-0.3548</R01><R02>0.122</R02><R10>-0.2346</R10><R11>0.2943</R11><R12>-0.9265</R12><R20>0.2928</R20><R21>-0.8874</R21><R22>-0.356</R22></CoordinateFrame>
+                      <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                      <token name="Material">272</token>
+                      <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                      <Vector3 name="size"><X>0.6</X><Y>0.51</Y><Z>0.9</Z></Vector3>
+                      <token name="shape">1</token>
+                    </Properties></Item>
+                    <Item class="Part" referent="RBX226"><Properties>
+                      <string name="Name">Ink shadow</string>
+                      <bool name="Anchored">true</bool>
+                      <CoordinateFrame name="CFrame"><X>-3.7509</X><Y>2.7333</Y><Z>-6.1667</Z><R00>-0.9269</R00><R01>-0.3548</R01><R02>0.122</R02><R10>-0.2346</R10><R11>0.2943</R11><R12>-0.9265</R12><R20>0.2928</R20><R21>-0.8874</R21><R22>-0.356</R22></CoordinateFrame>
+                      <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                      <token name="Material">272</token>
+                      <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                      <Vector3 name="size"><X>0.68</X><Y>0.59</Y><Z>0.14</Z></Vector3>
+                      <token name="shape">1</token>
+                    </Properties></Item>
+                    <Item class="Part" referent="RBX227"><Properties>
+                      <string name="Name">Sucker pink</string>
+                      <bool name="Anchored">true</bool>
+                      <CoordinateFrame name="CFrame"><X>-3.7045</X><Y>3.0002</Y><Z>-5.806</Z><R00>-0.9269</R00><R01>-0.3548</R01><R02>0.122</R02><R10>-0.2346</R10><R11>0.2943</R11><R12>-0.9265</R12><R20>0.2928</R20><R21>-0.8874</R21><R22>-0.356</R22></CoordinateFrame>
+                      <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                      <token name="Material">272</token>
+                      <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                      <Vector3 name="size"><X>0.27</X><Y>0.12</Y><Z>0.27</Z></Vector3>
+                      <token name="shape">1</token>
+                    </Properties></Item>
+                    <Item class="Model" referent="RBX228"><Properties>
+                      <string name="Name">Joint</string>
+                      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-3.7412</X><Y>2.6592</Y><Z>-6.1952</Z><R00>-0.8955</R00><R01>-0.2775</R01><R02>0.348</R02><R10>-0.3344</R10><R11>-0.0966</R11><R12>-0.9375</R12><R20>0.2938</R20><R21>-0.9559</R21><R22>-0.0063</R22></CFrame></OptionalCoordinateFrame>
+                    </Properties>
+                      <Item class="Part" referent="RBX229"><Properties>
+                        <string name="Name">Royal skin</string>
+                        <bool name="Anchored">true</bool>
+                        <CoordinateFrame name="CFrame"><X>-3.602</X><Y>2.2842</Y><Z>-6.1977</Z><R00>-0.8955</R00><R01>-0.2775</R01><R02>0.348</R02><R10>-0.3344</R10><R11>-0.0966</R11><R12>-0.9375</R12><R20>0.2938</R20><R21>-0.9559</R21><R22>-0.0063</R22></CoordinateFrame>
+                        <Color3uint8 name="Color3uint8">4285344883</Color3uint8>
+                        <token name="Material">272</token>
+                        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                        <Vector3 name="size"><X>0.48</X><Y>0.408</Y><Z>0.8</Z></Vector3>
+                        <token name="shape">1</token>
+                      </Properties></Item>
+                      <Item class="Part" referent="RBX230"><Properties>
+                        <string name="Name">Ink shadow</string>
+                        <bool name="Anchored">true</bool>
+                        <CoordinateFrame name="CFrame"><X>-3.4906</X><Y>1.9842</Y><Z>-6.1997</Z><R00>-0.8955</R00><R01>-0.2775</R01><R02>0.348</R02><R10>-0.3344</R10><R11>-0.0966</R11><R12>-0.9375</R12><R20>0.2938</R20><R21>-0.9559</R21><R22>-0.0063</R22></CoordinateFrame>
+                        <Color3uint8 name="Color3uint8">4282850127</Color3uint8>
+                        <token name="Material">272</token>
+                        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                        <Vector3 name="size"><X>0.56</X><Y>0.488</Y><Z>0.14</Z></Vector3>
+                        <token name="shape">1</token>
+                      </Properties></Item>
+                      <Item class="Part" referent="RBX231"><Properties>
+                        <string name="Name">Sucker pink</string>
+                        <bool name="Anchored">true</bool>
+                        <CoordinateFrame name="CFrame"><X>-3.5447</X><Y>2.3041</Y><Z>-6.0004</Z><R00>-0.8955</R00><R01>-0.2775</R01><R02>0.348</R02><R10>-0.3344</R10><R11>-0.0966</R11><R12>-0.9375</R12><R20>0.2938</R20><R21>-0.9559</R21><R22>-0.0063</R22></CoordinateFrame>
+                        <Color3uint8 name="Color3uint8">4294162630</Color3uint8>
+                        <token name="Material">272</token>
+                        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+                        <Vector3 name="size"><X>0.216</X><Y>0.12</Y><Z>0.216</Z></Vector3>
+                        <token name="shape">1</token>
+                      </Properties></Item>
+                    </Item>
+                  </Item>
+                </Item>
+              </Item>
+            </Item>
+            <Item class="Part" referent="RBX232"><Properties>
+              <string name="Name">Throne gold</string>
+              <bool name="Anchored">true</bool>
+              <CoordinateFrame name="CFrame"><X>-2.3421</X><Y>5.4588</Y><Z>-2.6041</Z><R00>-0.8278</R00><R01>0.1247</R01><R02>-0.547</R02><R10>0.0203</R10><R11>0.981</R11><R12>0.1929</R12><R20>0.5607</R20><R21>0.1486</R21><R22>-0.8146</R22></CoordinateFrame>
+              <Color3uint8 name="Color3uint8">4293113421</Color3uint8>
+              <token name="Material">272</token>
+              <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+              <Vector3 name="size"><X>1.3</X><Y>0.35</Y><Z>0.6</Z></Vector3>
+              <token name="shape">1</token>
+            </Properties></Item>
+          </Item>
+          <Item class="Part" referent="RBX233"><Properties>
+            <string name="Name">Coral armor</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-1.5658</X><Y>4.8718</Y><Z>-1.5976</Z><R00>-0.766</R00><R01>0.3687</R01><R02>-0.5265</R02><R10>0</R10><R11>0.8192</R11><R12>0.5736</R12><R20>0.6428</R20><R21>0.4394</R21><R22>-0.6275</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4294933090</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>1.5</X><Y>0.5</Y><Z>1</Z></Vector3>
+            <token name="shape">1</token>
+          </Properties></Item>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>

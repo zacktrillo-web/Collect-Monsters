@@ -4,7 +4,9 @@
   "description": "3D blockout concept sheets for Collect Monsters secret-tier monsters",
   "scripts": {
     "render": "node tools/render.mjs",
-    "briefs": "node tools/write-briefs.mjs"
+    "briefs": "node tools/write-briefs.mjs",
+    "roblox": "node tools/export-roblox.mjs",
+    "roblox:check": "node tools/check-roblox.mjs"
   },
   "dependencies": {
     "@fontsource/bebas-neue": "^5.3.0",

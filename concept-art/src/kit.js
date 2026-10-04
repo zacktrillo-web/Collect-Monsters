@@ -21,7 +21,11 @@ const matCache = new Map();
 // Cel-shaded surface material.
 export function toon(color) {
   const key = 't' + color;
-  if (!matCache.has(key)) matCache.set(key, new THREE.MeshToonMaterial({ color, gradientMap }));
+  if (!matCache.has(key)) {
+    const m = new THREE.MeshToonMaterial({ color, gradientMap });
+    m.userData.base = color;
+    matCache.set(key, m);
+  }
   return matCache.get(key);
 }
 
@@ -31,6 +35,7 @@ export function glow(color, k = 2.2) {
   if (!matCache.has(key)) {
     const m = new THREE.MeshBasicMaterial({ color: new THREE.Color(color).multiplyScalar(k), toneMapped: false });
     m.userData.glow = true;
+    m.userData.base = color;
     matCache.set(key, m);
   }
   return matCache.get(key);
@@ -101,25 +106,30 @@ function addMesh(parent, geom, m, o = {}) {
 // ---------- primitives (all centred on their local origin) ----------
 
 const geoCache = new Map();
-const cached = (key, make) => {
-  if (!geoCache.has(key)) geoCache.set(key, make());
+// `shape` records what the geometry is, so tools/export-roblox.mjs can rebuild it from Roblox parts.
+const cached = (key, make, shape) => {
+  if (!geoCache.has(key)) {
+    const g = make();
+    g.userData.shape = shape;
+    geoCache.set(key, g);
+  }
   return geoCache.get(key);
 };
 
 export const box = (parent, [w, h, d], m, o) =>
-  addMesh(parent, cached(`b${w},${h},${d}`, () => new THREE.BoxGeometry(w, h, d)), m, o);
+  addMesh(parent, cached(`b${w},${h},${d}`, () => new THREE.BoxGeometry(w, h, d), { type: 'box', size: [w, h, d] }), m, o);
 
 export const cyl = (parent, [rt, rb, h, seg = 8], m, o) =>
-  addMesh(parent, cached(`c${rt},${rb},${h},${seg}`, () => new THREE.CylinderGeometry(rt, rb, h, seg)), m, o);
+  addMesh(parent, cached(`c${rt},${rb},${h},${seg}`, () => new THREE.CylinderGeometry(rt, rb, h, seg), { type: 'cyl', rt, rb, h }), m, o);
 
 export const cone = (parent, [r, h, seg = 4], m, o) =>
-  addMesh(parent, cached(`k${r},${h},${seg}`, () => new THREE.ConeGeometry(r, h, seg)), m, o);
+  addMesh(parent, cached(`k${r},${h},${seg}`, () => new THREE.ConeGeometry(r, h, seg), { type: 'cone', r, h }), m, o);
 
 export const sph = (parent, r, m, o = {}) =>
-  addMesh(parent, cached(`s${r},${o.detail ?? 1}`, () => new THREE.IcosahedronGeometry(r, o.detail ?? 1)), m, o);
+  addMesh(parent, cached(`s${r},${o.detail ?? 1}`, () => new THREE.IcosahedronGeometry(r, o.detail ?? 1), { type: 'sph', r }), m, o);
 
 export const tor = (parent, [R, tube, rs = 6, ts = 32], m, o) =>
-  addMesh(parent, cached(`o${R},${tube},${rs},${ts}`, () => new THREE.TorusGeometry(R, tube, rs, ts)), m, o);
+  addMesh(parent, cached(`o${R},${tube},${rs},${ts}`, () => new THREE.TorusGeometry(R, tube, rs, ts), { type: 'tor', R, tube }), m, o);
 
 // Ramp: full height at the back (-z), tapering to an edge at the front (+z).
 export const wedge = (parent, [w, h, d], m, o) =>
@@ -135,7 +145,7 @@ export const wedge = (parent, [w, h, d], m, o) =>
       g.translate(0, 0, -w / 2);
       g.rotateY(-Math.PI / 2);
       return g;
-    }),
+    }, { type: 'wedge', size: [w, h, d] }),
     m,
     o,
   );
@@ -148,7 +158,7 @@ export function prism(parent, pts, depth, m, o = {}) {
     const geo = new THREE.ExtrudeGeometry(s, { depth, bevelEnabled: false });
     geo.translate(0, 0, -depth / 2);
     return geo;
-  });
+  }, { type: 'prism', pts, depth });
   return addMesh(parent, g, m, o);
 }
 
@@ -167,7 +177,7 @@ export const taper = (parent, [wb, db, wt, dt, h], m, o) =>
       }
       g.computeVertexNormals();
       return g;
-    }),
+    }, { type: 'taper', wb, db, wt, dt, h }),
     m,
     o,
   );
@@ -177,7 +187,7 @@ export function rod(parent, a, b, r, m, o = {}) {
   const A = new THREE.Vector3(...a);
   const B = new THREE.Vector3(...b);
   const len = A.distanceTo(B);
-  const mesh = addMesh(parent, cached(`r${r},${len.toFixed(3)}`, () => new THREE.CylinderGeometry(r, r, len, 5)), m, o);
+  const mesh = addMesh(parent, cached(`r${r},${len.toFixed(3)}`, () => new THREE.CylinderGeometry(r, r, len, 5), { type: 'cyl', rt: r, rb: r, h: len }), m, o);
   mesh.position.copy(A).add(B).multiplyScalar(0.5);
   mesh.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), B.sub(A).normalize());
   return mesh;

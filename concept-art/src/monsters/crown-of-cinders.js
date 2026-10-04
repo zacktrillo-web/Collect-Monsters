@@ -39,7 +39,7 @@ export default {
   ],
   build() {
     const root = new THREE.Group();
-    const body = pivot(root, { p: [0, 2.2, 0] });
+    const body = pivot(root, { p: [0, 2.2, 0], name: 'Torso' });
 
     // Legs
     for (const s of [-1, 1]) {
@@ -69,13 +69,13 @@ export default {
     box(body, [0.1, 1.3, 0.06], seam, { p: [-3.02, 2.4, 0.6], r: [0, 90, -10] });
 
     // Head: small cranium sunk into the shoulders, huge underbite jaw
-    const head = pivot(body, { p: [0, 3.9, 1.3] });
+    const head = pivot(body, { p: [0, 3.9, 1.3], name: 'Head' });
     box(head, [2.4, 1.3, 1.9], C.hide, { p: [0, 0.75, 0] });
     box(head, [2.7, 0.4, 0.6], C.hideDark, { p: [0, 1.25, 0.8] });
     for (const s of [-1, 1]) box(head, [0.55, 0.18, 0.1], glow(C.ember, 2.6), { p: [s * 0.6, 0.95, 0.97] });
     box(head, [2.0, 0.35, 1.2], glow(C.seam, 1.8), { p: [0, 0.1, 0.5] });
     for (let i = 0; i < 4; i++) box(head, [0.32, 0.32, 0.32], C.teeth, { p: [-0.75 + i * 0.5, 0.2, 1.05] });
-    const jaw = pivot(head, { p: [0, 0.1, -0.4] });
+    const jaw = pivot(head, { p: [0, 0.1, -0.4], name: 'Jaw' });
     box(jaw, [3.6, 1.4, 2.8], C.hide, { p: [0, -0.7, 1.2] });
     box(jaw, [3.8, 0.35, 0.6], C.ash, { p: [0, -1.25, 2.45] });
     for (let i = 0; i < 5; i++) box(jaw, [0.42, 0.55, 0.42], C.teeth, { p: [-1.2 + i * 0.6, 0.2, 2.25] });
@@ -83,14 +83,14 @@ export default {
     box(jaw, [0.1, 0.9, 0.06], seam, { p: [0.9, -0.7, 2.62], r: [0, 0, 25] });
 
     // Broken floating crown
-    const crown = pivot(head, { p: [0, 2.55, 0] });
+    const crown = pivot(head, { p: [0, 2.55, 0], name: 'Crown' });
     const shards = [];
     const n = 6;
     for (let i = 0; i < n; i++) {
       if (i === 4) continue; // the missing piece
       const a = (i / n) * Math.PI * 2;
-      const shard = pivot(crown, { p: [Math.sin(a) * 1.15, 0, Math.cos(a) * 1.15], r: [0, (a * 180) / Math.PI, 0] });
-      const inner = pivot(shard, { r: [(i % 2 ? 10 : -12), 0, (i % 3) * 7 - 7] });
+      const shard = pivot(crown, { p: [Math.sin(a) * 1.15, 0, Math.cos(a) * 1.15], r: [0, (a * 180) / Math.PI, 0], name: `CrownShard${shards.length + 1}` });
+      const inner = pivot(shard, { r: [(i % 2 ? 10 : -12), 0, (i % 3) * 7 - 7], name: 'Tilt' });
       box(inner, [1.05, 0.38, 0.24], C.crown);
       box(inner, [1.05, 0.12, 0.26], C.crownDark, { p: [0, -0.22, 0] });
       prism(inner, [[-0.4, 0.19], [0.4, 0.19], [0.12, i % 2 ? 1.2 : 0.85], [-0.05, 0.6]], 0.2, C.crown);
@@ -102,22 +102,23 @@ export default {
     const upper = [];
     const lower = [];
     for (const s of [-1, 1]) {
-      const sh = pivot(body, { p: [s * 3.15, 3.7, 0.2] });
-      const up = pivot(sh, {});
+      const side = s > 0 ? 'Left' : 'Right';
+      const sh = pivot(body, { p: [s * 3.15, 3.7, 0.2], name: `UpperShoulder${side}` });
+      const up = pivot(sh, { name: 'Twist' });
       box(up, [1.3, 1.9, 1.3], C.hide, { p: [0, -0.8, 0] });
       box(up, [1.5, 0.9, 1.5], C.ash, { p: [0, 0.1, 0] });
       box(up, [0.1, 1.1, 0.06], seam, { p: [0.1 * s, -0.8, 0.68], r: [0, 0, 20 * s] });
-      const el = pivot(up, { p: [0, -1.7, 0] });
+      const el = pivot(up, { p: [0, -1.7, 0], name: `UpperElbow${side}` });
       box(el, [1.15, 1.7, 1.15], C.hideDark, { p: [0, -0.75, 0] });
       box(el, [1.5, 1.3, 1.5], C.hide, { p: [0, -1.95, 0] });
       for (const k of [-0.45, -0.15, 0.15, 0.45]) box(el, [0.24, 0.3, 0.3], C.ash, { p: [k, -2.0, 0.82] });
       upper.push({ s, sh, up, el });
 
-      const lsh = pivot(body, { p: [s * 2.6, 1.5, 0.35] });
+      const lsh = pivot(body, { p: [s * 2.6, 1.5, 0.35], name: `LowerShoulder${side}` });
       box(lsh, [1.3, 1.6, 1.3], C.hide, { p: [0, -0.6, 0] });
-      const lel = pivot(lsh, { p: [0, -1.3, 0] });
+      const lel = pivot(lsh, { p: [0, -1.3, 0], name: `LowerElbow${side}` });
       box(lel, [1.4, 1.3, 1.4], C.hideDark, { p: [0, -0.5, 0] });
-      const fist = pivot(lel, { p: [0, -1.55, 0.15] });
+      const fist = pivot(lel, { p: [0, -1.55, 0.15], name: `Fist${side}` });
       box(fist, [2.1, 1.6, 2.1], C.hide);
       box(fist, [2.2, 0.5, 0.5], C.ash, { p: [0, 0.4, 0.9] });
       for (const k of [-0.7, 0, 0.7]) box(fist, [0.55, 0.45, 0.35], C.ash, { p: [k, -0.2, 1.15] });

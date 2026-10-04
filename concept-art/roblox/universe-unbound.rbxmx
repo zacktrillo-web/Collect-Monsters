@@ -1,0 +1,2251 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+  <Item class="Model" referent="RBX0"><Properties>
+    <string name="Name">UniverseUnbound</string>
+    <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>0</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CFrame></OptionalCoordinateFrame>
+  </Properties>
+    <Item class="Model" referent="RBX1"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>1.75</Y><Z>8</Z><R00>-0.6665</R00><R01>-0.0414</R01><R02>-0.7443</R02><R10>0</R10><R11>0.9985</R11><R12>-0.0556</R12><R20>0.7455</R20><R21>-0.037</R21><R22>-0.6655</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX2"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0</X><Y>1.75</Y><Z>8</Z><R00>-0.6665</R00><R01>-0.0414</R01><R02>-0.7443</R02><R10>0</R10><R11>0.9985</R11><R12>-0.0556</R12><R20>0.7455</R20><R21>-0.037</R21><R22>-0.6655</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.7</X><Y>0.644</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX3"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.0139</X><Y>1.4145</Y><Z>8.0124</Z><R00>-0.6665</R00><R01>-0.0414</R01><R02>-0.7443</R02><R10>0</R10><R11>0.9985</R11><R12>-0.0556</R12><R20>0.7455</R20><R21>-0.037</R21><R22>-0.6655</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.49</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX4"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.0145</X><Y>2.0995</Y><Z>7.987</Z><R00>-0.6665</R00><R01>0.0626</R01><R02>-0.7429</R02><R10>0</R10><R11>0.9965</R11><R12>0.0839</R12><R20>0.7455</R20><R21>0.0559</R21><R22>-0.6642</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.56</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="WedgePart" referent="RBX5"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.0134</X><Y>2.3259</Y><Z>8.012</Z><R00>0.6665</R00><R01>-0.0414</R01><R02>0.7443</R02><R10>0</R10><R11>0.9985</R11><R12>0.0556</R12><R20>-0.7455</R20><R21>-0.037</R21><R22>0.6655</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.16</X><Y>0.315</Y><Z>0.6</Z></Vector3>
+      </Properties></Item>
+      <Item class="WedgePart" referent="RBX6"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.7278</X><Y>2.205</Y><Z>8.6507</Z><R00>-0.6665</R00><R01>-0.0414</R01><R02>-0.7443</R02><R10>0</R10><R11>0.9985</R11><R12>-0.0556</R12><R20>0.7455</R20><R21>-0.037</R21><R22>-0.6655</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.12</X><Y>1.4</Y><Z>1.6</Z></Vector3>
+      </Properties></Item>
+      <Item class="Part" referent="RBX7"><Properties>
+        <string name="Name">Comet eye</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.5955</X><Y>1.7945</Y><Z>8.5324</Z><R00>-0.6665</R00><R01>-0.0414</R01><R02>-0.7443</R02><R10>0</R10><R11>0.9985</R11><R12>-0.0556</R12><R20>0.7455</R20><R21>-0.037</R21><R22>-0.6655</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4287558655</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.25</X><Y>0.25</Y><Z>0.25</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX8"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.6221</X><Y>1.6845</Y><Z>7.4211</Z><R00>-0.7564</R00><R01>-0.1022</R01><R02>-0.646</R02><R10>0</R10><R11>0.9877</R11><R12>-0.1563</R12><R20>0.6541</R20><R21>-0.1182</R21><R22>-0.7471</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX9"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.6221</X><Y>1.6845</Y><Z>7.4211</Z><R00>-0.7564</R00><R01>-0.1022</R01><R02>-0.646</R02><R10>0</R10><R11>0.9877</R11><R12>-0.1563</R12><R20>0.6541</R20><R21>-0.1182</R21><R22>-0.7471</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.8139</X><Y>0.7488</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX10"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.5821</X><Y>1.2987</Y><Z>7.4672</Z><R00>-0.7564</R00><R01>-0.1022</R01><R02>-0.646</R02><R10>0</R10><R11>0.9877</R11><R12>-0.1563</R12><R20>0.6541</R20><R21>-0.1182</R21><R22>-0.7471</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.5697</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX11"><Properties>
+        <string name="Name">Nebula plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.6637</X><Y>2.0865</Y><Z>7.3729</Z><R00>-0.7564</R00><R01>-0.0113</R01><R02>-0.654</R02><R10>0</R10><R11>0.9999</R11><R12>-0.0173</R12><R20>0.6541</R20><R21>-0.0131</R21><R22>-0.7563</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283183008</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.6511</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX12"><Properties>
+        <string name="Name">Glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.0131</X><Y>1.7895</Y><Z>7.6034</Z><R00>-0.7564</R00><R01>-0.1022</R01><R02>-0.646</R02><R10>0</R10><R11>0.9877</R11><R12>-0.1563</R12><R20>0.6541</R20><R21>-0.1182</R21><R22>-0.7471</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294967295</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.14</X><Y>0.14</Y><Z>0.14</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX13"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.0761</X><Y>1.5525</Y><Z>6.8421</Z><R00>-0.9075</R00><R01>-0.0969</R01><R02>-0.4086</R02><R10>0</R10><R11>0.973</R11><R12>-0.2307</R12><R20>0.42</R20><R21>-0.2093</R21><R22>-0.8831</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX14"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.0761</X><Y>1.5525</Y><Z>6.8421</Z><R00>-0.9075</R00><R01>-0.0969</R01><R02>-0.4086</R02><R10>0</R10><R11>0.973</R11><R12>-0.2307</R12><R20>0.42</R20><R21>-0.2093</R21><R22>-0.8831</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.9268</X><Y>0.8527</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX15"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.033</X><Y>1.1197</Y><Z>6.9352</Z><R00>-0.9075</R00><R01>-0.0969</R01><R02>-0.4086</R02><R10>0</R10><R11>0.973</R11><R12>-0.2307</R12><R20>0.42</R20><R21>-0.2093</R21><R22>-0.8831</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.6488</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX16"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.121</X><Y>2.0034</Y><Z>6.7451</Z><R00>-0.9075</R00><R01>-0.0391</R01><R02>-0.4181</R02><R10>0</R10><R11>0.9957</R11><R12>-0.093</R12><R20>0.42</R20><R21>-0.0844</R21><R22>-0.9036</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.7414</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="WedgePart" referent="RBX17"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.1293</X><Y>2.3035</Y><Z>6.7272</Z><R00>0.9075</R00><R01>-0.0969</R01><R02>0.4086</R02><R10>0</R10><R11>0.973</R11><R12>0.2307</R12><R20>-0.42</R20><R21>-0.2093</R21><R22>0.8831</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.16</X><Y>0.4171</Y><Z>0.6</Z></Vector3>
+      </Properties></Item>
+      <Item class="Part" referent="RBX18"><Properties>
+        <string name="Name">Comet eye</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.5768</X><Y>1.4969</Y><Z>6.7955</Z><R00>-0.9075</R00><R01>-0.0969</R01><R02>-0.4086</R02><R10>0</R10><R11>0.973</R11><R12>-0.2307</R12><R20>0.42</R20><R21>-0.2093</R21><R22>-0.8831</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4287558655</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.12</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX19"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.2871</X><Y>1.4258</Y><Z>6.2632</Z><R00>-1</R00><R01>-0.0001</R01><R02>-0.0036</R02><R10>0</R10><R11>0.9993</R11><R12>-0.0372</R12><R20>0.0036</R20><R21>-0.0372</R21><R22>-0.9993</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX20"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.2871</X><Y>1.4258</Y><Z>6.2632</Z><R00>-1</R00><R01>-0.0001</R01><R02>-0.0036</R02><R10>0</R10><R11>0.9993</R11><R12>-0.0372</R12><R20>0.0036</R20><R21>-0.0372</R21><R22>-0.9993</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.0376</X><Y>0.9546</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX21"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.287</X><Y>0.9281</Y><Z>6.2817</Z><R00>-1</R00><R01>-0.0001</R01><R02>-0.0036</R02><R10>0</R10><R11>0.9993</R11><R12>-0.0372</R12><R20>0.0036</R20><R21>-0.0372</R21><R22>-0.9993</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.7264</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX22"><Properties>
+        <string name="Name">Nebula plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.2872</X><Y>1.9443</Y><Z>6.2439</Z><R00>-1</R00><R01>0.0004</R01><R02>-0.0036</R02><R10>0</R10><R11>0.9948</R11><R12>0.1023</R12><R20>0.0036</R20><R21>0.1023</R21><R22>-0.9948</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283183008</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.8301</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX23"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.2341</X><Y>1.4371</Y><Z>5.6842</Z><R00>-0.9229</R00><R01>-0.0805</R01><R02>0.3765</R02><R10>0</R10><R11>0.9779</R11><R12>0.2091</R12><R20>-0.385</R20><R21>0.193</R21><R22>-0.9025</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX24"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.2341</X><Y>1.4371</Y><Z>5.6842</Z><R00>-0.9229</R00><R01>-0.0805</R01><R02>0.3765</R02><R10>0</R10><R11>0.9779</R11><R12>0.2091</R12><R20>-0.385</R20><R21>0.193</R21><R22>-0.9025</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.1454</X><Y>1.0538</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX25"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.1898</X><Y>0.8995</Y><Z>5.5781</Z><R00>-0.9229</R00><R01>-0.0805</R01><R02>0.3765</R02><R10>0</R10><R11>0.9779</R11><R12>0.2091</R12><R20>-0.385</R20><R21>0.193</R21><R22>-0.9025</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.8018</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX26"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.2802</X><Y>1.9972</Y><Z>5.7947</Z><R00>-0.9229</R00><R01>-0.1321</R01><R02>0.3616</R02><R10>0</R10><R11>0.9393</R11><R12>0.3432</R12><R20>-0.385</R20><R21>0.3167</R21><R22>-0.8669</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.9163</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="WedgePart" referent="RBX27"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.3285</X><Y>2.3452</Y><Z>5.9106</Z><R00>0.9229</R00><R01>-0.0805</R01><R02>-0.3765</R02><R10>0</R10><R11>0.9779</R11><R12>-0.2091</R12><R20>0.385</R20><R21>0.193</R21><R22>0.9025</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.16</X><Y>0.5154</Y><Z>0.6</Z></Vector3>
+      </Properties></Item>
+      <Item class="Part" referent="RBX28"><Properties>
+        <string name="Name">Glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.7494</X><Y>1.6261</Y><Z>5.4022</Z><R00>-0.9229</R00><R01>-0.0805</R01><R02>0.3765</R02><R10>0</R10><R11>0.9779</R11><R12>0.2091</R12><R20>-0.385</R20><R21>0.193</R21><R22>-0.9025</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294967295</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.14</X><Y>0.14</Y><Z>0.14</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX29"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.9501</X><Y>1.606</Y><Z>5.1053</Z><R00>-0.8119</R00><R01>-0.2234</R01><R02>0.5394</R02><R10>0</R10><R11>0.9239</R11><R12>0.3827</R12><R20>-0.5838</R20><R21>0.3107</R21><R22>-0.7501</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX30"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.9501</X><Y>1.606</Y><Z>5.1053</Z><R00>-0.8119</R00><R01>-0.2234</R01><R02>0.5394</R02><R10>0</R10><R11>0.9239</R11><R12>0.3827</R12><R20>-0.5838</R20><R21>0.3107</R21><R22>-0.7501</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.2492</X><Y>1.1493</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX31"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.8161</X><Y>1.052</Y><Z>4.919</Z><R00>-0.8119</R00><R01>-0.2234</R01><R02>0.5394</R02><R10>0</R10><R11>0.9239</R11><R12>0.3827</R12><R20>-0.5838</R20><R21>0.3107</R21><R22>-0.7501</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.8744</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX32"><Properties>
+        <string name="Name">Nebula plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.0896</X><Y>2.183</Y><Z>5.2993</Z><R00>-0.8119</R00><R01>-0.2963</R01><R02>0.503</R02><R10>0</R10><R11>0.8616</R11><R12>0.5075</R12><R20>-0.5838</R20><R21>0.4121</R21><R22>-0.6995</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283183008</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.9994</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX33"><Properties>
+        <string name="Name">Comet eye</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.4858</X><Y>1.4332</Y><Z>5.5509</Z><R00>-0.8119</R00><R01>-0.2234</R01><R02>0.5394</R02><R10>0</R10><R11>0.9239</R11><R12>0.3827</R12><R20>-0.5838</R20><R21>0.3107</R21><R22>-0.7501</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4287558655</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.12</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX34"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.5112</X><Y>1.9351</Y><Z>4.5263</Z><R00>-0.7611</R00><R01>-0.3294</R01><R02>0.5588</R02><R10>0</R10><R11>0.8615</R11><R12>0.5078</R12><R20>-0.6487</R20><R21>0.3865</R21><R22>-0.6556</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX35"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.5112</X><Y>1.9351</Y><Z>4.5263</Z><R00>-0.7611</R00><R01>-0.3294</R01><R02>0.5588</R02><R10>0</R10><R11>0.8615</R11><R12>0.5078</R12><R20>-0.6487</R20><R21>0.3865</R21><R22>-0.6556</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.348</X><Y>1.2402</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX36"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.2981</X><Y>1.3777</Y><Z>4.2763</Z><R00>-0.7611</R00><R01>-0.3294</R01><R02>0.5588</R02><R10>0</R10><R11>0.8615</R11><R12>0.5078</R12><R20>-0.6487</R20><R21>0.3865</R21><R22>-0.6556</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.9436</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX37"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.7333</X><Y>2.5158</Y><Z>4.7868</Z><R00>-0.7611</R00><R01>-0.404</R01><R02>0.5076</R02><R10>0</R10><R11>0.7824</R11><R12>0.6227</R12><R20>-0.6487</R20><R21>0.4739</R21><R22>-0.5955</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.0784</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="WedgePart" referent="RBX38"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.9033</X><Y>2.862</Y><Z>4.9863</Z><R00>0.7611</R00><R01>-0.3294</R01><R02>-0.5588</R02><R10>0</R10><R11>0.8615</R11><R12>-0.5078</R12><R20>0.6487</R20><R21>0.3865</R21><R22>0.6556</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.16</X><Y>0.6066</Y><Z>0.6</Z></Vector3>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX39"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.0179</X><Y>2.4132</Y><Z>3.9474</Z><R00>-0.7787</R00><R01>-0.3853</R01><R02>0.4951</R02><R10>0</R10><R11>0.7891</R11><R12>0.6142</R12><R20>-0.6273</R20><R21>0.4783</R21><R22>-0.6145</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX40"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.0179</X><Y>2.4132</Y><Z>3.9474</Z><R00>-0.7787</R00><R01>-0.3853</R01><R02>0.4951</R02><R10>0</R10><R11>0.7891</R11><R12>0.6142</R12><R20>-0.6273</R20><R21>0.4783</R21><R22>-0.6145</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.441</X><Y>1.3257</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX41"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.2486</X><Y>1.8674</Y><Z>3.6165</Z><R00>-0.7787</R00><R01>-0.3853</R01><R02>0.4951</R02><R10>0</R10><R11>0.7891</R11><R12>0.6142</R12><R20>-0.6273</R20><R21>0.4783</R21><R22>-0.6145</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.0087</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX42"><Properties>
+        <string name="Name">Nebula plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.2956</X><Y>2.9818</Y><Z>4.292</Z><R00>-0.7787</R00><R01>-0.4505</R01><R02>0.4366</R02><R10>0</R10><R11>0.696</R11><R12>0.7181</R12><R20>-0.6273</R20><R21>0.5592</R21><R22>-0.542</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283183008</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.1528</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX43"><Properties>
+        <string name="Name">Glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.624</X><Y>2.6452</Y><Z>3.5283</Z><R00>-0.7787</R00><R01>-0.3853</R01><R02>0.4951</R02><R10>0</R10><R11>0.7891</R11><R12>0.6142</R12><R20>-0.6273</R20><R21>0.4783</R21><R22>-0.6145</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294967295</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.14</X><Y>0.14</Y><Z>0.14</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX44"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.4277</X><Y>3.0146</Y><Z>3.3684</Z><R00>-0.8555</R00><R01>-0.3654</R01><R02>0.3669</R02><R10>0</R10><R11>0.7085</R11><R12>0.7057</R12><R20>-0.5178</R20><R21>0.6038</R21><R22>-0.6061</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX45"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.4277</X><Y>3.0146</Y><Z>3.3684</Z><R00>-0.8555</R00><R01>-0.3654</R01><R02>0.3669</R02><R10>0</R10><R11>0.7085</R11><R12>0.7057</R12><R20>-0.5178</R20><R21>0.6038</R21><R22>-0.6061</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.5272</X><Y>1.405</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX46"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.6956</X><Y>2.4952</Y><Z>2.9258</Z><R00>-0.8555</R00><R01>-0.3654</R01><R02>0.3669</R02><R10>0</R10><R11>0.7085</R11><R12>0.7057</R12><R20>-0.5178</R20><R21>0.6038</R21><R22>-0.6061</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.0691</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX47"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.1487</X><Y>3.5556</Y><Z>3.8295</Z><R00>-0.8555</R00><R01>-0.4129</R01><R02>0.3124</R02><R10>0</R10><R11>0.6034</R11><R12>0.7975</R12><R20>-0.5178</R20><R21>0.6822</R21><R22>-0.5162</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.2218</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="WedgePart" referent="RBX48"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.0482</X><Y>3.8666</Y><Z>4.1548</Z><R00>0.8555</R00><R01>-0.3654</R01><R02>-0.3669</R02><R10>0</R10><R11>0.7085</R11><R12>-0.7057</R12><R20>0.5178</R20><R21>0.6038</R21><R22>0.6061</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.16</X><Y>0.6873</Y><Z>0.6</Z></Vector3>
+      </Properties></Item>
+      <Item class="Part" referent="RBX49"><Properties>
+        <string name="Name">Comet eye</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>1.0949</X><Y>2.8005</Y><Z>3.7704</Z><R00>-0.8555</R00><R01>-0.3654</R01><R02>0.3669</R02><R10>0</R10><R11>0.7085</R11><R12>0.7057</R12><R20>-0.5178</R20><R21>0.6038</R21><R22>-0.6061</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4287558655</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.12</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX50"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.7431</X><Y>3.7027</Y><Z>2.7895</Z><R00>-0.9559</R00><R01>-0.2256</R01><R02>0.1878</R02><R10>0</R10><R11>0.6397</R11><R12>0.7686</R12><R20>-0.2935</R20><R21>0.7348</R21><R22>-0.6115</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX51"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.7431</X><Y>3.7027</Y><Z>2.7895</Z><R00>-0.9559</R00><R01>-0.2256</R01><R02>0.1878</R02><R10>0</R10><R11>0.6397</R11><R12>0.7686</R12><R20>-0.2935</R20><R21>0.7348</R21><R22>-0.6115</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.606</X><Y>1.4775</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX52"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.9171</X><Y>3.2096</Y><Z>2.223</Z><R00>-0.9559</R00><R01>-0.2256</R01><R02>0.1878</R02><R10>0</R10><R11>0.6397</R11><R12>0.7686</R12><R20>-0.2935</R20><R21>0.7348</R21><R22>-0.6115</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.1242</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX53"><Properties>
+        <string name="Name">Nebula plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.5619</X><Y>4.2163</Y><Z>3.3795</Z><R00>-0.9559</R00><R01>-0.2496</R01><R02>0.1545</R02><R10>0</R10><R11>0.5265</R11><R12>0.8502</R12><R20>-0.2935</R20><R21>0.8127</R21><R22>-0.5033</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283183008</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.2848</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX54"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.8801</X><Y>4.4351</Y><Z>2.2105</Z><R00>-0.9998</R00><R01>0.0143</R01><R02>-0.0112</R02><R10>0</R10><R11>0.617</R11><R12>0.787</R12><R20>0.0181</R20><R21>0.7868</R21><R22>-0.6169</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX55"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.8801</X><Y>4.4351</Y><Z>2.2105</Z><R00>-0.9998</R00><R01>0.0143</R01><R02>-0.0112</R02><R10>0</R10><R11>0.617</R11><R12>0.787</R12><R20>0.0181</R20><R21>0.7868</R21><R22>-0.6169</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.6766</X><Y>1.5425</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX56"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.8686</X><Y>3.9385</Y><Z>1.5773</Z><R00>-0.9998</R00><R01>0.0143</R01><R02>-0.0112</R02><R10>0</R10><R11>0.617</R11><R12>0.787</R12><R20>0.0181</R20><R21>0.7868</R21><R22>-0.6169</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.1736</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX57"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.8921</X><Y>4.9523</Y><Z>2.8701</Z><R00>-0.9998</R00><R01>0.0157</R01><R02>-0.0091</R02><R10>0</R10><R11>0.5015</R11><R12>0.8652</R12><R20>0.0181</R20><R21>0.865</R21><R22>-0.5014</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.3413</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="WedgePart" referent="RBX58"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.9003</X><Y>5.244</Y><Z>3.3231</Z><R00>0.9998</R00><R01>0.0143</R01><R02>0.0112</R02><R10>0</R10><R11>0.617</R11><R12>-0.787</R12><R20>-0.0181</R20><R21>0.7868</R21><R22>0.6169</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.16</X><Y>0.7545</Y><Z>0.6</Z></Vector3>
+      </Properties></Item>
+      <Item class="Part" referent="RBX59"><Properties>
+        <string name="Name">Glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.0276</X><Y>4.6689</Y><Z>2.3622</Z><R00>-0.9998</R00><R01>0.0143</R01><R02>-0.0112</R02><R10>0</R10><R11>0.617</R11><R12>0.787</R12><R20>0.0181</R20><R21>0.7868</R21><R22>-0.6169</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294967295</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.14</X><Y>0.14</Y><Z>0.14</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX60"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.832</X><Y>5.1697</Y><Z>1.6316</Z><R00>-0.9576</R00><R01>0.2195</R01><R02>-0.1865</R02><R10>0</R10><R11>0.6476</R11><R12>0.762</R12><R20>0.288</R20><R21>0.7297</R21><R22>-0.6201</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX61"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.832</X><Y>5.1697</Y><Z>1.6316</Z><R00>-0.9576</R00><R01>0.2195</R01><R02>-0.1865</R02><R10>0</R10><R11>0.6476</R11><R12>0.762</R12><R20>0.288</R20><R21>0.7297</R21><R22>-0.6201</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.7384</X><Y>1.5993</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX62"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.6489</X><Y>4.6294</Y><Z>1.0227</Z><R00>-0.9576</R00><R01>0.2195</R01><R02>-0.1865</R02><R10>0</R10><R11>0.6476</R11><R12>0.762</R12><R20>0.288</R20><R21>0.7297</R21><R22>-0.6201</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.2169</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX63"><Properties>
+        <string name="Name">Nebula plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>1.0228</X><Y>5.7326</Y><Z>2.2658</Z><R00>-0.9576</R00><R01>0.2433</R01><R02>-0.1542</R02><R10>0</R10><R11>0.5352</R11><R12>0.8447</R12><R20>0.288</R20><R21>0.8089</R21><R22>-0.5125</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283183008</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.3907</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX64"><Properties>
+        <string name="Name">Comet eye</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>1.6709</X><Y>4.9429</Y><Z>1.3424</Z><R00>-0.9576</R00><R01>0.2195</R01><R02>-0.1865</R02><R10>0</R10><R11>0.6476</R11><R12>0.762</R12><R20>0.288</R20><R21>0.7297</R21><R22>-0.6201</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4287558655</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.12</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX65"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.6309</X><Y>5.8704</Y><Z>1.0526</Z><R00>-0.899</R00><R01>0.3123</R01><R02>-0.3071</R02><R10>0</R10><R11>0.7011</R11><R12>0.7131</R12><R20>0.438</R20><R21>0.641</R21><R22>-0.6303</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX66"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.6309</X><Y>5.8704</Y><Z>1.0526</Z><R00>-0.899</R00><R01>0.3123</R01><R02>-0.3071</R02><R10>0</R10><R11>0.7011</R11><R12>0.7131</R12><R20>0.438</R20><R21>0.641</R21><R22>-0.6303</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.7908</X><Y>1.6475</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX67"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.3625</X><Y>5.2677</Y><Z>0.5016</Z><R00>-0.899</R00><R01>0.3123</R01><R02>-0.3071</R02><R10>0</R10><R11>0.7011</R11><R12>0.7131</R12><R20>0.438</R20><R21>0.641</R21><R22>-0.6303</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.2536</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX68"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.9106</X><Y>6.4981</Y><Z>1.6266</Z><R00>-0.899</R00><R01>0.352</R01><R02>-0.2606</R02><R10>0</R10><R11>0.595</R11><R12>0.8037</R12><R20>0.438</R20><R21>0.7225</R21><R22>-0.5349</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.4326</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="WedgePart" referent="RBX69"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>1.1049</X><Y>6.8642</Y><Z>2.0255</Z><R00>0.899</R00><R01>0.3123</R01><R02>0.3071</R02><R10>0</R10><R11>0.7011</R11><R12>-0.7131</R12><R20>-0.438</R20><R21>0.641</R21><R22>0.6303</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.16</X><Y>0.8059</Y><Z>0.6</Z></Vector3>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX70"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.3369</X><Y>6.51</Y><Z>0.4737</Z><R00>-0.8762</R00><R01>0.3178</R01><R02>-0.3622</R02><R10>0</R10><R11>0.7517</R11><R12>0.6596</R12><R20>0.4819</R20><R21>0.5779</R21><R22>-0.6586</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX71"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.3369</X><Y>6.51</Y><Z>0.4737</Z><R00>-0.8762</R00><R01>0.3178</R01><R02>-0.3622</R02><R10>0</R10><R11>0.7517</R11><R12>0.6596</R12><R20>0.4819</R20><R21>0.5779</R21><R22>-0.6586</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.8334</X><Y>1.6867</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX72"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.0572</X><Y>5.8485</Y><Z>-0.0349</Z><R00>-0.8762</R00><R01>0.3178</R01><R02>-0.3622</R02><R10>0</R10><R11>0.7517</R11><R12>0.6596</R12><R20>0.4819</R20><R21>0.5779</R21><R22>-0.6586</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.2834</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX73"><Properties>
+        <string name="Name">Nebula plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.6282</X><Y>7.199</Y><Z>1.0035</Z><R00>-0.8762</R00><R01>0.3651</R01><R02>-0.3144</R02><R10>0</R10><R11>0.6525</R11><R12>0.7578</R12><R20>0.4819</R20><R21>0.664</R21><R22>-0.5718</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283183008</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.4667</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX74"><Properties>
+        <string name="Name">Glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.4312</X><Y>6.7827</Y><Z>1.0173</Z><R00>-0.8762</R00><R01>0.3178</R01><R02>-0.3622</R02><R10>0</R10><R11>0.7517</R11><R12>0.6596</R12><R20>0.4819</R20><R21>0.5779</R21><R22>-0.6586</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294967295</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.14</X><Y>0.14</Y><Z>0.14</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX75"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.0222</X><Y>7.0718</Y><Z>-0.1053</Z><R00>-0.8864</R00><R01>0.2903</R01><R02>-0.3605</R02><R10>0</R10><R11>0.7789</R11><R12>0.6272</R12><R20>0.4629</R20><R21>0.5559</R21><R22>-0.6904</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX76"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.0222</X><Y>7.0718</Y><Z>-0.1053</Z><R00>-0.8864</R00><R01>0.2903</R01><R02>-0.3605</R02><R10>0</R10><R11>0.7789</R11><R12>0.6272</R12><R20>0.4629</R20><R21>0.5559</R21><R22>-0.6904</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.8657</X><Y>1.7164</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX77"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.2378</X><Y>6.3743</Y><Z>-0.6031</Z><R00>-0.8864</R00><R01>0.2903</R01><R02>-0.3605</R02><R10>0</R10><R11>0.7789</R11><R12>0.6272</R12><R20>0.4629</R20><R21>0.5559</R21><R22>-0.6904</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.306</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX78"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.293</X><Y>7.7984</Y><Z>0.4133</Z><R00>-0.8864</R00><R01>0.3377</R01><R02>-0.3166</R02><R10>0</R10><R11>0.684</R11><R12>0.7295</R12><R20>0.4629</R20><R21>0.6466</R21><R22>-0.6063</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.4925</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="WedgePart" referent="RBX79"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.4843</X><Y>8.232</Y><Z>0.7798</Z><R00>0.8864</R00><R01>0.2903</R01><R02>0.3605</R02><R10>0</R10><R11>0.7789</R11><R12>-0.6272</R12><R20>-0.4629</R20><R21>0.5559</R21><R22>0.6904</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.16</X><Y>0.8396</Y><Z>0.6</Z></Vector3>
+      </Properties></Item>
+      <Item class="Part" referent="RBX80"><Properties>
+        <string name="Name">Comet eye</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.8655</X><Y>6.8324</Y><Z>-0.5458</Z><R00>-0.8864</R00><R01>0.2903</R01><R02>-0.3605</R02><R10>0</R10><R11>0.7789</R11><R12>0.6272</R12><R20>0.4629</R20><R21>0.5559</R21><R22>-0.6904</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4287558655</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.12</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX81"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.2458</X><Y>7.5477</Y><Z>-0.5838</Z><R00>-0.7953</R00><R01>0.4733</R01><R02>-0.3787</R02><R10>0</R10><R11>0.6247</R11><R12>0.7808</R12><R20>0.6062</R20><R21>0.621</R21><R22>-0.4969</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX82"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.2458</X><Y>7.5477</Y><Z>-0.5838</Z><R00>-0.7953</R00><R01>0.4733</R01><R02>-0.3787</R02><R10>0</R10><R11>0.6247</R11><R12>0.7808</R12><R20>0.6062</R20><R21>0.621</R21><R22>-0.4969</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.8875</X><Y>1.7365</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX83"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.6746</X><Y>6.9817</Y><Z>-1.1465</Z><R00>-0.7953</R00><R01>0.4733</R01><R02>-0.3787</R02><R10>0</R10><R11>0.6247</R11><R12>0.7808</R12><R20>0.6062</R20><R21>0.621</R21><R22>-0.4969</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.3212</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX84"><Properties>
+        <string name="Name">Nebula plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.2009</X><Y>8.1373</Y><Z>0.0022</Z><R00>-0.7953</R00><R01>0.5214</R01><R02>-0.3091</R02><R10>0</R10><R11>0.51</R11><R12>0.8602</R12><R20>0.6062</R20><R21>0.6841</R21><R22>-0.4056</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283183008</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.51</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX85"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.4187</X><Y>7.9342</Y><Z>-0.8024</Z><R00>-0.8179</R00><R01>0.5235</R01><R02>-0.2387</R02><R10>0</R10><R11>0.4149</R11><R12>0.9099</R12><R20>0.5753</R20><R21>0.7442</R21><R22>-0.3394</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX86"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.4187</X><Y>7.9342</Y><Z>-0.8024</Z><R00>-0.8179</R00><R01>0.5235</R01><R02>-0.2387</R02><R10>0</R10><R11>0.4149</R11><R12>0.9099</R12><R20>0.5753</R20><R21>0.7442</R21><R22>-0.3394</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.8985</X><Y>1.7466</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX87"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.8958</X><Y>7.5561</Y><Z>-1.4806</Z><R00>-0.8179</R00><R01>0.5235</R01><R02>-0.2387</R02><R10>0</R10><R11>0.4149</R11><R12>0.9099</R12><R20>0.5753</R20><R21>0.7442</R21><R22>-0.3394</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.329</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX88"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.0782</X><Y>8.328</Y><Z>-0.0959</Z><R00>-0.8179</R00><R01>0.5516</R01><R02>-0.1635</R02><R10>0</R10><R11>0.2842</R11><R12>0.9588</R12><R20>0.5753</R20><R21>0.7842</R21><R22>-0.2325</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.5188</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="WedgePart" referent="RBX89"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.4081</X><Y>8.5346</Y><Z>0.3732</Z><R00>0.8179</R00><R01>0.5235</R01><R02>0.2387</R02><R10>0</R10><R11>0.4149</R11><R12>-0.9099</R12><R20>-0.5753</R20><R21>0.7442</R21><R22>0.3394</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.16</X><Y>0.8543</Y><Z>0.6</Z></Vector3>
+      </Properties></Item>
+      <Item class="Part" referent="RBX90"><Properties>
+        <string name="Name">Glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.0855</X><Y>8.1433</Y><Z>-0.0673</Z><R00>-0.8179</R00><R01>0.5235</R01><R02>-0.2387</R02><R10>0</R10><R11>0.4149</R11><R12>0.9099</R12><R20>0.5753</R20><R21>0.7442</R21><R22>-0.3394</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294967295</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.14</X><Y>0.14</Y><Z>0.14</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX91"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.4763</X><Y>8.228</Y><Z>-0.9159</Z><R00>-0.9802</R00><R01>-0.1639</R01><R02>0.1113</R02><R10>0</R10><R11>0.5619</R11><R12>0.8272</R12><R20>-0.1982</R20><R21>0.8108</R21><R22>-0.5508</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX92"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.4763</X><Y>8.228</Y><Z>-0.9159</Z><R00>-0.9802</R00><R01>-0.1639</R01><R02>0.1113</R02><R10>0</R10><R11>0.5619</R11><R12>0.8272</R12><R20>-0.1982</R20><R21>0.8108</R21><R22>-0.5508</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>1.748</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX93"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.3268</X><Y>7.7155</Y><Z>-1.6554</Z><R00>-0.9802</R00><R01>-0.1639</R01><R02>0.1113</R02><R10>0</R10><R11>0.5619</R11><R12>0.8272</R12><R20>-0.1982</R20><R21>0.8108</R21><R22>-0.5508</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.33</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX94"><Properties>
+        <string name="Name">Nebula plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.632</X><Y>8.7618</Y><Z>-0.1457</Z><R00>-0.9802</R00><R01>-0.1778</R01><R02>0.0874</R02><R10>0</R10><R11>0.4413</R11><R12>0.8974</R12><R20>-0.1982</R20><R21>0.8796</R21><R22>-0.4326</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283183008</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.52</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX95"><Properties>
+        <string name="Name">Comet eye</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.488</X><Y>7.9971</Y><Z>-0.7954</Z><R00>-0.9802</R00><R01>-0.1639</R01><R02>0.1113</R02><R10>0</R10><R11>0.5619</R11><R12>0.8272</R12><R20>-0.1982</R20><R21>0.8108</R21><R22>-0.5508</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4287558655</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.12</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX96"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.427</X><Y>8.4215</Y><Z>-1.0925</Z><R00>-0.9491</R00><R01>-0.0892</R01><R02>0.3021</R02><R10>0</R10><R11>0.959</R11><R12>0.2833</R12><R20>-0.315</R20><R21>0.2688</R21><R22>-0.9102</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX97"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.427</X><Y>8.4215</Y><Z>-1.0925</Z><R00>-0.9491</R00><R01>-0.0892</R01><R02>0.3021</R02><R10>0</R10><R11>0.959</R11><R12>0.2833</R12><R20>-0.315</R20><R21>0.2688</R21><R22>-0.9102</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>1.748</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX98"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.3457</X><Y>7.5469</Y><Z>-1.3377</Z><R00>-0.9491</R00><R01>-0.0892</R01><R02>0.3021</R02><R10>0</R10><R11>0.959</R11><R12>0.2833</R12><R20>-0.315</R20><R21>0.2688</R21><R22>-0.9102</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.33</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX99"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.5118</X><Y>9.3326</Y><Z>-0.8371</Z><R00>-0.9491</R00><R01>-0.1304</R01><R02>0.2867</R02><R10>0</R10><R11>0.9103</R11><R12>0.414</R12><R20>-0.315</R20><R21>0.3929</R21><R22>-0.864</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.52</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="WedgePart" referent="RBX100"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.5811</X><Y>9.9016</Y><Z>-0.6281</Z><R00>0.9491</R00><R01>-0.0892</R01><R02>-0.3021</R02><R10>0</R10><R11>0.959</R11><R12>-0.2833</R12><R20>0.315</R20><R21>0.2688</R21><R22>0.9102</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.16</X><Y>0.855</Y><Z>0.6</Z></Vector3>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX101"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.3034</X><Y>8.5</Y><Z>-1.5</Z><R00>-0.9677</R00><R01>-0.0071</R01><R02>0.2519</R02><R10>0</R10><R11>0.9996</R11><R12>0.0283</R12><R20>-0.252</R20><R21>0.0274</R21><R22>-0.9674</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX102"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.3034</X><Y>8.5</Y><Z>-1.5</Z><R00>-0.9677</R00><R01>-0.0071</R01><R02>0.2519</R02><R10>0</R10><R11>0.9996</R11><R12>0.0283</R12><R20>-0.252</R20><R21>0.0274</R21><R22>-0.9674</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.9</X><Y>1.748</Y><Z>1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX103"><Properties>
+        <string name="Name">Belly glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.2969</X><Y>7.5884</Y><Z>-1.525</Z><R00>-0.9677</R00><R01>-0.0071</R01><R02>0.2519</R02><R10>0</R10><R11>0.9996</R11><R12>0.0283</R12><R20>-0.252</R20><R21>0.0274</R21><R22>-0.9674</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.33</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX104"><Properties>
+        <string name="Name">Nebula plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.3102</X><Y>9.4496</Y><Z>-1.474</Z><R00>-0.9677</R00><R01>-0.0421</R01><R02>0.2484</R02><R10>0</R10><R11>0.9859</R11><R12>0.1672</R12><R20>-0.252</R20><R21>0.1618</R21><R22>-0.9541</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283183008</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.52</X><Y>0.28</Y><Z>0.75</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX105"><Properties>
+        <string name="Name">Glow</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.218</X><Y>8.7877</Y><Z>-1.8331</Z><R00>-0.9677</R00><R01>-0.0071</R01><R02>0.2519</R02><R10>0</R10><R11>0.9996</R11><R12>0.0283</R12><R20>-0.252</R20><R21>0.0274</R21><R22>-0.9674</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4294967295</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.14</X><Y>0.14</Y><Z>0.14</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX106"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.2365</X><Y>8.4152</Y><Z>-2.1757</Z><R00>-0.9951</R00><R01>0.0122</R01><R02>0.0977</R02><R10>0</R10><R11>0.9923</R11><R12>-0.124</R12><R20>-0.0984</R20><R21>-0.1233</R21><R22>-0.9875</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Part" referent="RBX107"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.2158</X><Y>8.4896</Y><Z>-2.3856</Z><R00>-0.9951</R00><R01>0.0122</R01><R02>0.0977</R02><R10>0</R10><R11>0.9923</R11><R12>-0.124</R12><R20>-0.0984</R20><R21>-0.1233</R21><R22>-0.9875</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>2.2</X><Y>1.6</Y><Z>2.2</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX108"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.0515</X><Y>8.1301</Y><Z>-4.0458</Z><R00>-0.9951</R00><R01>0.0122</R01><R02>0.0977</R02><R10>0</R10><R11>0.9923</R11><R12>-0.124</R12><R20>-0.0984</R20><R21>-0.1233</R21><R22>-0.9875</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.6</X><Y>0.9</Y><Z>1.8</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX109"><Properties>
+        <string name="Name">Nebula plate</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.0548</X><Y>8.6684</Y><Z>-4.0124</Z><R00>-0.9951</R00><R01>0.0122</R01><R02>0.0977</R02><R10>0</R10><R11>0.9923</R11><R12>-0.124</R12><R20>-0.0984</R20><R21>-0.1233</R21><R22>-0.9875</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4283183008</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>1.7</X><Y>0.3</Y><Z>1.9</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX110"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.1956</X><Y>9.3207</Y><Z>-2.5892</Z><R00>-0.9951</R00><R01>0.0122</R01><R02>0.0977</R02><R10>0</R10><R11>0.9923</R11><R12>-0.124</R12><R20>-0.0984</R20><R21>-0.1233</R21><R22>-0.9875</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>2.3</X><Y>0.4</Y><Z>1.4</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Model" referent="RBX111"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.1846</X><Y>7.795</Y><Z>-2.7004</Z><R00>-0.9951</R00><R01>0.0257</R01><R02>0.095</R02><R10>0</R10><R11>0.9654</R11><R12>-0.2608</R12><R20>-0.0984</R20><R21>-0.2596</R21><R22>-0.9607</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX112"><Properties>
+          <string name="Name">Void hide</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.0839</X><Y>7.3633</Y><Z>-3.7182</Z><R00>-0.9951</R00><R01>0.0257</R01><R02>0.095</R02><R10>0</R10><R11>0.9654</R11><R12>-0.2608</R12><R20>-0.0984</R20><R21>-0.2596</R21><R22>-0.9607</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1.5</X><Y>0.45</Y><Z>2.4</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX113"><Properties>
+          <string name="Name">Belly glow</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.0904</X><Y>7.122</Y><Z>-3.6533</Z><R00>-0.9951</R00><R01>0.0257</R01><R02>0.095</R02><R10>0</R10><R11>0.9654</R11><R12>-0.2608</R12><R20>-0.0984</R20><R21>-0.2596</R21><R22>-0.9607</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4290488831</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>1.3</X><Y>0.15</Y><Z>2</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX114"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.5674</X><Y>7.4404</Y><Z>-4.7156</Z><R00>-0.9951</R00><R01>0.0257</R01><R02>0.095</R02><R10>0</R10><R11>0.9654</R11><R12>-0.2608</R12><R20>-0.0984</R20><R21>-0.2596</R21><R22>-0.9607</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293912831</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.2</X><Y>0.35</Y><Z>0.2</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX115"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.5273</X><Y>7.4404</Y><Z>-4.8239</Z><R00>-0.9951</R00><R01>0.0257</R01><R02>0.095</R02><R10>0</R10><R11>0.9654</R11><R12>-0.2608</R12><R20>-0.0984</R20><R21>-0.2596</R21><R22>-0.9607</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293912831</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.2</X><Y>0.35</Y><Z>0.2</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+      </Item>
+      <Item class="Part" referent="RBX116"><Properties>
+        <string name="Name">Comet eye</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.5159</X><Y>8.6969</Y><Z>-3.4835</Z><R00>-0.9709</R00><R01>0.2188</R01><R02>0.0977</R02><R10>0.2063</R10><R11>0.9706</R11><R12>-0.124</R12><R20>-0.1219</R20><R21>-0.1002</R21><R22>-0.9875</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4287558655</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.5</X><Y>0.26</Y><Z>0.12</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX117"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.4388</X><Y>8.2145</Y><Z>-4.9395</Z><R00>-0.9951</R00><R01>0.0122</R01><R02>0.0977</R02><R10>0</R10><R11>0.9923</R11><R12>-0.124</R12><R20>-0.0984</R20><R21>-0.1233</R21><R22>-0.9875</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.18</X><Y>0.18</Y><Z>0.1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Model" referent="RBX118"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.483</X><Y>9.457</Y><Z>-1.8303</Z><R00>-0.9184</R00><R01>-0.0383</R01><R02>0.3938</R02><R10>0.1201</R10><R11>0.9213</R11><R12>0.3698</R12><R20>-0.3769</R20><R21>0.3869</R21><R22>-0.8416</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX119"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.2073</X><Y>9.1982</Y><Z>-1.2412</Z><R00>-0.9184</R00><R01>-0.0383</R01><R02>0.3938</R02><R10>0.1201</R10><R11>0.9213</R11><R12>0.3698</R12><R20>-0.3769</R20><R21>0.3869</R21><R22>-0.8416</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293912831</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.42</X><Y>0.42</Y><Z>1.6</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX120"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.2354</X><Y>9.0218</Y><Z>-0.2187</Z><R00>-0.9184</R00><R01>-0.1706</R01><R02>0.3569</R02><R10>0.1201</R10><R11>0.7393</R11><R12>0.6626</R12><R20>-0.3769</R20><R21>0.6514</R21><R22>-0.6585</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293912831</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.3</X><Y>0.3</Y><Z>1.2</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX121"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.5638</X><Y>9.0484</Y><Z>0.5899</Z><R00>-0.9184</R00><R01>-0.2572</R01><R02>0.3006</R02><R10>0.1201</R10><R11>0.5426</R11><R12>0.8313</R12><R20>-0.3769</R20><R21>0.7996</R21><R22>-0.4674</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293912831</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.2</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+      </Item>
+      <Item class="Model" referent="RBX122"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0.7733</X><Y>8.0433</Y><Z>-4.2571</Z><R00>-0.6995</R00><R01>0.0122</R01><R02>0.7145</R02><R10>-0.0797</R10><R11>0.9923</R11><R12>-0.095</R12><R20>-0.7101</R20><R21>-0.1233</R21><R22>-0.6932</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX123"><Properties>
+          <string name="Name">Starlight edge</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.2734</X><Y>7.9768</Y><Z>-4.7423</Z><R00>-0.6995</R00><R01>0.0122</R01><R02>0.7145</R02><R10>-0.0797</R10><R11>0.9923</R11><R12>-0.095</R12><R20>-0.7101</R20><R21>-0.1233</R21><R22>-0.6932</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.1</X><Y>0.1</Y><Z>1.4</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX124"><Properties>
+          <string name="Name">Comet eye</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.8093</X><Y>7.9056</Y><Z>-5.2622</Z><R00>-0.6995</R00><R01>0.0122</R01><R02>0.7145</R02><R10>-0.0797</R10><R11>0.9923</R11><R12>-0.095</R12><R20>-0.7101</R20><R21>-0.1233</R21><R22>-0.6932</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4287558655</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.2</X><Y>0.2</Y><Z>0.2</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+      </Item>
+      <Item class="Part" referent="RBX125"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>0.8896</X><Y>8.5392</Y><Z>-1.8774</Z><R00>-0.8678</R00><R01>0.2452</R01><R02>0.4322</R02><R10>0.2159</R10><R11>0.9694</R11><R12>-0.1165</R12><R20>-0.4475</R20><R21>-0.0078</R21><R22>-0.8942</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.15</X><Y>1</Y><Z>1.2</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX126"><Properties>
+        <string name="Name">Comet eye</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.7181</X><Y>8.6969</Y><Z>-3.6056</Z><R00>-0.9759</R00><R01>-0.195</R01><R02>0.0977</R02><R10>-0.2063</R10><R11>0.9706</R11><R12>-0.124</R12><R20>-0.0706</R20><R21>-0.1411</R21><R22>-0.9875</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4287558655</Color3uint8>
+        <token name="Material">288</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.5</X><Y>0.26</Y><Z>0.12</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Part" referent="RBX127"><Properties>
+        <string name="Name">Void hide</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-0.3573</X><Y>8.2145</Y><Z>-5.0183</Z><R00>-0.9951</R00><R01>0.0122</R01><R02>0.0977</R02><R10>0</R10><R11>0.9923</R11><R12>-0.124</R12><R20>-0.0984</R20><R21>-0.1233</R21><R22>-0.9875</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4280162381</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.18</X><Y>0.18</Y><Z>0.1</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+      <Item class="Model" referent="RBX128"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1.0098</X><Y>9.457</Y><Z>-1.9779</Z><R00>-0.9745</R00><R01>-0.0383</R01><R02>-0.2213</R02><R10>-0.1201</R10><R11>0.9213</R11><R12>0.3698</R12><R20>0.1897</R20><R21>0.3869</R21><R22>-0.9024</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX129"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.8549</X><Y>9.1982</Y><Z>-1.3463</Z><R00>-0.9745</R00><R01>-0.0383</R01><R02>-0.2213</R02><R10>-0.1201</R10><R11>0.9213</R11><R12>0.3698</R12><R20>0.1897</R20><R21>0.3869</R21><R22>-0.9024</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293912831</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.42</X><Y>0.42</Y><Z>1.6</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX130"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.6211</X><Y>9.0218</Y><Z>-0.2569</Z><R00>-0.9745</R00><R01>0.0397</R01><R02>-0.221</R02><R10>-0.1201</R10><R11>0.7393</R11><R12>0.6626</R12><R20>0.1897</R20><R21>0.6722</R21><R22>-0.7156</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293912831</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.3</X><Y>0.3</Y><Z>1.2</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX131"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.4575</X><Y>9.0484</Y><Z>0.6004</Z><R00>-0.9745</R00><R01>0.0956</R01><R02>-0.2032</R02><R10>-0.1201</R10><R11>0.5426</R11><R12>0.8313</R12><R20>0.1897</R20><R21>0.8345</R21><R22>-0.5173</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4293912831</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.2</X><Y>0.2</Y><Z>0.8</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+      </Item>
+      <Item class="Model" referent="RBX132"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-0.819</X><Y>8.0433</Y><Z>-4.4146</Z><R00>-0.8251</R00><R01>0.0122</R01><R02>-0.5648</R02><R10>0.0797</R10><R11>0.9923</R11><R12>-0.095</R12><R20>0.5593</R20><R21>-0.1233</R21><R22>-0.8197</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX133"><Properties>
+          <string name="Name">Starlight edge</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.2143</X><Y>7.9768</Y><Z>-4.9884</Z><R00>-0.8251</R00><R01>0.0122</R01><R02>-0.5648</R02><R10>0.0797</R10><R11>0.9923</R11><R12>-0.095</R12><R20>0.5593</R20><R21>-0.1233</R21><R22>-0.8197</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.1</X><Y>0.1</Y><Z>1.4</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX134"><Properties>
+          <string name="Name">Comet eye</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.638</X><Y>7.9056</Y><Z>-5.6032</Z><R00>-0.8251</R00><R01>0.0122</R01><R02>-0.5648</R02><R10>0.0797</R10><R11>0.9923</R11><R12>-0.095</R12><R20>0.5593</R20><R21>-0.1233</R21><R22>-0.8197</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4287558655</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.2</X><Y>0.2</Y><Z>0.2</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+      </Item>
+      <Item class="Part" referent="RBX135"><Properties>
+        <string name="Name">Starlight edge</string>
+        <bool name="Anchored">true</bool>
+        <CoordinateFrame name="CFrame"><X>-1.3993</X><Y>8.5392</Y><Z>-2.1038</Z><R00>-0.9387</R00><R01>-0.2389</R01><R02>-0.2486</R02><R10>-0.2159</R10><R11>0.9694</R11><R12>-0.1165</R12><R20>0.2688</R20><R21>-0.0557</R21><R22>-0.9616</R22></CoordinateFrame>
+        <Color3uint8 name="Color3uint8">4286340351</Color3uint8>
+        <token name="Material">272</token>
+        <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+        <Vector3 name="size"><X>0.15</X><Y>1</Y><Z>1.2</Z></Vector3>
+        <token name="shape">1</token>
+      </Properties></Item>
+    </Item>
+    <Item class="Model" referent="RBX136"><Properties>
+      <string name="Name">Joint</string>
+      <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>3.4638</Y><Z>3.16</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.6891</R11><R12>0.7247</R12><R20>0</R20><R21>0.7247</R21><R22>-0.6891</R22></CFrame></OptionalCoordinateFrame>
+    </Properties>
+      <Item class="Model" referent="RBX137"><Properties>
+        <string name="Name">Joint</string>
+        <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>3.4638</Y><Z>3.16</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.6891</R11><R12>0.7247</R12><R20>0</R20><R21>0.7247</R21><R22>-0.6891</R22></CFrame></OptionalCoordinateFrame>
+      </Properties>
+        <Item class="Part" referent="RBX138"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.6</X><Y>3.4638</Y><Z>3.16</Z><R00>0</R00><R01>1</R01><R02>0</R02><R10>0.6891</R10><R11>0</R11><R12>0.7247</R12><R20>0.7247</R20><R21>0</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX139"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.565</X><Y>3.809</Y><Z>3.5231</Z><R00>0.1392</R00><R01>0.9903</R01><R02>0</R02><R10>0.6824</R10><R11>-0.0959</R11><R12>0.7247</R12><R20>0.7177</R20><R21>-0.1009</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX140"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.4605</X><Y>4.1475</Y><Z>3.8791</Z><R00>0.2756</R00><R01>0.9613</R01><R02>0</R02><R10>0.6624</R10><R11>-0.1899</R11><R12>0.7247</R12><R20>0.6966</R20><R21>-0.1998</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX141"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.2888</X><Y>4.4727</Y><Z>4.2212</Z><R00>0.4067</R00><R01>0.9135</R01><R02>0</R02><R10>0.6295</R10><R11>-0.2803</R11><R12>0.7247</R12><R20>0.6621</R20><R21>-0.2948</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX142"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.053</X><Y>4.7783</Y><Z>4.5425</Z><R00>0.5299</R00><R01>0.848</R01><R02>0</R02><R10>0.5844</R10><R11>-0.3651</R11><R12>0.7247</R12><R20>0.6146</R20><R21>-0.384</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX143"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-2.7578</X><Y>5.0583</Y><Z>4.837</Z><R00>0.6428</R00><R01>0.766</R01><R02>0</R02><R10>0.5278</R10><R11>-0.4429</R11><R12>0.7247</R12><R20>0.5552</R20><R21>-0.4658</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX144"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-2.4089</X><Y>5.3072</Y><Z>5.0988</Z><R00>0.7431</R00><R01>0.6691</R01><R02>0</R02><R10>0.4611</R10><R11>-0.5121</R11><R12>0.7247</R12><R20>0.4849</R20><R21>-0.5386</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX145"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-2.0131</X><Y>5.5203</Y><Z>5.3229</Z><R00>0.829</R00><R01>0.5592</R01><R02>0</R02><R10>0.3853</R10><R11>-0.5713</R11><R12>0.7247</R12><R20>0.4053</R20><R21>-0.6008</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX146"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.5781</X><Y>5.6933</Y><Z>5.5049</Z><R00>0.8988</R00><R01>0.4384</R01><R02>0</R02><R10>0.3021</R10><R11>-0.6193</R11><R12>0.7247</R12><R20>0.3177</R20><R21>-0.6514</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX147"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.1125</X><Y>5.823</Y><Z>5.6413</Z><R00>0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.2129</R10><R11>-0.6553</R11><R12>0.7247</R12><R20>0.2239</R20><R21>-0.6892</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX148"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.6251</X><Y>5.9067</Y><Z>5.7293</Z><R00>0.9848</R00><R01>0.1736</R01><R02>0</R02><R10>0.1197</R10><R11>-0.6786</R11><R12>0.7247</R12><R20>0.1258</R20><R21>-0.7137</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX149"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.1256</X><Y>5.9429</Y><Z>5.7674</Z><R00>0.9994</R00><R01>0.0349</R01><R02>0</R02><R10>0.024</R10><R11>-0.6886</R11><R12>0.7247</R12><R20>0.0253</R20><R21>-0.7243</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX150"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.3763</X><Y>5.9308</Y><Z>5.7546</Z><R00>0.9945</R00><R01>-0.1045</R01><R02>0</R02><R10>-0.072</R10><R11>-0.6853</R11><R12>0.7247</R12><R20>-0.0758</R20><R21>-0.7207</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX151"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.8709</X><Y>5.8707</Y><Z>5.6914</Z><R00>0.9703</R00><R01>-0.2419</R01><R02>0</R02><R10>-0.1667</R10><R11>-0.6686</R11><R12>0.7247</R12><R20>-0.1753</R20><R21>-0.7032</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX152"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.3486</X><Y>5.7638</Y><Z>5.579</Z><R00>0.9272</R00><R01>-0.3746</R01><R02>0</R02><R10>-0.2581</R10><R11>-0.6389</R11><R12>0.7247</R12><R20>-0.2715</R20><R21>-0.6719</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX153"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.8</X><Y>5.6121</Y><Z>5.4194</Z><R00>0.866</R00><R01>-0.5</R01><R02>0</R02><R10>-0.3445</R10><R11>-0.5967</R11><R12>0.7247</R12><R20>-0.3624</R20><R21>-0.6276</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX154"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>2.2164</X><Y>5.4185</Y><Z>5.2159</Z><R00>0.788</R00><R01>-0.6157</R01><R02>0</R02><R10>-0.4242</R10><R11>-0.543</R11><R12>0.7247</R12><R20>-0.4462</R20><R21>-0.5711</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX155"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>2.5896</X><Y>5.187</Y><Z>4.9723</Z><R00>0.6947</R00><R01>-0.7193</R01><R02>0</R02><R10>-0.4957</R10><R11>-0.4787</R11><R12>0.7247</R12><R20>-0.5213</R20><R21>-0.5034</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX156"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>2.9125</X><Y>4.9219</Y><Z>4.6935</Z><R00>0.5878</R00><R01>-0.809</R01><R02>0</R02><R10>-0.5575</R10><R11>-0.405</R11><R12>0.7247</R12><R20>-0.5863</R20><R21>-0.426</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX157"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.1786</X><Y>4.6284</Y><Z>4.3848</Z><R00>0.4695</R00><R01>-0.8829</R01><R02>0</R02><R10>-0.6084</R10><R11>-0.3235</R11><R12>0.7247</R12><R20>-0.6399</R20><R21>-0.3402</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX158"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.3829</X><Y>4.3122</Y><Z>4.0523</Z><R00>0.342</R00><R01>-0.9397</R01><R02>0</R02><R10>-0.6475</R10><R11>-0.2357</R11><R12>0.7247</R12><R20>-0.681</R20><R21>-0.2479</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX159"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.5213</X><Y>3.9795</Y><Z>3.7024</Z><R00>0.2079</R00><R01>-0.9781</R01><R02>0</R02><R10>-0.674</R10><R11>-0.1433</R11><R12>0.7247</R12><R20>-0.7089</R20><R21>-0.1507</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX160"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.5912</X><Y>3.6368</Y><Z>3.342</Z><R00>0.0698</R00><R01>-0.9976</R01><R02>0</R02><R10>-0.6874</R10><R11>-0.0481</R11><R12>0.7247</R12><R20>-0.7229</R20><R21>-0.0506</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX161"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.5912</X><Y>3.2907</Y><Z>2.978</Z><R00>-0.0698</R00><R01>-0.9976</R01><R02>0</R02><R10>-0.6874</R10><R11>0.0481</R11><R12>0.7247</R12><R20>-0.7229</R20><R21>0.0506</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX162"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.5213</X><Y>2.948</Y><Z>2.6176</Z><R00>-0.2079</R00><R01>-0.9781</R01><R02>0</R02><R10>-0.674</R10><R11>0.1433</R11><R12>0.7247</R12><R20>-0.7089</R20><R21>0.1507</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX163"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.3829</X><Y>2.6154</Y><Z>2.2677</Z><R00>-0.342</R00><R01>-0.9397</R01><R02>0</R02><R10>-0.6475</R10><R11>0.2357</R11><R12>0.7247</R12><R20>-0.681</R20><R21>0.2479</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX164"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.1786</X><Y>2.2992</Y><Z>1.9352</Z><R00>-0.4695</R00><R01>-0.8829</R01><R02>0</R02><R10>-0.6084</R10><R11>0.3235</R11><R12>0.7247</R12><R20>-0.6399</R20><R21>0.3402</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX165"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>2.9125</X><Y>2.0057</Y><Z>1.6265</Z><R00>-0.5878</R00><R01>-0.809</R01><R02>0</R02><R10>-0.5575</R10><R11>0.405</R11><R12>0.7247</R12><R20>-0.5863</R20><R21>0.426</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX166"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>2.5896</X><Y>1.7406</Y><Z>1.3477</Z><R00>-0.6947</R00><R01>-0.7193</R01><R02>0</R02><R10>-0.4957</R10><R11>0.4787</R11><R12>0.7247</R12><R20>-0.5213</R20><R21>0.5034</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX167"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>2.2164</X><Y>1.509</Y><Z>1.1041</Z><R00>-0.788</R00><R01>-0.6157</R01><R02>0</R02><R10>-0.4242</R10><R11>0.543</R11><R12>0.7247</R12><R20>-0.4462</R20><R21>0.5711</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX168"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.8</X><Y>1.3155</Y><Z>0.9006</Z><R00>-0.866</R00><R01>-0.5</R01><R02>0</R02><R10>-0.3445</R10><R11>0.5967</R11><R12>0.7247</R12><R20>-0.3624</R20><R21>0.6276</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX169"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.3486</X><Y>1.1638</Y><Z>0.741</Z><R00>-0.9272</R00><R01>-0.3746</R01><R02>0</R02><R10>-0.2581</R10><R11>0.6389</R11><R12>0.7247</R12><R20>-0.2715</R20><R21>0.6719</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX170"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.8709</X><Y>1.0569</Y><Z>0.6286</Z><R00>-0.9703</R00><R01>-0.2419</R01><R02>0</R02><R10>-0.1667</R10><R11>0.6686</R11><R12>0.7247</R12><R20>-0.1753</R20><R21>0.7032</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX171"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.3763</X><Y>0.9968</Y><Z>0.5654</Z><R00>-0.9945</R00><R01>-0.1045</R01><R02>0</R02><R10>-0.072</R10><R11>0.6853</R11><R12>0.7247</R12><R20>-0.0758</R20><R21>0.7207</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX172"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.1256</X><Y>0.9847</Y><Z>0.5526</Z><R00>-0.9994</R00><R01>0.0349</R01><R02>0</R02><R10>0.024</R10><R11>0.6886</R11><R12>0.7247</R12><R20>0.0253</R20><R21>0.7243</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX173"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.6251</X><Y>1.0209</Y><Z>0.5907</Z><R00>-0.9848</R00><R01>0.1736</R01><R02>0</R02><R10>0.1197</R10><R11>0.6786</R11><R12>0.7247</R12><R20>0.1258</R20><R21>0.7137</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX174"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.1125</X><Y>1.1046</Y><Z>0.6787</Z><R00>-0.9511</R00><R01>0.309</R01><R02>0</R02><R10>0.2129</R10><R11>0.6553</R11><R12>0.7247</R12><R20>0.2239</R20><R21>0.6892</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX175"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.5781</X><Y>1.2342</Y><Z>0.8151</Z><R00>-0.8988</R00><R01>0.4384</R01><R02>0</R02><R10>0.3021</R10><R11>0.6193</R11><R12>0.7247</R12><R20>0.3177</R20><R21>0.6514</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX176"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-2.0131</X><Y>1.4073</Y><Z>0.9971</Z><R00>-0.829</R00><R01>0.5592</R01><R02>0</R02><R10>0.3853</R10><R11>0.5713</R11><R12>0.7247</R12><R20>0.4053</R20><R21>0.6008</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX177"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-2.4089</X><Y>1.6203</Y><Z>1.2212</Z><R00>-0.7431</R00><R01>0.6691</R01><R02>0</R02><R10>0.4611</R10><R11>0.5121</R11><R12>0.7247</R12><R20>0.4849</R20><R21>0.5386</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX178"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-2.7578</X><Y>1.8693</Y><Z>1.483</Z><R00>-0.6428</R00><R01>0.766</R01><R02>0</R02><R10>0.5278</R10><R11>0.4429</R11><R12>0.7247</R12><R20>0.5552</R20><R21>0.4658</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX179"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.053</X><Y>2.1493</Y><Z>1.7775</Z><R00>-0.5299</R00><R01>0.848</R01><R02>0</R02><R10>0.5844</R10><R11>0.3651</R11><R12>0.7247</R12><R20>0.6146</R20><R21>0.384</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX180"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.2888</X><Y>2.4548</Y><Z>2.0988</Z><R00>-0.4067</R00><R01>0.9135</R01><R02>0</R02><R10>0.6295</R10><R11>0.2803</R11><R12>0.7247</R12><R20>0.6621</R20><R21>0.2948</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX181"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.4605</X><Y>2.78</Y><Z>2.4409</Z><R00>-0.2756</R00><R01>0.9613</R01><R02>0</R02><R10>0.6624</R10><R11>0.1899</R11><R12>0.7247</R12><R20>0.6966</R20><R21>0.1998</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX182"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.565</X><Y>3.1186</Y><Z>2.7969</Z><R00>-0.1392</R00><R01>0.9903</R01><R02>0</R02><R10>0.6824</R10><R11>0.0959</R11><R12>0.7247</R12><R20>0.7177</R20><R21>0.1009</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.563</X><Y>0.44</Y><Z>0.44</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX183"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.25</X><Y>3.4638</Y><Z>3.16</Z><R00>0</R00><R01>1</R01><R02>0</R02><R10>0.6891</R10><R11>0</R11><R12>0.7247</R12><R20>0.7247</R20><R21>0</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX184"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.2119</X><Y>3.8056</Y><Z>3.5195</Z><R00>0.1526</R00><R01>0.9883</R01><R02>0</R02><R10>0.681</R10><R11>-0.1052</R11><R12>0.7247</R12><R20>0.7162</R20><R21>-0.1106</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX185"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.0985</X><Y>4.1395</Y><Z>3.8706</Z><R00>0.3017</R00><R01>0.9534</R01><R02>0</R02><R10>0.6569</R10><R11>-0.2079</R11><R12>0.7247</R12><R20>0.6909</R20><R21>-0.2187</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX186"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-2.9125</X><Y>4.4575</Y><Z>4.2051</Z><R00>0.4437</R00><R01>0.8962</R01><R02>0</R02><R10>0.6175</R10><R11>-0.3057</R11><R12>0.7247</R12><R20>0.6495</R20><R21>-0.3216</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX187"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-2.6583</X><Y>4.7522</Y><Z>4.515</Z><R00>0.5753</R00><R01>0.8179</R01><R02>0</R02><R10>0.5636</R10><R11>-0.3964</R11><R12>0.7247</R12><R20>0.5928</R20><R21>-0.4169</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX188"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-2.3417</X><Y>5.0167</Y><Z>4.7932</Z><R00>0.6934</R00><R01>0.7205</R01><R02>0</R02><R10>0.4965</R10><R11>-0.4778</R11><R12>0.7247</R12><R20>0.5222</R20><R21>-0.5025</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX189"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.9702</X><Y>5.2448</Y><Z>5.0331</Z><R00>0.7953</R00><R01>0.6062</R01><R02>0</R02><R10>0.4177</R10><R11>-0.548</R11><R12>0.7247</R12><R20>0.4393</R20><R21>-0.5764</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX190"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.5526</X><Y>5.4312</Y><Z>5.2292</Z><R00>0.8785</R00><R01>0.4777</R01><R02>0</R02><R10>0.3292</R10><R11>-0.6053</R11><R12>0.7247</R12><R20>0.3462</R20><R21>-0.6367</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX191"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.0986</X><Y>5.5714</Y><Z>5.3767</Z><R00>0.9411</R00><R01>0.338</R01><R02>0</R02><R10>0.2329</R10><R11>-0.6485</R11><R12>0.7247</R12><R20>0.245</R20><R21>-0.682</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX192"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.6188</X><Y>5.6623</Y><Z>5.4722</Z><R00>0.9817</R00><R01>0.1904</R01><R02>0</R02><R10>0.1312</R10><R11>-0.6765</R11><R12>0.7247</R12><R20>0.138</R20><R21>-0.7114</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX193"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.1245</X><Y>5.7016</Y><Z>5.5136</Z><R00>0.9993</R00><R01>0.0383</R01><R02>0</R02><R10>0.0264</R10><R11>-0.6886</R11><R12>0.7247</R12><R20>0.0278</R20><R21>-0.7242</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX194"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.3727</X><Y>5.6885</Y><Z>5.4998</Z><R00>0.9934</R00><R01>-0.1147</R01><R02>0</R02><R10>-0.079</R10><R11>-0.6845</R11><R12>0.7247</R12><R20>-0.0831</R20><R21>-0.7199</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX195"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.8612</X><Y>5.6232</Y><Z>5.4311</Z><R00>0.9643</R00><R01>-0.265</R01><R02>0</R02><R10>-0.1826</R10><R11>-0.6644</R11><R12>0.7247</R12><R20>-0.192</R20><R21>-0.6988</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX196"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.3295</X><Y>5.5073</Y><Z>5.3092</Z><R00>0.9125</R00><R01>-0.4091</R01><R02>0</R02><R10>-0.2819</R10><R11>-0.6288</R11><R12>0.7247</R12><R20>-0.2965</R20><R21>-0.6613</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX197"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.7666</X><Y>5.3435</Y><Z>5.137</Z><R00>0.8394</R00><R01>-0.5436</R01><R02>0</R02><R10>-0.3745</R10><R11>-0.5784</R11><R12>0.7247</R12><R20>-0.3939</R20><R21>-0.6083</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX198"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>2.1623</X><Y>5.1356</Y><Z>4.9184</Z><R00>0.7466</R00><R01>-0.6653</R01><R02>0</R02><R10>-0.4584</R10><R11>-0.5144</R11><R12>0.7247</R12><R20>-0.4822</R20><R21>-0.541</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX199"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>2.5073</X><Y>4.8886</Y><Z>4.6585</Z><R00>0.6362</R00><R01>-0.7715</R01><R02>0</R02><R10>-0.5316</R10><R11>-0.4384</R11><R12>0.7247</R12><R20>-0.5591</R20><R21>-0.4611</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX200"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>2.7936</X><Y>4.6082</Y><Z>4.3636</Z><R00>0.511</R00><R01>-0.8596</R01><R02>0</R02><R10>-0.5923</R10><R11>-0.3521</R11><R12>0.7247</R12><R20>-0.6229</R20><R21>-0.3703</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX201"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.0144</X><Y>4.3009</Y><Z>4.0404</Z><R00>0.3738</R00><R01>-0.9275</R01><R02>0</R02><R10>-0.6391</R10><R11>-0.2576</R11><R12>0.7247</R12><R20>-0.6722</R20><R21>-0.2709</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX202"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.1645</X><Y>3.9741</Y><Z>3.6967</Z><R00>0.2279</R00><R01>-0.9737</R01><R02>0</R02><R10>-0.6709</R10><R11>-0.157</R11><R12>0.7247</R12><R20>-0.7056</R20><R21>-0.1651</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX203"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.2405</X><Y>3.6352</Y><Z>3.3403</Z><R00>0.0765</R00><R01>-0.9971</R01><R02>0</R02><R10>-0.687</R10><R11>-0.0527</R11><R12>0.7247</R12><R20>-0.7226</R20><R21>-0.0555</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX204"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.2405</X><Y>3.2924</Y><Z>2.9797</Z><R00>-0.0765</R00><R01>-0.9971</R01><R02>0</R02><R10>-0.687</R10><R11>0.0527</R11><R12>0.7247</R12><R20>-0.7226</R20><R21>0.0555</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX205"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.1645</X><Y>2.9535</Y><Z>2.6233</Z><R00>-0.2279</R00><R01>-0.9737</R01><R02>0</R02><R10>-0.6709</R10><R11>0.157</R11><R12>0.7247</R12><R20>-0.7056</R20><R21>0.1651</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX206"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.0144</X><Y>2.6266</Y><Z>2.2796</Z><R00>-0.3738</R00><R01>-0.9275</R01><R02>0</R02><R10>-0.6391</R10><R11>0.2576</R11><R12>0.7247</R12><R20>-0.6722</R20><R21>0.2709</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX207"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>2.7936</X><Y>2.3194</Y><Z>1.9564</Z><R00>-0.511</R00><R01>-0.8596</R01><R02>0</R02><R10>-0.5923</R10><R11>0.3521</R11><R12>0.7247</R12><R20>-0.6229</R20><R21>0.3703</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX208"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>2.5073</X><Y>2.039</Y><Z>1.6615</Z><R00>-0.6362</R00><R01>-0.7715</R01><R02>0</R02><R10>-0.5316</R10><R11>0.4384</R11><R12>0.7247</R12><R20>-0.5591</R20><R21>0.4611</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX209"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>2.1623</X><Y>1.7919</Y><Z>1.4016</Z><R00>-0.7466</R00><R01>-0.6653</R01><R02>0</R02><R10>-0.4584</R10><R11>0.5144</R11><R12>0.7247</R12><R20>-0.4822</R20><R21>0.541</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX210"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.7666</X><Y>1.5841</Y><Z>1.183</Z><R00>-0.8394</R00><R01>-0.5436</R01><R02>0</R02><R10>-0.3745</R10><R11>0.5784</R11><R12>0.7247</R12><R20>-0.3939</R20><R21>0.6083</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX211"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.3295</X><Y>1.4203</Y><Z>1.0108</Z><R00>-0.9125</R00><R01>-0.4091</R01><R02>0</R02><R10>-0.2819</R10><R11>0.6288</R11><R12>0.7247</R12><R20>-0.2965</R20><R21>0.6613</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX212"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.8612</X><Y>1.3044</Y><Z>0.8889</Z><R00>-0.9643</R00><R01>-0.265</R01><R02>0</R02><R10>-0.1826</R10><R11>0.6644</R11><R12>0.7247</R12><R20>-0.192</R20><R21>0.6988</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX213"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0.3727</X><Y>1.2391</Y><Z>0.8202</Z><R00>-0.9934</R00><R01>-0.1147</R01><R02>0</R02><R10>-0.079</R10><R11>0.6845</R11><R12>0.7247</R12><R20>-0.0831</R20><R21>0.7199</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX214"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.1245</X><Y>1.226</Y><Z>0.8064</Z><R00>-0.9993</R00><R01>0.0383</R01><R02>0</R02><R10>0.0264</R10><R11>0.6886</R11><R12>0.7247</R12><R20>0.0278</R20><R21>0.7242</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX215"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-0.6188</X><Y>1.2653</Y><Z>0.8478</Z><R00>-0.9817</R00><R01>0.1904</R01><R02>0</R02><R10>0.1312</R10><R11>0.6765</R11><R12>0.7247</R12><R20>0.138</R20><R21>0.7114</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX216"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.0986</X><Y>1.3562</Y><Z>0.9433</Z><R00>-0.9411</R00><R01>0.338</R01><R02>0</R02><R10>0.2329</R10><R11>0.6485</R11><R12>0.7247</R12><R20>0.245</R20><R21>0.682</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX217"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.5526</X><Y>1.4964</Y><Z>1.0908</Z><R00>-0.8785</R00><R01>0.4777</R01><R02>0</R02><R10>0.3292</R10><R11>0.6053</R11><R12>0.7247</R12><R20>0.3462</R20><R21>0.6367</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX218"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.9702</X><Y>1.6828</Y><Z>1.2869</Z><R00>-0.7953</R00><R01>0.6062</R01><R02>0</R02><R10>0.4177</R10><R11>0.548</R11><R12>0.7247</R12><R20>0.4393</R20><R21>0.5764</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX219"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-2.3417</X><Y>1.9109</Y><Z>1.5268</Z><R00>-0.6934</R00><R01>0.7205</R01><R02>0</R02><R10>0.4965</R10><R11>0.4778</R11><R12>0.7247</R12><R20>0.5222</R20><R21>0.5025</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX220"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-2.6583</X><Y>2.1754</Y><Z>1.805</Z><R00>-0.5753</R00><R01>0.8179</R01><R02>0</R02><R10>0.5636</R10><R11>0.3964</R11><R12>0.7247</R12><R20>0.5928</R20><R21>0.4169</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX221"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-2.9125</X><Y>2.4701</Y><Z>2.1149</Z><R00>-0.4437</R00><R01>0.8962</R01><R02>0</R02><R10>0.6175</R10><R11>0.3057</R11><R12>0.7247</R12><R20>0.6495</R20><R21>0.3216</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX222"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.0985</X><Y>2.7881</Y><Z>2.4494</Z><R00>-0.3017</R00><R01>0.9534</R01><R02>0</R02><R10>0.6569</R10><R11>0.2079</R11><R12>0.7247</R12><R20>0.6909</R20><R21>0.2187</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX223"><Properties>
+          <string name="Name">Orbit gold</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.2119</X><Y>3.1219</Y><Z>2.8005</Z><R00>-0.1526</R00><R01>0.9883</R01><R02>0</R02><R10>0.681</R10><R11>0.1052</R11><R12>0.7247</R12><R20>0.7162</R20><R21>0.1106</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4294955642</Color3uint8>
+          <token name="Material">288</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.5578</X><Y>0.12</Y><Z>0.12</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX224"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.6</X><Y>3.4638</Y><Z>3.16</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.6891</R11><R12>0.7247</R12><R20>0</R20><R21>0.7247</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4290348346</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.18</X><Y>0.5</Y><Z>0.5</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX225"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.1177</X><Y>4.7041</Y><Z>4.4645</Z><R00>-0.866</R00><R01>0.5</R01><R02>0</R02><R10>0.3445</R10><R11>0.5967</R11><R12>0.7247</R12><R20>0.3624</R20><R21>0.6276</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4290348346</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.18</X><Y>0.5</Y><Z>0.5</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX226"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.8</X><Y>5.6121</Y><Z>5.4194</Z><R00>-0.5</R00><R01>0.866</R01><R02>0</R02><R10>0.5967</R10><R11>0.3445</R11><R12>0.7247</R12><R20>0.6276</R20><R21>0.3624</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4290348346</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.18</X><Y>0.5</Y><Z>0.5</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX227"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0</X><Y>5.9444</Y><Z>5.7689</Z><R00>0</R00><R01>1</R01><R02>0</R02><R10>0.6891</R10><R11>0</R11><R12>0.7247</R12><R20>0.7247</R20><R21>0</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4290348346</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.18</X><Y>0.5</Y><Z>0.5</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX228"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.8</X><Y>5.6121</Y><Z>5.4194</Z><R00>0.5</R00><R01>0.866</R01><R02>0</R02><R10>0.5967</R10><R11>-0.3445</R11><R12>0.7247</R12><R20>0.6276</R20><R21>-0.3624</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4290348346</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.18</X><Y>0.5</Y><Z>0.5</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX229"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.1177</X><Y>4.7041</Y><Z>4.4645</Z><R00>0.866</R00><R01>0.5</R01><R02>0</R02><R10>0.3445</R10><R11>-0.5967</R11><R12>0.7247</R12><R20>0.3624</R20><R21>-0.6276</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4290348346</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.18</X><Y>0.5</Y><Z>0.5</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX230"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.6</X><Y>3.4638</Y><Z>3.16</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>-0.6891</R11><R12>0.7247</R12><R20>0</R20><R21>-0.7247</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4290348346</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.18</X><Y>0.5</Y><Z>0.5</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX231"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>3.1177</X><Y>2.2235</Y><Z>1.8555</Z><R00>0.866</R00><R01>-0.5</R01><R02>0</R02><R10>-0.3445</R10><R11>-0.5967</R11><R12>0.7247</R12><R20>-0.3624</R20><R21>-0.6276</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4290348346</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.18</X><Y>0.5</Y><Z>0.5</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX232"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>1.8</X><Y>1.3155</Y><Z>0.9006</Z><R00>0.5</R00><R01>-0.866</R01><R02>0</R02><R10>-0.5967</R10><R11>-0.3445</R11><R12>0.7247</R12><R20>-0.6276</R20><R21>-0.3624</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4290348346</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.18</X><Y>0.5</Y><Z>0.5</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX233"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>0</X><Y>0.9832</Y><Z>0.5511</Z><R00>0</R00><R01>-1</R01><R02>0</R02><R10>-0.6891</R10><R11>0</R11><R12>0.7247</R12><R20>-0.7247</R20><R21>0</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4290348346</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.18</X><Y>0.5</Y><Z>0.5</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX234"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-1.8</X><Y>1.3155</Y><Z>0.9006</Z><R00>-0.5</R00><R01>-0.866</R01><R02>0</R02><R10>-0.5967</R10><R11>0.3445</R11><R12>0.7247</R12><R20>-0.6276</R20><R21>0.3624</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4290348346</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.18</X><Y>0.5</Y><Z>0.5</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Part" referent="RBX235"><Properties>
+          <string name="Name">Part</string>
+          <bool name="Anchored">true</bool>
+          <CoordinateFrame name="CFrame"><X>-3.1177</X><Y>2.2235</Y><Z>1.8555</Z><R00>-0.866</R00><R01>-0.5</R01><R02>0</R02><R10>-0.3445</R10><R11>0.5967</R11><R12>0.7247</R12><R20>-0.3624</R20><R21>0.6276</R21><R22>-0.6891</R22></CoordinateFrame>
+          <Color3uint8 name="Color3uint8">4290348346</Color3uint8>
+          <token name="Material">272</token>
+          <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+          <Vector3 name="size"><X>0.18</X><Y>0.5</Y><Z>0.5</Z></Vector3>
+          <token name="shape">1</token>
+        </Properties></Item>
+        <Item class="Model" referent="RBX236"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>3.4638</Y><Z>3.16</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.6891</R11><R12>0.7247</R12><R20>0</R20><R21>0.7247</R21><R22>-0.6891</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX237"><Properties>
+            <string name="Name">Part</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>-3.6</X><Y>3.4638</Y><Z>3.16</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0.6891</R11><R12>0.7247</R12><R20>0</R20><R21>0.7247</R21><R22>-0.6891</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4294938475</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>1.1</X><Y>1.1</Y><Z>1.1</Z></Vector3>
+            <token name="shape">0</token>
+          </Properties></Item>
+        </Item>
+        <Item class="Model" referent="RBX238"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>3.4638</Y><Z>3.16</Z><R00>0.5885</R00><R01>0.8085</R01><R02>0</R02><R10>0.5571</R10><R11>-0.4055</R11><R12>0.7247</R12><R20>0.5859</R20><R21>-0.4265</R21><R22>-0.6891</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX239"><Properties>
+            <string name="Name">Part</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>2.1186</X><Y>5.4694</Y><Z>5.2693</Z><R00>0.5885</R00><R01>0.8085</R01><R02>0</R02><R10>0.5571</R10><R11>-0.4055</R11><R12>0.7247</R12><R20>0.5859</R20><R21>-0.4265</R21><R22>-0.6891</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4286241023</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.76</X><Y>0.76</Y><Z>0.76</Z></Vector3>
+            <token name="shape">0</token>
+          </Properties></Item>
+        </Item>
+        <Item class="Model" referent="RBX240"><Properties>
+          <string name="Name">Joint</string>
+          <OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>3.4638</Y><Z>3.16</Z><R00>0.5748</R00><R01>-0.8183</R01><R02>0</R02><R10>-0.5638</R10><R11>-0.3961</R11><R12>0.7247</R12><R20>-0.593</R20><R21>-0.4166</R21><R22>-0.6891</R22></CFrame></OptionalCoordinateFrame>
+        </Properties>
+          <Item class="Part" referent="RBX241"><Properties>
+            <string name="Name">Part</string>
+            <bool name="Anchored">true</bool>
+            <CoordinateFrame name="CFrame"><X>2.0694</X><Y>1.434</Y><Z>1.0252</Z><R00>0.5748</R00><R01>-0.8183</R01><R02>0</R02><R10>-0.5638</R10><R11>-0.3961</R11><R12>0.7247</R12><R20>-0.593</R20><R21>-0.4166</R21><R22>-0.6891</R22></CoordinateFrame>
+            <Color3uint8 name="Color3uint8">4294371071</Color3uint8>
+            <token name="Material">272</token>
+            <token name="TopSurface">0</token><token name="BottomSurface">0</token>
+            <Vector3 name="size"><X>0.6</X><Y>0.6</Y><Z>0.6</Z></Vector3>
+            <token name="shape">0</token>
+          </Properties></Item>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>

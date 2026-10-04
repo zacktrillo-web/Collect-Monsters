@@ -1,0 +1,29 @@
+<!doctype html>
+<meta charset="utf-8">
+<script type="importmap">
+{ "imports": {
+  "three": "/node_modules/three/build/three.module.js",
+  "three/addons/": "/node_modules/three/examples/jsm/"
+} }
+</script>
+<script type="module">
+  import { createStage } from '../src/stage.js';
+  import { monsters } from '../src/monsters/index.js';
+  import { toRoblox } from '../src/roblox.js';
+  import { previewGroup } from './roblox-preview.js';
+
+  const canvas = document.createElement('canvas');
+  const stage = createStage(canvas, { width: 700, height: 650 });
+  const shot = (def) => {
+    stage.setMonster(def);
+    stage.frame({ az: -32, el: 12, margin: 0.8, ...def.hero, pose: def.keys[0][0] });
+    stage.render(def.keys[0][0]);
+    return canvas.toDataURL('image/png');
+  };
+  window.compare = (id) => {
+    const def = monsters.find((m) => m.id === id);
+    const converted = { ...def, keys: [def.keys[0]], build: () => ({ root: previewGroup(toRoblox(def)), update() {} }) };
+    return [shot(def), shot(converted)];
+  };
+  window.ready = true;
+</script>
