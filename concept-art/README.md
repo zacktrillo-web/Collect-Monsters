@@ -11,7 +11,8 @@ then rendered to a concept sheet you can hand to ChatGPT (or any modeler) as the
 | `output/sheets/<id>.png` | 1920×1080 concept sheet: hero view, 3 signature-move key poses, front/side/back turnaround, palette with hex codes, build notes. **Send this to ChatGPT.** |
 | `output/heroes/<id>.png` | Clean hero render only. Use it as the image reference in Higgsfield. |
 | `chatgpt-briefs.md` | One modeling brief per monster, written to paste into ChatGPT with its sheet. |
-| `higgsfield-prompts.md` | One image prompt per monster for painted concept art in Higgsfield. |
+| `higgsfield/` | Painted Higgsfield concept art: image links in `jobs.json`, plus the exact prompts used. |
+| `higgsfield-prompts.md` | Simpler text-only prompts, if you want to try other image tools. |
 | `gallery.html` | Interactive viewer: orbit each model and play its signature move. |
 | `src/monsters/*.js` | The blockout models and their animations (one file per monster). |
 
@@ -19,8 +20,8 @@ then rendered to a concept sheet you can hand to ChatGPT (or any modeler) as the
 
 1. Open a sheet in `output/sheets/` and its brief in `chatgpt-briefs.md`.
 2. Paste the brief into ChatGPT and attach the sheet.
-3. Optional: once Higgsfield is connected, generate painted art from `higgsfield-prompts.md`
-   using the hero render as the reference image.
+3. Optional: also attach the painted Higgsfield version (links in `higgsfield/jobs.json`) for
+   surface detail. The sheet stays the source of truth for shape, parts and colors.
 
 ## Re-rendering after a design change
 

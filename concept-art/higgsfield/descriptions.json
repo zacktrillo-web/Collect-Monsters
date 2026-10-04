@@ -1,0 +1,77 @@
+{
+  "crown-of-cinders": {
+    "body": "Broad charcoal monster with four chunky arms, orange seams, an oversized jaw, and a broken floating crown. Wide, low torso: chest about 1.7x wider than tall, short legs set wide. Glowing orange-hot seams run across the charcoal body like cracks in cooling lava. Upper pair of arms raised and bracing, lower pair hanging with giant fists. A huge underbite jaw with square ash-white teeth. Above the head floats a broken gold crown: five loose shards with one gap, one shard holding a glowing ember gem.",
+    "look": "cracked stone, soot, worn gold",
+    "rim": "orange"
+  },
+  "verdant-warden": {
+    "body": "Six-legged woodland beast with block-built antlers, layered leaf plates, and a hollow trunk chest. Long log-shaped bark body on three pairs of thick bark legs ending in curling root toes. Its chest is a hollow tree-trunk ring with a dark cavity that glows with spirit moss inside. Overlapping green leaf plates run down its back like shingles. A blocky deer-like head with glowing yellow-green eyes carries wide antlers built from stacked cube branches with small leaf cubes on the tips.",
+    "look": "carved bark, moss, fresh leaves",
+    "rim": "green"
+  },
+  "king-beneath-the-ice": {
+    "body": "Stocky mammoth-like monster with stepped ice armor, huge ivory tusks, and a jagged crown. Barrel body of deep blue-grey fur on four pillar legs with ice cuffs and ivory toenails, with a fur fringe along the belly. Ice armor steps up in three shrinking tiers on its back, and hinged ice plates cover its shoulders. A wide head with glowing pale-blue eyes, a segmented trunk curling forward, and two huge curved ivory tusks. A jagged crown of ice spikes with a glowing ice gem sits on its head.",
+    "look": "shaggy fur, translucent glacier ice, polished ivory",
+    "rim": "icy blue"
+  },
+  "oceans-hunger": {
+    "body": "A huge square-toothed sea monster with four broad fins and a mouth that dominates its silhouette. The whole front of the body is a boxy jaw lined with single rows of big square white teeth around a deep red maw. Small glowing yellow eyes under heavy brows sit on top of the head. The body tapers back to a forked tail fin; four broad swept fins (two large front fins, two smaller rear fins); bioluminescent teal dots along its sides; pale belly. It swims just above the ground.",
+    "look": "wet whale-like hide, barnacles, bioluminescence",
+    "rim": "teal"
+  },
+  "king-of-the-deep": {
+    "body": "Royal octopus with thick segmented tentacles, coral armor, and a throne-shaped head crest. A faceted royal-purple mantle head with big pale-yellow eyes under a coral brow. On the top-back of the head stands a gold throne backrest with a red velvet panel and gold finials, so the head looks seated in a throne. Coral armor plates and branching coral sprigs on its shoulders with gold trim. Six short segmented tentacles carry it; two large segmented arms with pink suckers sweep forward.",
+    "look": "glossy octopus skin, rough coral, polished gold, velvet",
+    "rim": "peach"
+  },
+  "universe-unbound": {
+    "body": "Segmented cosmic serpent with a large orbital ring around its body and a clearly defined dragon-like head. A long body of deep-space navy segments with purple dorsal plates and star specks and pale lavender belly plates rises in an S-curve through a large golden orbital ring decorated with tick marks and three small moons. Dragon head with a long snout, swept-back white horns, glowing cyan eyes and whisker fins with glowing tips. The tail ends in a comet-like fin.",
+    "look": "starry nebula hide, gold metal, glowing star specks",
+    "rim": "cyan"
+  },
+  "crown-of-worlds": {
+    "body": "Six-limbed celestial creature with ivory armor and several differently sized planetary crown rings. Centaur-like: four legs carry a long dark night-sky body flecked with stars, and an upright armored torso carries two clawed forelimbs. Thick ivory armor with thin gold trim, a helm with a glowing T-shaped visor and gold crescent horns, a short purple nebula tail. Above its head float four golden and ivory orbital rings of different sizes, each carrying one small planet (tan, blue, red, violet).",
+    "look": "carved ivory, gold filigree, starry night-sky hide",
+    "rim": "warm gold"
+  },
+  "reality-breaker": {
+    "body": "Asymmetric four-armed monster built from separated stone-like blocks, with bright gaps through its torso. Nothing touches: grey-violet stone blocks float slightly apart with glowing magenta rift light pouring through the gaps from a white-hot core. Lopsided body: one huge fist arm, one long blade arm with a cyan glitch edge, one pincer arm and one small claw arm. An off-centre block head with one large magenta eye and one small cyan eye. Small glitching cubes orbit around it.",
+    "look": "fractured stone, glowing rift light, digital glitch",
+    "rim": "magenta"
+  },
+  "the-missing-one": {
+    "body": "Floating angular cloak, oversized clawed hands, and an incomplete white mask. A tall angular black cloak with violet lining, a jagged hem and a pointed hood with an empty dark void inside. In the hood floats a cracked white mask with pieces missing; the missing fragments drift around it. Two oversized pale clawed hands with long dark claws float at the ends of the sleeves. No legs; shadow wisps trail beneath.",
+    "look": "stiff dark cloth, porcelain mask, pale bone",
+    "rim": "cold blue"
+  },
+  "end-of-code": {
+    "body": "Long mechanical wyrm with chunky bracket-shaped ribs, bundled cables, and a heavy rectangular jaw. Gunmetal spine segments curve along the ground in an S-shape; each segment is clamped by two square bracket-shaped ribs, like [ and ], around a bundle of black, red, yellow and blue cables, with terminal-green light strips. The raised head is a heavy rectangular slab with two glowing green screen eyes, block teeth and a massive hinged rectangular jaw; cables hang from the back of the head. The tail ends in a glowing green cursor block.",
+    "look": "machined gunmetal, rubber cables, glowing terminal screens",
+    "rim": "terminal green"
+  },
+  "firstborn": {
+    "body": "Powerful six-limbed prehistoric predator with bone armor, broad claws, and a split tail. Low, long, heavy-fronted rust-red body with dark tiger stripes. Two big front pulling arms with broad bone claws and four sprawled rear legs. Bone armor: a skull mask over the head with swept-back bone horns, and a row of spiked bone plates down the back. A big jaw full of bone teeth, glowing amber eyes. The tail splits into two forks, each ending in a bone spike.",
+    "look": "scaled hide, weathered fossil bone",
+    "rim": "amber"
+  },
+  "the-unforgotten": {
+    "body": "A central stone creature surrounded by several large, expressive ancient masks. A hunched stone golem with a mossy back, a glowing amber rune on its chest and amber eyes. Five large floating masks form a halo around and above it: a terracotta mask of rage with fangs, a gold mask of joy, a jade mask of sorrow with glowing tears, a bone-white calm mask with closed eyes, and an obsidian screaming mask. Each mask is a big carved slab with a raised rim.",
+    "look": "ancient weathered stone, moss, carved terracotta, jade, gold and obsidian",
+    "rim": "amber"
+  },
+  "eternal-verdict": {
+    "body": "Armored four-legged guardian carrying large bronze balance scales above its shoulders. A lion-like body in heavy white marble plate armor with gold trim; blindfolded with a red cloth band; a glowing gem on its brow; a sunburst mane of marble and gold plates. A bronze post rises from its back holding a wide balance beam; two bronze pans hang on chains, one holding a white feather, the other a glowing red heart.",
+    "look": "polished marble, gold inlay, aged bronze",
+    "rim": "warm gold"
+  },
+  "throne-of-beasts": {
+    "body": "An empty, richly shaped stone throne walking on four furry beast legs with bone claws. Stone seat with a red velvet cushion and gold trim, armrests ending in carved beast heads, a tall backrest with a red velvet panel and a gold crest set with two ruby gems like eyes. The backrest hides a mouth: a faint seam runs across the velvet panel where rows of teeth are hidden inside.",
+    "look": "carved stone, red velvet, gold leaf, dark fur",
+    "rim": "red"
+  },
+  "last-monument": {
+    "body": "Tall stepped stone monster with oversized hanging arms, carved face details, and layered shoulder structures. A tower of stacked sandstone blocks with carved bands and glowing turquoise inlay glyphs. A carved head with a heavy brow, deep sockets with glowing turquoise eyes, a stone nose, a barred carved mouth, turquoise ear spools and a stepped headdress. Three-tier stone slab shoulders; oversized hanging arms with huge block hands resting near the ground; short thick legs.",
+    "look": "weathered sandstone, carved glyphs, turquoise inlay",
+    "rim": "turquoise"
+  }
+}

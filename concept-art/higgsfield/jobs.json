@@ -1,0 +1,65 @@
+{
+  "model": "gpt_image_2_5 (quality high, 2k, 1:1, hero render as image reference)",
+  "jobs": {
+    "crown-of-cinders": {
+      "job_id": "71f240d2-6a03-492c-91b6-f1d7a201348e",
+      "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GuwATwuWGnJRe3KemeNK45lRif/hf_20261004_191239_71f240d2-6a03-492c-91b6-f1d7a201348e.png"
+    },
+    "verdant-warden": {
+      "job_id": "1eef4442-e07c-420e-b2dd-769ada75be13",
+      "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GuwATwuWGnJRe3KemeNK45lRif/hf_20261004_191521_1eef4442-e07c-420e-b2dd-769ada75be13.png"
+    },
+    "king-beneath-the-ice": {
+      "job_id": "d89d0d6d-4bdc-4468-947b-ecbbf598ba8c",
+      "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GuwATwuWGnJRe3KemeNK45lRif/hf_20261004_191617_d89d0d6d-4bdc-4468-947b-ecbbf598ba8c.png"
+    },
+    "oceans-hunger": {
+      "job_id": "88769891-6a75-4e77-a4cd-0366850d9bcf",
+      "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GuwATwuWGnJRe3KemeNK45lRif/hf_20261004_191617_88769891-6a75-4e77-a4cd-0366850d9bcf.png"
+    },
+    "king-of-the-deep": {
+      "job_id": "6a28aa6c-ba7c-49e4-9ca2-d2fac0b67f1f",
+      "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GuwATwuWGnJRe3KemeNK45lRif/hf_20261004_191522_6a28aa6c-ba7c-49e4-9ca2-d2fac0b67f1f.png"
+    },
+    "universe-unbound": {
+      "job_id": "953e4e49-aaf8-45f7-84f6-057273e4c996",
+      "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GuwATwuWGnJRe3KemeNK45lRif/hf_20261004_191618_953e4e49-aaf8-45f7-84f6-057273e4c996.png"
+    },
+    "crown-of-worlds": {
+      "job_id": "19e498a0-ae62-4ce3-95eb-a1f266655ffd",
+      "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GuwATwuWGnJRe3KemeNK45lRif/hf_20261004_191618_19e498a0-ae62-4ce3-95eb-a1f266655ffd.png"
+    },
+    "reality-breaker": {
+      "job_id": "67bca368-2509-48a2-a6a3-cc7a2246c0b8",
+      "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GuwATwuWGnJRe3KemeNK45lRif/hf_20261004_191710_67bca368-2509-48a2-a6a3-cc7a2246c0b8.png"
+    },
+    "the-missing-one": {
+      "job_id": "18c994c8-99d1-4e7d-8c19-969f644c4408",
+      "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GuwATwuWGnJRe3KemeNK45lRif/hf_20261004_191711_18c994c8-99d1-4e7d-8c19-969f644c4408.png"
+    },
+    "end-of-code": {
+      "job_id": "e8ef2203-eca6-431b-befa-50b3974a7dc6",
+      "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GuwATwuWGnJRe3KemeNK45lRif/hf_20261004_191521_e8ef2203-eca6-431b-befa-50b3974a7dc6.png"
+    },
+    "firstborn": {
+      "job_id": "a7758df1-c0c3-410c-91e3-d8eec6d9140a",
+      "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GuwATwuWGnJRe3KemeNK45lRif/hf_20261004_191711_a7758df1-c0c3-410c-91e3-d8eec6d9140a.png"
+    },
+    "the-unforgotten": {
+      "job_id": "3952a4f7-c07d-4994-897c-5a1fb359b192",
+      "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GuwATwuWGnJRe3KemeNK45lRif/hf_20261004_191521_3952a4f7-c07d-4994-897c-5a1fb359b192.png"
+    },
+    "eternal-verdict": {
+      "job_id": "f9e992bd-d810-4ea2-a210-d304bde549eb",
+      "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GuwATwuWGnJRe3KemeNK45lRif/hf_20261004_191711_f9e992bd-d810-4ea2-a210-d304bde549eb.png"
+    },
+    "throne-of-beasts": {
+      "job_id": "822e5ebc-acea-4aeb-bdca-f317ee7ac999",
+      "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GuwATwuWGnJRe3KemeNK45lRif/hf_20261004_191756_822e5ebc-acea-4aeb-bdca-f317ee7ac999.png"
+    },
+    "last-monument": {
+      "job_id": "b67effad-62fb-4dc2-82c1-ec0e48f19118",
+      "image": "https://d8j0ntlcm91z4.cloudfront.net/user_3GuwATwuWGnJRe3KemeNK45lRif/hf_20261004_191757_b67effad-62fb-4dc2-82c1-ec0e48f19118.png"
+    }
+  }
+}
