@@ -8,6 +8,7 @@ then rendered to a concept sheet you can hand to ChatGPT (or any modeler) as the
 
 | Path | What it is |
 |---|---|
+| `CONCEPT-ART.md` | All 15 monsters on one page: painted concept, concept sheet, colors and notes, with direct links. Hand this to another tool or AI. |
 | `output/sheets/<id>.png` | 1920×1080 concept sheet: hero view, 3 signature-move key poses, front/side/back turnaround, palette with hex codes, build notes. **Send this to ChatGPT.** |
 | `output/heroes/<id>.png` | Clean hero render only. Use it as the image reference in Higgsfield. |
 | `chatgpt-briefs.md` | One modeling brief per monster, written to paste into ChatGPT with its sheet. |
